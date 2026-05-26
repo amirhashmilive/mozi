@@ -212,8 +212,8 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden;
-  padding: var(--space-16) var(--space-6);
+  overflow-x: hidden; overflow-y: auto;
+  padding: var(--space-24) var(--space-6) var(--space-16);
 }
 
 /* Dot Navigation */
@@ -467,7 +467,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   padding: var(--space-6);
   transition: all var(--transition-slow);
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
 }
 
 .card::before {
@@ -616,7 +616,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   display: flex;
   align-items: center;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
 }
 
 .hero__bg {
@@ -633,7 +633,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   position: absolute;
   inset: 0;
   pointer-events: none;
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
 }
 
 .hero__scan-line {
@@ -845,7 +845,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   border-radius: var(--radius-xl);
   padding: var(--space-8);
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
 }
 
 .hadith-panel::before {
@@ -1021,7 +1021,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
   transition: border-color var(--transition-fast);
 }
 
@@ -1066,7 +1066,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
 
 .faq-item__answer {
   max-height: 0;
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
   transition: max-height 0.3s ease;
 }
 
@@ -1300,7 +1300,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   background: var(--bg-tertiary);
   border-radius: var(--radius-full);
   margin-bottom: var(--space-8);
-  overflow: hidden;
+  overflow-x: hidden; overflow-y: auto;
 }
 
 .quiz-card__progress-fill {
@@ -1380,7 +1380,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   position: absolute;
   width: 1px; height: 1px;
   padding: 0; margin: -1px;
-  overflow: hidden; clip: rect(0,0,0,0);
+  overflow-x: hidden; overflow-y: auto; clip: rect(0,0,0,0);
   white-space: nowrap; border-width: 0;
 }
 

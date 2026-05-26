@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     // Init seasonal alert banner
     initSeasonalBanner();
+    if (document.getElementById('mozi-detail-content')) {
+      renderMoziDetail();
+    }
   } else {
     console.error("MOZI-DATA: Failed to load database.");
   }
@@ -128,4 +131,119 @@ function getFallbackAlert(month) {
     return data.monthly_alerts[month];
   }
   return null;
+}
+
+
+// ─────────────────────────────────────────────────────
+// Detail Page Rendering Logic
+// ─────────────────────────────────────────────────────
+function renderMoziDetail() {
+  const container = document.getElementById('mozi-detail-content');
+  const breadcrumb = document.getElementById('detail-breadcrumb');
+  if (!container) return;
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const moziId = urlParams.get('id');
+
+  if (!moziId) {
+    container.innerHTML = '<div class="flex-center text-danger padding-y-20">No creature ID provided.</div>';
+    return;
+  }
+
+  const mozi = window.MOZI_DATA.getMozi(moziId);
+  if (!mozi) {
+    container.innerHTML = `<div class="flex-center flex-col gap-4 text-center padding-y-20">
+      <h2 class="text-primary">Creature Not Found</h2>
+      <a href="/mozi/mozi-list.html" class="btn btn--primary">Back to Directory</a>
+    </div>`;
+    return;
+  }
+
+  // Update Breadcrumb
+  if (breadcrumb) {
+    breadcrumb.textContent = mozi.name_en;
+  }
+  
+  // Set Title
+  document.title = `${mozi.name_en} (${mozi.name_hinglish}) — MOZI Intelligence`;
+
+  let badgeHtml = mozi.is_protected 
+    ? `<span class="badge badge--protected">Protected</span>`
+    : `<span class="badge badge--${mozi.threat_level}">${mozi.threat_level.toUpperCase()} THREAT</span>`;
+
+  // Build the rich HTML template
+  const html = `
+    <div class="card card--glass padding-8 margin-bottom-8">
+      <div class="grid-2">
+        <div class="flex-col gap-4">
+          <div class="flex items-center gap-4 margin-bottom-4">
+            <div class="mozi-card__icon" style="width:100px; height:100px; font-size:3rem;">
+              <img src="${mozi.assets.icon_svg}" alt="${mozi.name_en}" style="width:64px;height:64px;"/>
+            </div>
+            <div class="flex-col">
+              <h1 class="text-primary" style="font-size:2.5rem; margin-bottom:0;">${mozi.name_en}</h1>
+              <span class="text-secondary text-mono" style="font-size:1.1rem;">${mozi.name_hinglish}</span>
+            </div>
+          </div>
+          
+          <div class="flex gap-3 margin-bottom-4">
+            <span class="badge badge--category">${mozi.category}</span>
+            ${badgeHtml}
+          </div>
+          
+          <p class="text-secondary text-lg" style="line-height:1.8;">
+            <strong class="text-primary">Scientific Name:</strong> <em>${mozi.latin_name}</em>
+          </p>
+        </div>
+        
+        <div class="flex-col gap-4 justify-center">
+          <div class="card bg-tertiary padding-6" style="border-left: 4px solid var(--accent-safe);">
+            <h3 class="text-primary margin-bottom-2">Islamic Ruling (Fiqh)</h3>
+            <p class="text-secondary">${mozi.fiqh_ruling.summary}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Tabs for Modes -->
+    <div class="grid-2 margin-top-8">
+      <!-- Science Panel -->
+      <div class="card card--glass flex-col gap-6" id="science-panel">
+        <span class="text-mono text-accent uppercase">Scientific Data</span>
+        <h2 class="text-primary">Health & Biosecurity Risks</h2>
+        
+        <div class="flex-col gap-4">
+          <h4 class="text-primary">Diseases Carried:</h4>
+          <ul class="text-secondary" style="margin-left: 20px;">
+            ${mozi.diseases.map(d => `<li>${d}</li>`).join('')}
+          </ul>
+        </div>
+        
+        <div class="card bg-tertiary padding-4">
+          <h4 class="text-primary margin-bottom-2">Exclusion / Prevention</h4>
+          <p class="text-secondary text-sm">${mozi.prevention_guidelines.join(' ')}</p>
+        </div>
+      </div>
+
+      <!-- Doctrine Panel -->
+      <div class="card card--glass flex-col gap-6" id="doctrine-panel">
+        <span class="text-mono text-accent uppercase">Theological Source</span>
+        <h2 class="text-primary">Hadith & Scripture</h2>
+        
+        <div class="flex-col gap-4">
+          <p class="text-transliteration">"${mozi.fiqh_ruling.primary_evidence}"</p>
+          <div class="text-secondary text-sm">
+            <strong class="text-primary">Condition for Killing:</strong> ${mozi.fiqh_ruling.condition_for_killing}
+          </div>
+        </div>
+        
+        <div class="card bg-tertiary padding-4">
+          <h4 class="text-primary margin-bottom-2">Madhab Consensus</h4>
+          <p class="text-secondary text-sm">Most schools agree on the status of this creature as part of the ${mozi.is_protected ? 'protected' : 'fawasiq/harmful'} category under specified conditions.</p>
+        </div>
+      </div>
+    </div>
+  `;
+
+  container.innerHTML = html;
 }
