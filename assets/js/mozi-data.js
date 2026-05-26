@@ -13,7 +13,7 @@ const MOZI_DATA = {
   // Async load of all required data files
   async loadAll() {
     try {
-      const basePath = '/assets/data';
+      const basePath = '/mozi/assets/data';
       
       // Load files concurrently
       const [dbRes, taxRes, disRes, fiqhRes, hadRes, regRes] = await Promise.all([
