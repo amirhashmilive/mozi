@@ -1,0 +1,54 @@
+{
+  "references": [
+    {
+      "surah_name": "Al-Baqarah",
+      "surah_number": 2,
+      "verse": 26,
+      "animal_referenced": "mosquito",
+      "transliteration": "Innallaha la yastahyi an yadriba mathalan ma ba'udatan fa ma fawqaha...",
+      "translation_en": "Indeed, Allah is not timid to present an example \u2014 that of a mosquito or what is above it...",
+      "tafsir_note": "Revealed to counter the arguments of hypocrites who questioned why Allah would mention such small creatures in His revelations. Emphasizes that all of creation, no matter how small, contains signs of divine wisdom.",
+      "relevance_to_mozi": "Establishes the mosquito as a creature of theological significance, despite its status as a disease vector requiring control."
+    },
+    {
+      "surah_name": "Al-An'am",
+      "surah_number": 6,
+      "verse": 38,
+      "animal_referenced": "all animals",
+      "transliteration": "Wa ma min dabbatin fil-ardi wa la ta'irin yatiru bi-janahayhi illa umamun amthalukum...",
+      "translation_en": "There is not a moving creature on earth, nor a bird that flies with its two wings, but they are communities like you...",
+      "tafsir_note": "Affirms that animals have their own social structures, lives, and purposes, and are gathered to Allah. Highlights that all animals are part of the cosmic balance.",
+      "relevance_to_mozi": "The theological basis for ethical pest control (Ihsan). Even when we are permitted to kill harmful creatures, we must recognize they are communities and must not seek their global extinction."
+    },
+    {
+      "surah_name": "An-Nahl",
+      "surah_number": 16,
+      "verse": "68-69",
+      "animal_referenced": "bee",
+      "transliteration": "Wa awha Rabbuka ila al-nahli ani'ttakhidhi mina'l-jibali buyutan...",
+      "translation_en": "And your Lord inspired the bee, saying, 'Take for yourself among the mountains, houses...'",
+      "tafsir_note": "Highlights the bee's divine inspiration in constructing complex hives and producing honey, which serves as a healing for mankind.",
+      "relevance_to_mozi": "Explains why the honeybee is a protected species in Islam. Lethal control is strictly forbidden; only non-destructive relocation is permitted."
+    },
+    {
+      "surah_name": "An-Naml",
+      "surah_number": 27,
+      "verse": 18,
+      "animal_referenced": "ant",
+      "transliteration": "Hatta idha ataw 'ala wadi al-namli qalat namlatun ya ayyuha al-namlu'dhkhulu masakinakum...",
+      "translation_en": "Until, when they came upon the valley of the ants, an ant said, 'O ants, enter your dwellings...'",
+      "tafsir_note": "Demonstrates the intelligence and communication systems of ants, prompting the Prophet Sulayman to smile at its words and show mercy to their valley.",
+      "relevance_to_mozi": "Highlights the sanctity of the ant colony. Combined with Bukhari 3319, it establishes the absolute prohibition of burning ants."
+    },
+    {
+      "surah_name": "Saba",
+      "surah_number": 34,
+      "verse": 14,
+      "animal_referenced": "termite",
+      "transliteration": "Fa-lamma qadayna 'alayhi al-mawta ma dallahum 'ala mawtihi illa dabbatu al-ardi ta'kulu minsa'atahu...",
+      "translation_en": "And when We decreed death for him [Sulayman], nothing indicated his death to them except a creature of the earth eating his staff...",
+      "tafsir_note": "The termite (referred to as the 'creature of the earth') consumed the wood of Sulayman's staff until it broke, revealing his death to the jinn who worked for him. Emphasizes that even the mighty jinn do not know the unseen, which was exposed by a small insect.",
+      "relevance_to_mozi": "Identifies the termite's destructive role in history, forming the baseline for its classification as a property destroyer that is permissible to control."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <title>Household Intruders — MOZI</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MOZI — Islamic Biosecurity and Environmental Ethics Platform. Learn authentic Hadith rulings and scientific prevention for household pests.">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+  <link rel="stylesheet" href="/assets/css/mode-toggle.css">
+  <link rel="stylesheet" href="/assets/css/print.css" media="print">
+  
+  <!-- Core Data & Control Scripts -->
+  <script src="/assets/js/mozi-data.js"></script>
+  <script src="/assets/js/dark-mode.js"></script>
+  <script src="/assets/js/mode-switch.js"></script>
+  <script src="/assets/js/share.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+  
+</head>
+<body class="integrated-mode">
+  <div class="progress-bar" id="progress-bar"></div>
+  
+  <nav class="nav">
+    <a href="/index.html" class="nav__logo">MOZI</a>
+    <ul class="nav__links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/mozi-list.html">Creatures</a></li>
+      <li><a href="/categories.html">Categories</a></li>
+      <li><a href="/about/doctrine.html">Doctrine</a></li>
+      <li><a href="/about/ethics.html">Ethics</a></li>
+      <li><a href="/audit.html">Home Audit</a></li>
+      <li><a href="/resources.html">Resources</a></li>
+      <li><a href="/contact.html">Emergency</a></li>
+    </ul>
+    <div class="nav__actions">
+      <!-- Mode Toggle Pill -->
+      <div class="mode-toggle-pill">
+        <button class="mode-toggle-pill__btn" data-mode="integrated" title="Show Doctrine + Science">Integrated</button>
+        <button class="mode-toggle-pill__btn" data-mode="doctrine" title="Doctrine Only">Doctrine</button>
+        <button class="mode-toggle-pill__btn" data-mode="scientific" title="Science Only">Science</button>
+      </div>
+      <button class="btn btn--icon" id="theme-toggle-btn" aria-label="Toggle Dark Mode">
+        <!-- Icon injected by JS -->
+      </button>
+      <button class="nav__hamburger" id="nav-hamburger-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  
+  <!-- Mobile Navigation Overlay -->
+  <div class="nav__mobile" id="nav-mobile-menu">
+    <a href="/index.html">Home</a>
+    <a href="/mozi-list.html">Creatures</a>
+    <a href="/categories.html">Categories</a>
+    <a href="/about/doctrine.html">Doctrine</a>
+    <a href="/about/ethics.html">Ethics</a>
+    <a href="/audit.html">Home Audit</a>
+    <a href="/resources.html">Resources</a>
+    <a href="/contact.html">Emergency</a>
+  </div>
+
+  
+  
+    <div class="container margin-top-20">
+      <div class="flex-col gap-4 text-center margin-bottom-12">
+        <h1 class="text-primary">Household Intruders</h1>
+        <p class="text-secondary max-width-md margin-x-auto">
+          Non-venomous and non-vector creatures that create fear or minor damage.
+        </p>
+      </div>
+      <div class="grid-4 card-grid" id="category-grid">
+        <!-- Injected by script -->
+      </div>
+    </div>
+    <script>
+      document.addEventListener('moziDataLoaded', () => {
+        const grid = document.getElementById('category-grid');
+        if (!grid) return;
+        const allMozis = window.MOZI_DATA.getAllMozis();
+        const filtered = allMozis.filter(m => m.category === 'Household Intruders');
+        
+        filtered.forEach(item => {
+          const card = document.createElement('a');
+          card.href = `/pages/mozi/mozi-detail.html?id=${item.id}`;
+          card.className = `card card--glass card--glow-${item.is_protected ? 'info' : 'danger'} mozi-card`;
+          let badgeHtml = item.is_protected 
+            ? `<span class="badge badge--protected">Protected</span>`
+            : `<span class="badge badge--${item.threat_level}">${item.threat_level}</span>`;
+          card.innerHTML = `
+            <div class="mozi-card__icon">
+              <img src="${item.assets.icon_svg}" alt="${item.name_en}" style="width:48px;height:48px;"/>
+            </div>
+            <div class="flex-col">
+              <span class="mozi-card__name">${item.name_en} (${item.name_hinglish})</span>
+              <span class="mozi-card__latin">${item.latin_name}</span>
+            </div>
+            <div class="mozi-card__footer margin-top-4">
+              <span class="badge badge--category">${item.category}</span>
+              ${badgeHtml}
+            </div>
+          `;
+          grid.appendChild(card);
+        });
+      });
+    </script>
+    
+  
+  
+  <footer class="border-top padding-y-12 margin-top-20 text-center text-muted text-mono text-xs" style="background:var(--bg-secondary);">
+    <div class="container flex-between gap-6 flex-wrap">
+      <span>&copy; 2026 MOZI — Jurisprudential-Scientific Biosecurity Platform.</span>
+      <div class="flex gap-4">
+        <a href="/legal/disclaimer.html" style="color:inherit; text-decoration:none;">Disclaimer</a>
+        <a href="/legal/privacy.html" style="color:inherit; text-decoration:none;">Privacy Policy</a>
+        <a href="/legal/terms.html" style="color:inherit; text-decoration:none;">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

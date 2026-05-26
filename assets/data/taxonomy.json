@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "venomous",
+      "label": "Venomous Creatures",
+      "icon": "skull",
+      "color": "#EF4444",
+      "count": 5
+    },
+    {
+      "id": "disease-vectors",
+      "label": "Disease Vectors",
+      "icon": "virus",
+      "color": "#F97316",
+      "count": 6
+    },
+    {
+      "id": "property-destroyers",
+      "label": "Property Destroyers",
+      "icon": "home",
+      "color": "#F59E0B",
+      "count": 4
+    },
+    {
+      "id": "household-intruders",
+      "label": "Household Intruders",
+      "icon": "alert-triangle",
+      "color": "#F59E0B",
+      "count": 3
+    },
+    {
+      "id": "protected-species",
+      "label": "Protected Species",
+      "icon": "shield",
+      "color": "#3B82F6",
+      "count": 5
+    }
+  ],
+  "threat_levels": [
+    "extreme",
+    "high",
+    "medium",
+    "low",
+    "protected"
+  ]
+}

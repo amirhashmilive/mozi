@@ -1,0 +1,3473 @@
+[
+  {
+    "id": "scorpion",
+    "slug": "scorpion",
+    "name_en": "Scorpion",
+    "latin_name": "Hottentotta tamulus (Indian Red Scorpion)",
+    "category": "venomous",
+    "threat_level": "extreme",
+    "threat_score": 95,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "6–9",
+      "lifespan_years": "3–8",
+      "diet": "Insects, small arthropods",
+      "habitat": [
+        "Rocky terrain",
+        "Dry leaf litter",
+        "Wall crevices",
+        "Under stones"
+      ],
+      "active_season": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "india_distribution": [
+        "Rajasthan",
+        "Gujarat",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Karnataka"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Neurotoxic envenomation",
+        "Cardiovascular failure",
+        "Pulmonary edema"
+      ],
+      "symptoms": [
+        "Severe local pain",
+        "Sweating",
+        "Hypertension",
+        "Priapism",
+        "Respiratory distress",
+        "Paralysis"
+      ],
+      "fatality_india": "~1,000–2,600 deaths/year (world's most dangerous scorpion)",
+      "first_aid": [
+        "Keep calm and immobilise limb",
+        "Do NOT apply tourniquet or cut wound",
+        "Rush to hospital immediately",
+        "Anti-venom available at government hospitals"
+      ],
+      "emergency_number": "108 (India Emergency Ambulance)"
+    },
+    "islamic_ruling": {
+      "status": "Fāsiq — Permissible to kill in all states including during Ihram",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sahih al-Bukhari 1829; Sahih Muslim 1198",
+        "translation_en": "Five animals are fāsiq (harmful) and may be killed even in the Haram: the crow, the kite, the scorpion, the rat, and the biting dog.",
+        "transliteration_arabic": "Khamsun mina'd-dawabbi kulluhunna fasiqun yuqtalna fi'l-harami: al-ghurabu wa'l-hida'atu wa'l-aqrabu wa'l-fa'ratu wa'l-kalbu'l-aqur."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to kill; encouraged when posing a threat",
+        "shafii": "Permissible; explicitly named in Hadith; recommended during Ihram",
+        "hanbali": "Permissible; classified as mu'dhī (harmful creature)",
+        "maliki": "Permissible; killing is Sunnah when it approaches"
+      },
+      "killing_method_notes": "Swift crushing or targeted spray — NOT fire, NOT boiling water"
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        },
+        {
+          "source": "Abu Dawud 5088",
+          "transliteration": "Bismillahil-ladhi la yadurru ma'as-mihi shay'un fil-ardi wa la fis-sama'i wa huwas-sami'ul-'alim",
+          "translation_en": "In the name of Allah with whose name nothing in the earth or heaven can cause harm, and He is the All-Hearing, All-Knowing."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)",
+        "Al-Fatiha (1)",
+        "Ayat-ul-Kursi (2:255)"
+      ],
+      "prophetic_practice": [
+        "Shake out shoes before wearing (Hadith: shake your shoes)",
+        "Close doors with Bismillah at night",
+        "Cover food and water vessels at night",
+        "Do not leave sandals/shoes outside overnight"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Remove rockpiles, woodpiles, and leaf litter near the home",
+        "Seal cracks and crevices in walls and foundations",
+        "Keep yard dry; fix leaking pipes and taps",
+        "Reduce clutter in storerooms and garages"
+      ],
+      "physical_barriers": [
+        "Install door sweeps on all exterior doors",
+        "Seal weep holes with fine mesh",
+        "Apply weatherstripping to windows",
+        "Use sticky glue boards along baseboards near walls"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "UV blacklight inspection at night (scorpions fluoresce bright green)",
+        "Direct crushing with a heavy boot or object",
+        "Perimeter insecticide spray (cypermethrin or bifenthrin)",
+        "Professional pest control for serious infestations"
+      ],
+      "prohibited_methods": [
+        "Burning with fire",
+        "Pouring boiling water",
+        "Prolonged torture before death",
+        "Drowning as a deliberate slow kill"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "All of Allah's creation will be gathered on Qiyamah. Scorpions are communities like us (Qur'an 6:38). Kill only when necessary and do not transgress the bounds of necessity.",
+      "ecological_note": "Scorpions are natural controllers of insect populations. Targeted elimination around the home is sufficient; do not seek mass extermination of non-threatening populations."
+    },
+    "climate_future": {
+      "trend": "Expanding northward habitat due to warming winters in India",
+      "affected_regions": [
+        "Uttar Pradesh",
+        "Bihar",
+        "Madhya Pradesh becoming increasingly endemic"
+      ],
+      "projection": "By 2050, active season projected to extend 2–3 additional months in northern India; incidence in urban areas likely to rise with informal housing construction"
+    },
+    "faq": [
+      {
+        "q": "Can I kill a scorpion during Ramadan or Ihram?",
+        "a": "Yes. The scorpion is explicitly named as a Fāsiq creature in Sahih Bukhari; killing it is permissible at all times, including during Ihram in the Haram."
+      },
+      {
+        "q": "What if I find one in my shoe?",
+        "a": "The Prophet ﷺ instructed us to shake our shoes before wearing them. If found, crush it swiftly with a hard object."
+      },
+      {
+        "q": "Is anti-venom available in India?",
+        "a": "Yes, at government hospitals, especially in Maharashtra, Rajasthan, Gujarat, and Andhra Pradesh. Scorpion anti-venom is government-supplied and free."
+      },
+      {
+        "q": "Do scorpions come out in winter?",
+        "a": "They are less active below 15°C but do not fully hibernate. Check dark corners and stored clothing year-round."
+      },
+      {
+        "q": "Is it Haram to keep a scorpion as a pet?",
+        "a": "The majority of scholars hold that keeping harmful creatures without need is makruh (disliked). If it poses a risk to household members, it must be removed."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/scorpion.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/scorpion.webp",
+      "color_accent": "#EF4444"
+    },
+    "name_hinglish": "Bichhu"
+  },
+  {
+    "id": "snake",
+    "slug": "snake",
+    "name_en": "Snake (Cobra / Krait / Viper)",
+    "latin_name": "Naja naja / Bungarus caeruleus / Daboia russelii",
+    "category": "venomous",
+    "threat_level": "extreme",
+    "threat_score": 98,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "100–200",
+      "lifespan_years": "15–25",
+      "diet": "Rodents, frogs, birds, lizards",
+      "habitat": [
+        "Agricultural fields",
+        "Grasslands",
+        "Urban outskirts",
+        "Piles of stones or timber"
+      ],
+      "active_season": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Rajasthan",
+        "Punjab",
+        "West Bengal",
+        "Kerala",
+        "Maharashtra"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Neurotoxic envenomation (Cobra/Krait)",
+        "Haemotoxic envenomation (Viper)",
+        "Cytotoxic tissue necrosis"
+      ],
+      "symptoms": [
+        "Ptosis and paralysis (Cobra)",
+        "Silent envenomation with delayed respiratory failure (Krait)",
+        "Extensive local swelling and necrosis (Viper)",
+        "Death within hours without treatment"
+      ],
+      "fatality_india": "~58,000 deaths/year — India accounts for ~50% of global snakebite deaths",
+      "first_aid": [
+        "Immobilise the bitten limb (splint if possible)",
+        "Remove jewellery near bite site",
+        "Do NOT apply tourniquet, slash wound, or suck venom",
+        "Rush to hospital immediately; anti-venom is effective"
+      ],
+      "emergency_number": "108 (India Emergency); Snake Helpline: 1800-425-1550 (Tamil Nadu)"
+    },
+    "islamic_ruling": {
+      "status": "Al-Hayyah al-Mu'dhi — Dangerous snake: Permissible and encouraged to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sahih al-Bukhari 3297; Sahih Muslim 2233",
+        "translation_en": "Kill the snakes; and kill the two-striped snake and the short-tailed snake, for they cause blindness and miscarriage.",
+        "transliteration_arabic": "Iqtulu al-hayyati waqtulu dha't-tufyatayni wa'l-abtara fa-innahuma yatmisani al-basara wa-yusqitani al-habal."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Dangerous snakes must be killed; non-dangerous desert snakes require a warning before killing",
+        "shafii": "All harmful snakes permissible to kill; caution needed with jinn-inhabited house snakes",
+        "hanbali": "Permissible; striking once is recommended before killing",
+        "maliki": "Killing dangerous snakes is an obligation when they pose a threat"
+      },
+      "killing_method_notes": "Strike swiftly with a stick or heavy object. Warn a snake in the house three days before killing (for non-aggressive house snake — Hadith precaution). Do not burn."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        },
+        {
+          "source": "Sahih Muslim 2186",
+          "transliteration": "Bismillahi arqika min kulli shay'in yu'dhik",
+          "translation_en": "In the name of Allah I perform ruqyah for you, from everything that harms you."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)",
+        "Al-Fatiha (1)",
+        "Ayat-ul-Kursi (2:255)"
+      ],
+      "prophetic_practice": [
+        "Recite evening adhkar before sleeping",
+        "Keep home clean and free of rodents (which attract snakes)",
+        "Close doors and windows at dusk",
+        "Do not walk barefoot in the dark or in tall grass"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Eliminate rodent populations (primary food source for snakes)",
+        "Keep grass short and remove brush/woodpiles",
+        "Seal gaps under doors, around pipes, and in foundations",
+        "Remove debris such as tin sheets, bricks, and compost heaps near the home"
+      ],
+      "physical_barriers": [
+        "Install fine mesh wire around the base of the building",
+        "Use solid door sweeps",
+        "Ensure poultry coops are snake-proof (snakes hunt eggs and chicks)",
+        "Install snake-proof fencing for children's play areas if in high-risk zones"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Call a professional snake catcher (do NOT attempt to catch venomous species yourself)",
+        "Use a snake tong and hessian bag for relocation",
+        "Perimeter spray of naphthalene balls as a deterrent (limited effectiveness)",
+        "For a snake that has entered the home: open doors and allow it to exit; do not corner it"
+      ],
+      "prohibited_methods": [
+        "Burning alive",
+        "Pouring hot oil or water",
+        "Hacking with repeated blows (prolonged suffering)",
+        "Starving a captured snake for days before killing"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Snakes are among Allah's creation. The Prophet ﷺ distinguished between harmful attacking snakes and house serpents. Even when killing is necessary, do so swiftly and do not transgress.",
+      "ecological_note": "Snakes are apex rodent controllers. Non-venomous and non-threatening species should be relocated, not killed."
+    },
+    "climate_future": {
+      "trend": "Range shifts and altered hibernation patterns due to climate warming",
+      "affected_regions": [
+        "Higher altitude regions of Himachal Pradesh and Uttarakhand seeing snake activity at higher elevations",
+        "Urban heat islands drawing snakes into cities year-round"
+      ],
+      "projection": "Extended active season; monsoon expansion may push snakes into new residential areas"
+    },
+    "faq": [
+      {
+        "q": "Should I warn a house snake before killing it?",
+        "a": "Yes — for a non-aggressive snake that has made its home in your house, scholars recommend warning it three times over three days. If it persists, it may be killed."
+      },
+      {
+        "q": "Is it permissible to kill a non-venomous snake?",
+        "a": "If it is not posing a threat, scholars differ. Many recommend relocation over killing for non-venomous species. If it is threatening, killing is permissible."
+      },
+      {
+        "q": "What is the anti-venom situation in India?",
+        "a": "Polyvalent anti-venom covers India's Big Four (Cobra, Krait, Russell's Viper, Saw-scaled Viper). It is free at government hospitals. Time is critical — get there within 2 hours."
+      },
+      {
+        "q": "Can I kill a snake during Ihram?",
+        "a": "Yes. Dangerous snakes may be killed even during Ihram, according to the majority of scholars."
+      },
+      {
+        "q": "Is snake charming / keeping a snake haram?",
+        "a": "Keeping venomous snakes without need is generally forbidden (haram) due to the danger it poses to oneself and others."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/snake.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/snake.webp",
+      "color_accent": "#EF4444"
+    },
+    "name_hinglish": "Saanp"
+  },
+  {
+    "id": "wasp",
+    "slug": "wasp",
+    "name_en": "Wasp / Hornet",
+    "latin_name": "Vespa tropica / Polistes olivaceus",
+    "category": "venomous",
+    "threat_level": "high",
+    "threat_score": 75,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "1.5–3.5",
+      "lifespan_years": "0.1–0.3",
+      "diet": "Insects, spiders, nectar, fruit",
+      "habitat": [
+        "Roof eaves",
+        "Tree hollows",
+        "Wall cavities",
+        "Abandoned structures"
+      ],
+      "active_season": [
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Particularly dense in Northeast India",
+        "Western Ghats",
+        "Himalayan foothills"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Anaphylactic shock",
+        "Multiple organ failure (mass stinging)",
+        "Secondary infection"
+      ],
+      "symptoms": [
+        "Sharp burning pain at sting site",
+        "Swelling and redness",
+        "Hives and itching",
+        "Anaphylaxis: throat swelling, difficulty breathing, low blood pressure"
+      ],
+      "fatality_india": "~50–100 deaths/year; mass attack fatalities increasing with deforestation",
+      "first_aid": [
+        "Move away from nest immediately",
+        "Remove stingers if visible (wasps can sting multiple times)",
+        "Apply cold compress",
+        "Take antihistamine; for anaphylaxis — inject epinephrine and call 108 immediately"
+      ],
+      "emergency_number": "108 (India Emergency)"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī — Harmful insect; permissible to kill when threatening",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sunan Abu Dawud 5268; classified as Hasan",
+        "translation_en": "General principle: harmful insects that attack humans may be killed. The Zunbūr (wasp/hornet) is classified under creatures whose harm warrants killing.",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to kill when aggressive; disliked to destroy nests unnecessarily",
+        "shafii": "Permissible when it poses a direct threat",
+        "hanbali": "Permissible; distinction between colony destruction and individual defence",
+        "maliki": "Permissible when harm is clear and present"
+      },
+      "killing_method_notes": "Do not burn the nest — use insecticide spray at night when wasps are dormant. Swift death is required."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)",
+        "Ayat-ul-Kursi (2:255)"
+      ],
+      "prophetic_practice": [
+        "Keep food and sweet drinks covered outdoors",
+        "Be cautious near fruit trees and flower beds",
+        "Wear light colours when working outdoors (wasps are attracted to dark colours)"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Seal openings in eaves, roof overhangs, and wall cavities",
+        "Remove fallen fruit from the ground",
+        "Keep rubbish bins tightly sealed",
+        "Avoid leaving sweet drinks uncovered outdoors"
+      ],
+      "physical_barriers": [
+        "Install insect mesh over ventilation openings",
+        "Use deterrent sprays of peppermint oil around common nesting sites",
+        "Place wasp decoy nests (wasps are territorial and avoid other colonies)"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Commercial wasp-freeze aerosol sprayed into nest at night",
+        "Professional pest control for large or inaccessible nests",
+        "Remove empty nests in winter once colony dies",
+        "Insecticide dust blown into wall cavities"
+      ],
+      "prohibited_methods": [
+        "Burning the nest with fire",
+        "Flooding nest with boiling water",
+        "Poking a live nest repeatedly without protective gear (endangers neighbours)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Wasps are among the communities of Allah's creation. Kill only when they pose a threat; do not destroy entire colonies out of fear alone.",
+      "ecological_note": "Wasps are beneficial predators that control caterpillar and insect populations. Remove nests only when they are in direct contact with human living areas."
+    },
+    "climate_future": {
+      "trend": "Warmer winters allow larger colony survival and earlier spring activity",
+      "affected_regions": [
+        "Northern India seeing hornet activity in months previously too cold",
+        "Urban heat islands extending foraging seasons"
+      ],
+      "projection": "Giant Asian hornet (Vespa mandarinia) range may expand into northeastern India by 2040"
+    },
+    "faq": [
+      {
+        "q": "Is it permissible to destroy a wasp nest?",
+        "a": "Yes, if it poses a risk to household members. Use insecticide at night when wasps are inactive rather than fire."
+      },
+      {
+        "q": "What should I do if multiple wasps attack me?",
+        "a": "Run indoors or into a vehicle immediately. Do NOT swat — it releases pheromones that attract more wasps. Jump into water if available."
+      },
+      {
+        "q": "Can I keep a wasps' nest if it's not near my home?",
+        "a": "Yes. If the nest is in a tree far from the house, leave it alone — wasps provide significant ecological benefit."
+      },
+      {
+        "q": "Are hornets and wasps the same ruling in Islam?",
+        "a": "Scholars treat all attacking stinging insects under the same general ruling of permissibility to repel and kill when they cause harm."
+      },
+      {
+        "q": "Is the bee different from the wasp?",
+        "a": "Yes. Bees are explicitly protected in Islamic tradition (honey bee / nahlah). The ruling on aggressive wasps is different from bees."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/wasp.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/wasp.webp",
+      "color_accent": "#F97316"
+    },
+    "name_hinglish": "Bhir / Tataiya"
+  },
+  {
+    "id": "centipede",
+    "slug": "centipede",
+    "name_en": "Centipede",
+    "latin_name": "Scolopendra hardwickei / Scolopendra morsitans",
+    "category": "venomous",
+    "threat_level": "medium",
+    "threat_score": 55,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "10–20",
+      "lifespan_years": "3–6",
+      "diet": "Cockroaches, beetles, worms, small lizards",
+      "habitat": [
+        "Under stones and bark",
+        "Damp bathrooms",
+        "Soil and leaf litter",
+        "Dark corners of homes"
+      ],
+      "active_season": [
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "More common in tropical and subtropical regions",
+        "Western Ghats",
+        "Northeastern India"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Venom injection causing intense pain",
+        "Secondary bacterial infection"
+      ],
+      "symptoms": [
+        "Intense burning pain at bite",
+        "Local swelling and redness",
+        "Lymph node swelling",
+        "Rarely: systemic reaction including nausea and fever"
+      ],
+      "fatality_india": "Rarely fatal; severe pain lasting 4–12 hours; systemic complications in children",
+      "first_aid": [
+        "Wash wound with soap and water",
+        "Apply cold compress",
+        "Take over-the-counter pain relief (ibuprofen)",
+        "Seek medical care if swelling spreads or child is bitten"
+      ],
+      "emergency_number": "108 (India Emergency)"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī — Harmful creature; permissible to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "General principle from scholars based on harm (mu'dhī classification)",
+        "translation_en": "Every creature that causes harm may be killed.",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to kill; its harm is established",
+        "shafii": "Permissible",
+        "hanbali": "Permissible",
+        "maliki": "Permissible when it poses a risk"
+      },
+      "killing_method_notes": "Crush swiftly or spray insecticide. Do not prolong suffering."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Keep damp areas dry",
+        "Close floor-level gaps",
+        "Check shoes and stored clothing regularly"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Reduce moisture in bathrooms and basements",
+        "Remove leaf litter and stones from around the house",
+        "Fix leaking pipes",
+        "Keep firewood stored away from the home"
+      ],
+      "physical_barriers": [
+        "Seal gaps around pipes and cables",
+        "Use silicone sealant on bathroom floor gaps",
+        "Install door sweeps"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Crushing with a heavy object",
+        "Targeted insecticide spray",
+        "Sticky traps in damp areas",
+        "Diatomaceous earth along baseboards"
+      ],
+      "prohibited_methods": [
+        "Burning with fire",
+        "Deliberate prolonged suffering"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Even small creatures are communities of Allah. Kill only when necessary — targeted and swift.",
+      "ecological_note": "Centipedes are natural predators of cockroaches and other pests. In non-living areas (gardens, forests), they provide beneficial pest control."
+    },
+    "climate_future": {
+      "trend": "Increased indoor presence during extreme heat as creatures seek cooler damp spaces",
+      "affected_regions": [
+        "Urban homes in tropical India",
+        "New northern range expansion in warmer winters"
+      ],
+      "projection": "Climate-driven humidity changes may increase centipede presence in previously dry northern Indian cities"
+    },
+    "faq": [
+      {
+        "q": "Is a centipede bite dangerous?",
+        "a": "It is extremely painful but rarely dangerous for healthy adults. Children and elderly people should seek medical attention."
+      },
+      {
+        "q": "Why do centipedes come inside the house?",
+        "a": "They seek moisture and prey. Keep bathrooms dry and seal gaps to prevent entry."
+      },
+      {
+        "q": "Can centipedes climb walls?",
+        "a": "Yes — they are excellent climbers. Check ceiling corners and behind furniture."
+      },
+      {
+        "q": "Is it permissible to kill them?",
+        "a": "Yes. They are classified as harmful (mu'dhī) creatures and may be killed when found in living spaces."
+      },
+      {
+        "q": "Do centipedes lay eggs in homes?",
+        "a": "Rarely. They prefer to lay eggs in damp soil outdoors. Reducing indoor moisture disrupts their lifecycle."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/centipede.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/centipede.webp",
+      "color_accent": "#F59E0B"
+    },
+    "name_hinglish": "Kankhajura"
+  },
+  {
+    "id": "spider-venomous",
+    "slug": "spider-venomous",
+    "name_en": "Venomous Spider",
+    "latin_name": "Poecilotheria regalis (Indian Ornamental Tarantula) / Latrodectus hasselti",
+    "category": "venomous",
+    "threat_level": "medium",
+    "threat_score": 50,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "3–8",
+      "lifespan_years": "1–15",
+      "diet": "Insects, small geckos, moths",
+      "habitat": [
+        "Dark crevices in walls",
+        "Tree bark",
+        "Rock crevices",
+        "Stored goods"
+      ],
+      "active_season": [
+        "Year-round",
+        "More active in monsoon season"
+      ],
+      "india_distribution": [
+        "Western Ghats (tarantula species)",
+        "Pan-India for common species",
+        "Rajasthan and drier states for redback species"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Necrotic venom (rare species)",
+        "Neurotoxic venom (widow spider)",
+        "Secondary infection"
+      ],
+      "symptoms": [
+        "Pain and redness at bite",
+        "Muscle cramps (widow spider)",
+        "Rare necrosis in severe cases"
+      ],
+      "fatality_india": "Extremely rare; documented fatalities very few; most Indian spiders are harmless",
+      "first_aid": [
+        "Wash wound with soap and water",
+        "Note spider description for identification",
+        "Seek medical care for severe pain or systemic symptoms"
+      ],
+      "emergency_number": "108 (India Emergency)"
+    },
+    "islamic_ruling": {
+      "status": "If venomous and threatening — permissible to kill; non-venomous spider is protected (see separate entry)",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Principle of harm (mu'dhī); scholars distinguish venomous from non-venomous",
+        "translation_en": "Every creature that causes harm may be killed.",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Venomous spider: permissible to kill. Non-venomous: protected.",
+        "shafii": "Same distinction — harm determines permissibility",
+        "hanbali": "Permissible when venomous and threatening",
+        "maliki": "Permissible when harm is established"
+      },
+      "killing_method_notes": "Swift crushing. Do not confuse with the non-venomous common house spider, which is honoured in Islamic tradition (cave of the Prophet ﷺ)."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Check footwear and stored clothing",
+        "Close food containers",
+        "Do not leave items on the floor in dark storage areas for extended periods"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Reduce clutter in storerooms",
+        "Seal cracks in walls and floors",
+        "Keep rooms well-lit and aired",
+        "Remove cobwebs regularly"
+      ],
+      "physical_barriers": [
+        "Seal gaps around pipes",
+        "Use insect-exclusion mesh on vents",
+        "Apply diatomaceous earth in crevices"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Catch in a glass and relocate outdoors (for unsure identification)",
+        "Crush swiftly if confirmed venomous",
+        "Targeted insecticide in crevices"
+      ],
+      "prohibited_methods": [
+        "Burning",
+        "Prolonged suffering"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The Prophet ﷺ was protected by the web of a non-venomous spider in the cave of Thawr. The spider is honoured in Islamic memory. Be careful not to harm beneficial spiders when targeting the harmful.",
+      "ecological_note": "Most Indian spiders are harmless and provide tremendous pest control benefit. Identification before killing is strongly recommended."
+    },
+    "climate_future": {
+      "trend": "Range expansion of tropical venomous species into new Indian states",
+      "affected_regions": [
+        "Poecilotheria species increasingly found outside their traditional Western Ghats range"
+      ],
+      "projection": "Forest encroachment and deforestation push venomous spiders into periurban zones"
+    },
+    "faq": [
+      {
+        "q": "How do I identify a venomous spider?",
+        "a": "Venomous Indian spiders include the Indian ornamental tarantula (large, black/grey with patterns) and the redback widow (black with red stripe). Most small brown/grey house spiders are harmless."
+      },
+      {
+        "q": "Is the spider that spun a web over the Prophet's cave the same?",
+        "a": "That was a non-venomous common spider. It is honoured and should not be harmed. Killing rule applies only to confirmed venomous species."
+      },
+      {
+        "q": "What if I cannot tell if it is venomous?",
+        "a": "Use a glass to capture and relocate it outdoors. When in doubt, do not kill."
+      },
+      {
+        "q": "Are tarantulas in India dangerous?",
+        "a": "Indian ornamental tarantulas have medically significant venom and should not be handled. Keep away from children and pets."
+      },
+      {
+        "q": "Can I keep a tarantula as a pet?",
+        "a": "Scholars generally discourage keeping dangerous creatures without legitimate reason. Ownership must not expose others to risk."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/spider-venomous.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/spider-venomous.webp",
+      "color_accent": "#F59E0B"
+    },
+    "name_hinglish": "Zahreeli Makri"
+  },
+  {
+    "id": "mosquito",
+    "slug": "mosquito",
+    "name_en": "Mosquito",
+    "latin_name": "Anopheles gambiae / Aedes aegypti / Culex quinquefasciatus",
+    "category": "disease-vector",
+    "threat_level": "extreme",
+    "threat_score": 92,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "0.3–0.6",
+      "lifespan_years": "0.05–0.1",
+      "diet": "Female: blood; Male: nectar",
+      "habitat": [
+        "Stagnant water bodies",
+        "Water storage containers",
+        "Drainage systems",
+        "Puddles and ponds"
+      ],
+      "active_season": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Particularly high in Kerala, Odisha, Jharkhand, northeast states"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Malaria",
+        "Dengue Fever",
+        "Chikungunya",
+        "Zika Virus",
+        "Japanese Encephalitis",
+        "Lymphatic Filariasis (Elephantiasis)",
+        "West Nile Virus"
+      ],
+      "symptoms": [
+        "Malaria: cyclical fever, chills, sweating",
+        "Dengue: high fever, severe joint pain, rash, bleeding",
+        "Chikungunya: debilitating joint pain",
+        "Encephalitis: brain inflammation, seizures, coma"
+      ],
+      "fatality_india": "Malaria: ~45,000–100,000 deaths/year; Dengue: ~100–500 reported deaths/year (significant under-reporting)",
+      "first_aid": [
+        "Seek medical diagnosis immediately for any fever after mosquito exposure",
+        "Malaria test (RDT) available at government health centres",
+        "Do NOT self-medicate with antimalarials without diagnosis"
+      ],
+      "emergency_number": "104 (Health Helpline, India); 108 (Emergency)"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī — The mosquito is mentioned in the Qur'an and is permissible to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Qur'an 2:26 (Baqarah); scholars unanimously permit its killing",
+        "translation_en": "Indeed, Allah is not timid to present an example — that of a mosquito or what is above it. [Qur'an 2:26]",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Unanimously permissible to kill; it is a confirmed carrier of disease",
+        "shafii": "Permissible; killing during prayer does not invalidate salah",
+        "hanbali": "Permissible; swatting a mosquito during prayer is allowed",
+        "maliki": "Permissible; prevention of its harm is obligatory where possible"
+      },
+      "killing_method_notes": "Any swift method is permissible: swatting, electric racquet, sprays, repellents, nets. Fumigation is allowed."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)",
+        "Ayat-ul-Kursi (2:255)"
+      ],
+      "prophetic_practice": [
+        "Cover food and water vessels (prevents mosquito breeding)",
+        "Close doors and windows at dusk (Hadith: close your doors and mention the name of Allah)",
+        "Use natural repellents (neem, eucalyptus)",
+        "Sleep under mosquito nets"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Eliminate all standing water: empty flower pots, old tyres, buckets, and bird baths weekly",
+        "Cover water storage tanks and drums tightly",
+        "Fill tree holes and drainage depressions",
+        "Keep drains unblocked and flowing"
+      ],
+      "physical_barriers": [
+        "Install insect screens on all windows and doors",
+        "Use mosquito nets over beds, especially for children",
+        "Wear long-sleeved clothing at dusk and dawn",
+        "Use DEET or picaridin-based repellents on exposed skin"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Electric mosquito racquets",
+        "Pyrethroid-based indoor sprays",
+        "Burning mosquito coils (outdoor or well-ventilated areas)",
+        "Larvicide (Bacillus thuringiensis israelensis) in standing water",
+        "Professional fogging for severe infestations"
+      ],
+      "prohibited_methods": [
+        "Setting fire to breeding areas (burning wetlands, fields) — prohibited for ecological harm",
+        "Any method causing mass non-target insect death unnecessarily"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The mosquito is cited by Allah in the Qur'an as a sign of His ability to illustrate truth through the smallest of creation. Even it is part of the divine design. Prevention and targeted killing is the Islamic approach.",
+      "ecological_note": "Mosquitoes are food for birds, bats, and fish. Targeted killing of adult mosquitoes in human areas is preferred over ecosystem-wide pesticide use."
+    },
+    "climate_future": {
+      "trend": "Massive range expansion and longer breeding seasons across India due to warming",
+      "affected_regions": [
+        "Previously malaria-free northern Indian hills now seeing endemic transmission",
+        "Dengue expanding from coastal cities to interior states"
+      ],
+      "projection": "By 2050, an additional 1 billion people globally at risk from Aedes-borne diseases; India will bear disproportionate burden"
+    },
+    "faq": [
+      {
+        "q": "Can I kill a mosquito while performing Salah?",
+        "a": "Yes. Scholars of all four schools permit swatting a mosquito during prayer as a minor, necessary action that does not invalidate Salah."
+      },
+      {
+        "q": "What is the most effective mosquito repellent?",
+        "a": "DEET (20–30%) is the gold standard. Natural alternatives include eucalyptus oil (PMD) and neem oil, effective for 2–3 hours."
+      },
+      {
+        "q": "How do I stop mosquitoes from breeding in my home?",
+        "a": "Empty ALL standing water every 3–4 days. A mosquito can breed in as little as 5ml of water in a bottle cap."
+      },
+      {
+        "q": "Is burning mosquito coils halal?",
+        "a": "Yes. Using coils to repel or kill mosquitoes is permissible. Ensure ventilation to avoid smoke inhalation by household members."
+      },
+      {
+        "q": "Which mosquito carries malaria vs dengue?",
+        "a": "Anopheles (bites at night, grey body) carries malaria. Aedes aegypti (bites by day, black/white striped) carries dengue, Zika, and Chikungunya."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/mosquito.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/mosquito.webp",
+      "color_accent": "#EF4444"
+    },
+    "name_hinglish": "Machchar"
+  },
+  {
+    "id": "cockroach",
+    "slug": "cockroach",
+    "name_en": "Cockroach",
+    "latin_name": "Periplaneta americana / Blattella germanica",
+    "category": "disease-vector",
+    "threat_level": "high",
+    "threat_score": 78,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "1.5–4",
+      "lifespan_years": "0.5–2",
+      "diet": "Omnivore — food scraps, grease, paper, glue, hair",
+      "habitat": [
+        "Kitchens",
+        "Bathrooms",
+        "Drains",
+        "Wall voids",
+        "Under appliances"
+      ],
+      "active_season": [
+        "Year-round",
+        "Peak in monsoon season"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Most prevalent in urban areas and poorly ventilated housing"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Salmonella",
+        "E. coli contamination",
+        "Typhoid",
+        "Dysentery",
+        "Asthma trigger (cockroach allergen)",
+        "Gastroenteritis"
+      ],
+      "symptoms": [
+        "Food poisoning symptoms: diarrhea, vomiting, cramps",
+        "Allergic reactions: skin rash, eye irritation",
+        "Asthma attacks in sensitised individuals"
+      ],
+      "fatality_india": "Indirect: significant contributor to diarrheal disease deaths; direct: allergic complications",
+      "first_aid": [
+        "Wash all food surfaces after cockroach presence",
+        "Seek medical care for severe gastroenteritis symptoms"
+      ],
+      "emergency_number": "104 (Health Helpline, India)"
+    },
+    "islamic_ruling": {
+      "status": "Khabīth — Filthy creature; permissible to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "General Islamic hygiene principle; scholars classify cockroach as khabīth (filthy)",
+        "translation_en": "Cleanliness is part of faith.",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to kill as a filthy (khabīth) creature",
+        "shafii": "Permissible",
+        "hanbali": "Permissible",
+        "maliki": "Permissible; its presence in a home is contrary to Islamic hygiene standards"
+      },
+      "killing_method_notes": "Boric acid, gel baits, and traps are the most ethical elimination methods — they do not cause prolonged visible suffering and are targeted."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Cover food at all times",
+        "Wash dishes immediately after eating",
+        "Do not leave food scraps on the floor",
+        "Close drains at night"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Eliminate food sources: clean counters and stove after every meal",
+        "Fix leaking pipes and dripping taps (cockroaches need water)",
+        "Remove cardboard boxes and clutter",
+        "Store food in airtight containers"
+      ],
+      "physical_barriers": [
+        "Seal gaps around pipes and under sinks",
+        "Install drain covers",
+        "Caulk cracks in walls and cabinets",
+        "Ensure building waste management is effective"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Boric acid powder along baseboards (desiccant, slow but thorough)",
+        "Commercial gel baits (highly effective, targeted)",
+        "Insect growth regulators (IGR)",
+        "Professional fumigation for severe infestations"
+      ],
+      "prohibited_methods": [
+        "Burning cockroaches alive",
+        "Pouring boiling water on live cockroaches for torture",
+        "Glue traps that leave them alive for extended periods without checking"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "All creatures will account to Allah. Kill only with necessity and swiftly. The cockroach, though repugnant, is part of the ecosystem that processes organic waste.",
+      "ecological_note": "In outdoor environments, cockroaches serve as decomposers. Only domestic cockroach species that contaminate human food need targeted elimination."
+    },
+    "climate_future": {
+      "trend": "More aggressive year-round activity as winters warm in northern India",
+      "affected_regions": [
+        "Increased urban cockroach density with climate change-driven flooding of drainage systems",
+        "Antibiotic-resistant bacteria carried by urban cockroaches becoming a health concern"
+      ],
+      "projection": "German cockroach (Blattella germanica) developing pesticide resistance — alternative non-chemical methods increasingly important"
+    },
+    "faq": [
+      {
+        "q": "Is killing cockroaches during Ramadan fasting permissible?",
+        "a": "Yes — dealing with harmful insects does not break the fast and is encouraged for home hygiene."
+      },
+      {
+        "q": "Does seeing a cockroach mean my home is dirty?",
+        "a": "Not necessarily. Cockroaches can enter clean homes through grocery bags, cardboard, and drainage systems. A rapid response is more important than shame."
+      },
+      {
+        "q": "What is the fastest way to eliminate cockroaches?",
+        "a": "Gel bait combined with boric acid is the most effective long-term strategy. Results within 1–2 weeks."
+      },
+      {
+        "q": "Can cockroaches cause asthma?",
+        "a": "Yes. Cockroach allergen is a significant asthma and allergy trigger, especially for children. Elimination reduces asthma attacks."
+      },
+      {
+        "q": "Are cockroach repellents sufficient?",
+        "a": "Repellents move cockroaches — they do not eliminate them. Baits and boric acid that cockroaches ingest are far more effective."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/cockroach.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/cockroach.webp",
+      "color_accent": "#F97316"
+    },
+    "name_hinglish": "Tilchatta"
+  },
+  {
+    "id": "housefly",
+    "slug": "housefly",
+    "name_en": "Housefly",
+    "latin_name": "Musca domestica",
+    "category": "disease-vector",
+    "threat_level": "high",
+    "threat_score": 72,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "0.6–0.8",
+      "lifespan_years": "0.03–0.08",
+      "diet": "Decaying organic matter, excrement, food scraps",
+      "habitat": [
+        "Garbage areas",
+        "Kitchens",
+        "Livestock areas",
+        "Latrines",
+        "Markets"
+      ],
+      "active_season": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Most dense in tropical and subtropical regions",
+        "Markets and urban slums"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Typhoid",
+        "Cholera",
+        "Dysentery",
+        "Salmonella",
+        "E. coli",
+        "Trachoma (eye infection)",
+        "Poliomyelitis (mechanical vector)"
+      ],
+      "symptoms": [
+        "Food-borne illness: diarrhoea, vomiting, fever",
+        "Eye infection: redness, discharge",
+        "Severe cases: dehydration and systemic sepsis"
+      ],
+      "fatality_india": "Major contributor to diarrheal disease deaths, especially in children under 5",
+      "first_aid": [
+        "ORS (Oral Rehydration Solution) for diarrhoea",
+        "Seek medical attention for fever with diarrhoea",
+        "Wash all food exposed to flies before consuming"
+      ],
+      "emergency_number": "104 (Health Helpline, India)"
+    },
+    "islamic_ruling": {
+      "status": "Famous Hadith of the fly — unique ruling applies",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sahih al-Bukhari 3320",
+        "translation_en": "If a fly falls into the drink of any one of you, let him dip it fully [to release the cure from the other wing] and then remove it, for one of its wings carries disease and the other carries the cure.",
+        "transliteration_arabic": "Idha waqa'a ad-dhubabu fi ina'i ahadikum fal-yaghmis-hu kul-lahu thumma li-yatrahihu fa-inna fi ahadi janahayhi da'an wa fi'l-akhari shifa'an."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to kill; the Hadith of the fly is a miraculous sign, not a recommendation to drink fly-contaminated liquid in modern hygiene contexts",
+        "shafii": "Permissible; scholars note modern understanding does not negate the Hadith but recommends discarding contaminated food",
+        "hanbali": "Permissible to kill and remove",
+        "maliki": "Permissible"
+      },
+      "killing_method_notes": "Fly swatters, sticky traps, electric fly killers. Covering food eliminates the need to kill in most cases."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Qur'an 1:1",
+          "transliteration": "Bismillahir-rahmanir-rahim",
+          "translation_en": "In the name of Allah, the Most Gracious, the Most Merciful — recite before eating to invoke divine protection on food."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Cover all food and drinks",
+        "Recite Bismillah before eating",
+        "Do not leave food uncovered even for short periods",
+        "Keep garbage in sealed containers"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Cover all food and drink at all times",
+        "Manage garbage with sealed bins and timely collection",
+        "Clean up animal droppings and wet areas",
+        "Eliminate breeding sites: rotting fruit, exposed excrement, wet compost"
+      ],
+      "physical_barriers": [
+        "Install insect screens on windows and doors",
+        "Use fly curtains at doorways",
+        "Keep kitchen drains clean and covered"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Electric fly killers (UV trap)",
+        "Sticky fly paper",
+        "Fly swatter",
+        "Natural repellents: lavender, basil, eucalyptus oils",
+        "Pyrethrin-based sprays for severe infestations"
+      ],
+      "prohibited_methods": [
+        "Burning flies alive as entertainment",
+        "Letting sticky paper accumulate without disposal (prolongs suffering)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The housefly is mentioned in the Qur'an (22:73) as a symbol of weakness — the idols cannot create even a fly. Every creature of Allah has its place in creation, yet we are commanded to protect our health.",
+      "ecological_note": "Houseflies are decomposers and play a role in breaking down organic matter. Outside human food zones, they serve the ecosystem."
+    },
+    "climate_future": {
+      "trend": "Year-round fly activity in regions previously having cool winters",
+      "affected_regions": [
+        "Northern India experiencing longer fly-active seasons",
+        "Climate-driven flooding creating new organic breeding pools"
+      ],
+      "projection": "Antibiotic-resistant Salmonella strains increasingly associated with fly mechanical transmission in urban India"
+    },
+    "faq": [
+      {
+        "q": "What does the Hadith of the fly mean scientifically?",
+        "a": "Modern research has found that some flies carry antimicrobial peptides. Scholars note this is a miraculous sign; however, food contaminated by flies should generally be discarded for hygiene."
+      },
+      {
+        "q": "How quickly does a fly contaminate food?",
+        "a": "Instantly — it regurgitates digestive juices and walks across food, transferring pathogens within seconds of landing."
+      },
+      {
+        "q": "What is the best fly prevention strategy?",
+        "a": "Cover food always. Eliminate outdoor breeding sites (garbage, wet organic matter). Install window screens."
+      },
+      {
+        "q": "Are electric fly killers (bug zappers) effective?",
+        "a": "UV fly killers are highly effective for flying insects. Place away from food preparation areas. Clean regularly."
+      },
+      {
+        "q": "Is it permissible to use chemical fly sprays in the kitchen?",
+        "a": "Yes, but ensure food is covered and surfaces are wiped after spraying. Allow ventilation before returning to the area."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/housefly.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/housefly.webp",
+      "color_accent": "#F97316"
+    },
+    "name_hinglish": "Makkhi"
+  },
+  {
+    "id": "flea",
+    "slug": "flea",
+    "name_en": "Flea",
+    "latin_name": "Ctenocephalides felis / Pulex irritans",
+    "category": "disease-vector",
+    "threat_level": "medium",
+    "threat_score": 60,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "0.1–0.3",
+      "lifespan_years": "0.1–1.5",
+      "diet": "Blood (human, cat, dog, rat)",
+      "habitat": [
+        "Pet bedding",
+        "Carpets",
+        "Upholstered furniture",
+        "Rodent burrows"
+      ],
+      "active_season": [
+        "Year-round",
+        "Peak in monsoon and post-monsoon"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Particularly associated with domestic animals and rodents"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Bubonic Plague (Yersinia pestis — via rat fleas)",
+        "Murine Typhus",
+        "Flea-borne Spotted Fever",
+        "Tapeworm infestation (Dipylidium caninum)",
+        "Intense pruritus and secondary skin infection"
+      ],
+      "symptoms": [
+        "Intense itching, red raised bites in clusters",
+        "Allergic dermatitis",
+        "Anaemia in heavy infestations (especially children)"
+      ],
+      "fatality_india": "Plague rare now; murine typhus underdiagnosed; flea anaemia significant in malnourished children",
+      "first_aid": [
+        "Wash bites with soap and water",
+        "Apply antihistamine cream",
+        "Seek medical attention if fever develops after flea bites (rule out typhus/plague)"
+      ],
+      "emergency_number": "104 (Health Helpline, India)"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī — Causes harm and transmits disease; permissible to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "The Hadith mentions the burghūth (flea) in the context of al-Bukhari 1916 — the Prophet ﷺ killed fleas",
+        "translation_en": "The Prophet ﷺ killed a flea [while on the road to Makkah, indicating it is permissible even in a state of Ihram].",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible; Prophetic precedent exists",
+        "shafii": "Permissible",
+        "hanbali": "Permissible",
+        "maliki": "Permissible"
+      },
+      "killing_method_notes": "Vacuuming, washing, heat treatment, insecticide — all permissible. Targeted and swift."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Maintain cleanliness of sleeping areas",
+        "Wash bedding regularly",
+        "Keep pets treated for fleas (using halal methods — topical spot-on treatments)"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Treat pets with veterinarian-approved flea control monthly",
+        "Wash pet bedding at 60°C weekly",
+        "Vacuum carpets and upholstered furniture regularly",
+        "Control rodent populations (primary flea reservoir)"
+      ],
+      "physical_barriers": [
+        "Vacuum all fabric surfaces regularly",
+        "Steam-clean carpets",
+        "Use flea-proof pet bedding covers"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Hot wash (60°C+) all bedding and fabric",
+        "Diatomaceous earth on carpets (leave 48h, vacuum)",
+        "Insect growth regulator (IGR) spray for home",
+        "Professional heat treatment for severe infestations",
+        "Flea bomb (fogger) as a last resort"
+      ],
+      "prohibited_methods": [
+        "Burning infested areas",
+        "Prolonged suffering of captured fleas"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Even the smallest of creatures will account to Allah. The flea that carries plague has caused millions of deaths in history — a reminder of how seemingly insignificant creation can be a vehicle of great trial.",
+      "ecological_note": "Fleas are part of the food chain for insectivorous animals. In nature, they are kept in balance by predators."
+    },
+    "climate_future": {
+      "trend": "Longer flea seasons due to warmer winters; rodent range expansion bringing new flea species",
+      "affected_regions": [
+        "Urban India seeing year-round flea problems due to stray animal populations",
+        "Plague reservoirs in Himalayan foothills remain a monitoring concern"
+      ],
+      "projection": "Urban rodent control directly impacts flea-borne disease risk"
+    },
+    "faq": [
+      {
+        "q": "Can fleas jump from pets to humans?",
+        "a": "Yes — cat and dog fleas readily bite humans, especially on ankles and legs. Treat both the pet and the home simultaneously."
+      },
+      {
+        "q": "How long can fleas survive without a host?",
+        "a": "Adult fleas can survive 1–2 weeks without feeding. Eggs in carpet can remain dormant for months."
+      },
+      {
+        "q": "Is the Prophet's killing of a flea authentic?",
+        "a": "Yes — referenced in several Hadith collections, indicating permissibility of killing fleas even during Ihram."
+      },
+      {
+        "q": "What is the fastest way to get rid of fleas?",
+        "a": "Treat pet + wash all bedding at 60°C + diatomaceous earth on carpets simultaneously. Repeat in 2 weeks for eggs."
+      },
+      {
+        "q": "Can fleas transmit plague in India today?",
+        "a": "Bubonic plague is extremely rare in India now (last significant outbreak was Surat 1994). Surveillance continues in Himachal Pradesh. The risk is very low for urban populations."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/flea.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/flea.webp",
+      "color_accent": "#F59E0B"
+    },
+    "name_hinglish": "Pissu"
+  },
+  {
+    "id": "tick",
+    "slug": "tick",
+    "name_en": "Tick",
+    "latin_name": "Rhipicephalus sanguineus / Hyalomma marginatum",
+    "category": "disease-vector",
+    "threat_level": "medium",
+    "threat_score": 62,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "0.2–1.5",
+      "lifespan_years": "0.5–3",
+      "diet": "Blood (humans, livestock, dogs, wildlife)",
+      "habitat": [
+        "Tall grass",
+        "Woodland edges",
+        "Livestock areas",
+        "On dogs and cats"
+      ],
+      "active_season": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Particularly in rural and forested areas of Maharashtra, Rajasthan, Himachal Pradesh, and Kashmir"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Crimean-Congo Haemorrhagic Fever (CCHF)",
+        "Kyasanur Forest Disease (KFD)",
+        "Rocky Mountain Spotted Fever",
+        "Tick Typhus",
+        "Lyme Disease (rare in India)",
+        "Tick Paralysis"
+      ],
+      "symptoms": [
+        "CCHF: sudden fever, severe bleeding, multi-organ failure",
+        "KFD: fever, haemorrhage, neurological symptoms",
+        "Tick paralysis: ascending paralysis from tick toxin"
+      ],
+      "fatality_india": "CCHF case fatality rate 10–40%; KFD deaths reported annually in Karnataka and Goa",
+      "first_aid": [
+        "Remove tick promptly with fine-pointed tweezers (grasp close to skin, pull steadily — do NOT twist or squeeze)",
+        "Do NOT use petroleum jelly, heat, or nail polish to remove",
+        "Wash bite site with soap and water",
+        "Monitor for fever and rash over 2–4 weeks; seek medical care immediately"
+      ],
+      "emergency_number": "108 (India Emergency); State-specific CCHF protocols"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī — Transmits serious disease; permissible to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "General harm principle; the Qurād (tick) is mentioned in classical fiqh texts",
+        "translation_en": "Every creature that causes harm may be killed.",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to remove and kill",
+        "shafii": "Permissible",
+        "hanbali": "Permissible",
+        "maliki": "Permissible"
+      },
+      "killing_method_notes": "Remove carefully then dispose in alcohol or sealed bag. Treat pets and livestock regularly."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Check body after walking in grassland or forest",
+        "Treat livestock and pets regularly",
+        "Wear protective clothing in tick-endemic areas"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Keep grass short around the home",
+        "Clear brush and leaf litter from boundary areas",
+        "Treat pets with monthly veterinarian-approved acaricides",
+        "Keep livestock away from residential areas when possible"
+      ],
+      "physical_barriers": [
+        "Wear long-sleeved clothing in tick country",
+        "Apply DEET or permethrin to clothing before field work",
+        "Do a full body tick check after outdoor exposure",
+        "Shower within 2 hours of coming indoors"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Fine-pointed tweezers for individual tick removal",
+        "Acaricide spray for home and livestock areas",
+        "Tick collars for dogs",
+        "Professional tick control for heavily infested properties"
+      ],
+      "prohibited_methods": [
+        "Burning tick off skin",
+        "Applying petroleum jelly or hot objects to the tick (causes regurgitation of pathogens into wound)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The smallest parasite is part of Allah's creation. Even it will be gathered. This is a reminder of ecological interconnection and the need for wisdom in control.",
+      "ecological_note": "Ticks regulate host animal populations in natural ecosystems. Control should be targeted to human and livestock contact zones."
+    },
+    "climate_future": {
+      "trend": "Significant northward and altitudinal expansion of tick habitats",
+      "affected_regions": [
+        "CCHF ticks (Hyalomma) spreading with climate warming across Rajasthan, Gujarat, and into northern states",
+        "KFD zone expanding from Karnataka into adjacent states"
+      ],
+      "projection": "New tick-borne diseases expected to emerge in India with warming climate by 2040"
+    },
+    "faq": [
+      {
+        "q": "How do I properly remove a tick?",
+        "a": "Use fine tweezers, grasp as close to the skin as possible, and pull steadily and firmly outward. Do not twist or squeeze."
+      },
+      {
+        "q": "What is CCHF and is it in India?",
+        "a": "Crimean-Congo Haemorrhagic Fever is a severe viral disease spread by Hyalomma ticks. Cases have been documented in Gujarat (2011 outbreak) and sporadic cases since."
+      },
+      {
+        "q": "Can ticks live on my carpets?",
+        "a": "Brown dog ticks can complete their lifecycle indoors. Treat pets and vacuum/spray home if a pet brings ticks in."
+      },
+      {
+        "q": "Is it permissible to kill ticks on my pet?",
+        "a": "Yes. Removing and killing ticks from pets is both permissible and a form of care for the animal under the Islamic principle of mercy to animals."
+      },
+      {
+        "q": "What disease does a tick carry in India?",
+        "a": "Kyasanur Forest Disease in Karnataka/Goa; CCHF in Gujarat/Rajasthan; Tick Typhus in various states. Lyme disease is rare but documented."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/tick.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/tick.webp",
+      "color_accent": "#F59E0B"
+    },
+    "name_hinglish": "Chichri"
+  },
+  {
+    "id": "bed-bug",
+    "slug": "bed-bug",
+    "name_en": "Bed Bug",
+    "latin_name": "Cimex lectularius",
+    "category": "disease-vector",
+    "threat_level": "high",
+    "threat_score": 70,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "0.4–0.7",
+      "lifespan_years": "0.5–1",
+      "diet": "Blood (primarily human)",
+      "habitat": [
+        "Mattress seams",
+        "Bed frames",
+        "Behind wall sockets",
+        "Skirting boards",
+        "Furniture joints"
+      ],
+      "active_season": [
+        "Year-round",
+        "More active in warmer months"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "High prevalence in budget hotels, hostels, and densely occupied urban housing"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "No confirmed direct disease transmission",
+        "Severe allergic reactions and anaphylaxis (rare)",
+        "Secondary skin infection from scratching",
+        "Significant psychological distress and insomnia",
+        "Iron deficiency anaemia (heavy infestations)"
+      ],
+      "symptoms": [
+        "Red, itchy welts in line or cluster patterns",
+        "Intense itching disrupting sleep",
+        "Anxiety and insomnia",
+        "Allergic reaction with hives"
+      ],
+      "fatality_india": "Not directly lethal; serious quality-of-life and mental health impact; anaemia in vulnerable populations",
+      "first_aid": [
+        "Wash bites with soap and water",
+        "Apply antihistamine cream or calamine lotion",
+        "Consult a doctor for severe allergic reaction"
+      ],
+      "emergency_number": "104 (Health Helpline, India)"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī — Causes significant harm and sleep disruption; permissible to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Classical fiqh texts mention Baqq al-Firash; ibn Qudamah permits killing",
+        "translation_en": "There shall be no harm and no reciprocating harm. [Hadith — Ibn Majah 2340; Authentic]",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to kill; it causes established harm",
+        "shafii": "Permissible",
+        "hanbali": "Permissible",
+        "maliki": "Permissible"
+      },
+      "killing_method_notes": "Heat treatment, mattress encasements, and insecticide are the most effective and ethical methods."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)",
+        "Ayat-ul-Kursi (2:255) — recite before sleeping"
+      ],
+      "prophetic_practice": [
+        "Shake and inspect bedding",
+        "Recite Ayat-ul-Kursi before sleeping (spiritual protection during the night)",
+        "Maintain clean sleeping quarters"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Inspect second-hand furniture and mattresses before bringing indoors",
+        "Check hotel mattress seams before sleeping when travelling",
+        "Encase mattress and box spring in bed-bug-proof covers",
+        "Reduce clutter around the bed area"
+      ],
+      "physical_barriers": [
+        "Bed leg interceptors (cups of talcum powder under each bed leg)",
+        "Mattress encasements",
+        "Inspect luggage after travel and store in sealed bags"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Professional heat treatment (52°C+ kills all life stages in 90 minutes)",
+        "Diatomaceous earth around bed perimeter",
+        "Steam cleaning of mattress and furniture",
+        "Insecticide spray: pyrethroid + neonicotinoid combination",
+        "Discard heavily infested mattresses (wrapped in plastic)"
+      ],
+      "prohibited_methods": [
+        "Burning the mattress inside the home",
+        "Using unventilated fumigants without professional training (risk of poisoning household members)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Even bed bugs, which cause great suffering and loss of sleep, are creatures of Allah's creation. Their elimination from our beds is a rightful protection of our health and rest.",
+      "ecological_note": "Bed bugs have no known ecological benefit outside their evolutionary role as parasites. Elimination from human habitation is wholly justified."
+    },
+    "climate_future": {
+      "trend": "Global resurgence in bed bugs linked to increased travel and pesticide resistance",
+      "affected_regions": [
+        "All major Indian cities seeing rising bed bug reports, particularly in budget accommodation and densely populated housing"
+      ],
+      "projection": "Pesticide-resistant strains increasingly prevalent; heat treatment becoming the recommended standard of care globally"
+    },
+    "faq": [
+      {
+        "q": "Can I see bed bugs with the naked eye?",
+        "a": "Yes — adult bed bugs are about the size of an apple seed (4–5mm), reddish-brown, flat, and oval. Look in mattress seams, headboard crevices, and behind electrical sockets."
+      },
+      {
+        "q": "How do bed bugs enter a home?",
+        "a": "Through second-hand furniture, luggage from infested hotels, and clothing. They do not fly and cannot jump — they walk and hitchhike."
+      },
+      {
+        "q": "How long does it take to eliminate bed bugs?",
+        "a": "A single professional heat treatment can eliminate 100% of bed bugs in one session. Chemical treatment requires multiple visits over 2–4 weeks."
+      },
+      {
+        "q": "Is it permissible to throw away an infested mattress?",
+        "a": "Yes. Discarding heavily infested items to protect household members is fully permissible and may be necessary."
+      },
+      {
+        "q": "Do bed bugs transmit diseases?",
+        "a": "No confirmed disease transmission, but their bites cause severe allergic reactions in some people and chronic sleep deprivation, which has serious health consequences."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/bed-bug.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/bed-bug.webp",
+      "color_accent": "#F97316"
+    },
+    "name_hinglish": "Khatmal"
+  },
+  {
+    "id": "rat",
+    "slug": "rat",
+    "name_en": "Rat / Mouse",
+    "latin_name": "Rattus rattus / Rattus norvegicus / Mus musculus",
+    "category": "property-destroyer",
+    "threat_level": "extreme",
+    "threat_score": 90,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "15–25 (rat); 6–9 (mouse)",
+      "lifespan_years": "1–3",
+      "diet": "Omnivore — grains, food scraps, cables, wood, soap",
+      "habitat": [
+        "Sewers",
+        "Wall cavities",
+        "Roof spaces",
+        "Grain stores",
+        "Kitchen areas"
+      ],
+      "active_season": [
+        "Year-round",
+        "More active indoors in cooler months"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Extremely prevalent in all urban and rural areas; estimated 1.2 billion rats in India"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Leptospirosis",
+        "Plague (Bubonic — via fleas)",
+        "Hantavirus",
+        "Rat-bite fever",
+        "Salmonella",
+        "Murine typhus",
+        "Scrub typhus"
+      ],
+      "symptoms": [
+        "Leptospirosis: fever, muscle pain, jaundice, kidney failure",
+        "Rat-bite fever: fever, rash, joint pain after bite or exposure to urine",
+        "Plague: swollen lymph nodes, haemorrhage"
+      ],
+      "fatality_india": "Leptospirosis: ~100–200 deaths/year; major food contamination losses estimated at ₹50,000 crore/year",
+      "first_aid": [
+        "Rat bite: wash immediately with soap and water for 5 minutes; seek medical care for rabies risk assessment and rat-bite fever prophylaxis",
+        "Suspected leptospirosis: seek hospital care immediately"
+      ],
+      "emergency_number": "108 (India Emergency); Anti-Rabies clinics at government hospitals"
+    },
+    "islamic_ruling": {
+      "status": "Fāsiq — Explicitly named in Sahih al-Bukhari; Permissible and encouraged to kill",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sahih al-Bukhari 1829; Sahih Muslim 1198",
+        "translation_en": "Five animals are fāsiq (harmful) and may be killed even in the Haram: the crow, the kite, the scorpion, the rat, and the biting dog.",
+        "transliteration_arabic": "Khamsun mina'd-dawabbi kulluhunna fasiqun yuqtalna fi'l-harami: al-ghurabu wa'l-hida'atu wa'l-aqrabu wa'l-fa'ratu wa'l-kalbu'l-aqur."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Obligatory to kill when posing a threat; mice are covered under the same ruling",
+        "shafii": "Explicitly permitted and encouraged; named in Hadith of the Prophet ﷺ",
+        "hanbali": "Permissible; the rat is the archetype of the Fāsiq creature",
+        "maliki": "Permissible; killing during Ihram is specifically endorsed"
+      },
+      "killing_method_notes": "Snap traps are the most ethical method — instant death. Glue traps are discouraged (prolonged suffering). No burning. No drowning."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Close doors at night and mention the name of Allah — the Prophet ﷺ specifically mentioned this prevents rats from causing fire (Hadith: Sahih al-Bukhari 3316)",
+        "Cover food and water vessels",
+        "Store grain in sealed containers"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Seal all entry points: gaps in walls, around pipes, under doors larger than 6mm",
+        "Store food in metal or glass containers — rats can gnaw through plastic",
+        "Keep garbage in sealed metal bins",
+        "Eliminate outdoor food sources: bird feeders, fallen fruit, compost heaps"
+      ],
+      "physical_barriers": [
+        "Install door sweeps and threshold plates",
+        "Steel wool + expanding foam in gaps around pipes",
+        "Roof rat exclusion: trim branches overhanging the roof by 50cm",
+        "Wire mesh over ventilation openings (no larger than 6mm gauge)"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Snap traps (most ethical — instant death)",
+        "Electronic traps (high-voltage, instant kill)",
+        "First-generation rodenticides (single-feed, less secondary poisoning risk)",
+        "Live-catch traps — release far from the home (if not disease-endemic area)",
+        "Professional exterminator for multi-rat infestations"
+      ],
+      "prohibited_methods": [
+        "Glue boards (rats can be trapped alive for days — Islamic prohibition on prolonged suffering)",
+        "Second-generation anticoagulant rodenticides in areas with birds of prey (ecological harm)",
+        "Burning rat runs",
+        "Drowning in buckets deliberately set up as slow death"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The rat is the only rodent explicitly named as Fāsiq in the Prophetic tradition. Its role in spreading plague has killed hundreds of millions in human history. Even so, we kill only what is necessary and without cruelty.",
+      "ecological_note": "Rats in nature are food for hawks, owls, snakes, and cats. Urban rat control is necessary but should be conducted with methods that minimise secondary poisoning of predators."
+    },
+    "climate_future": {
+      "trend": "Urban rat populations growing with rapid urbanisation and poor waste management",
+      "affected_regions": [
+        "Mumbai, Delhi, Kolkata, Chennai facing severe urban rat crises",
+        "Monsoon flooding displaces rat populations into higher floors and homes"
+      ],
+      "projection": "Leptospirosis risk increasing dramatically in flood-prone Indian cities during monsoon seasons"
+    },
+    "faq": [
+      {
+        "q": "Are glue traps permitted in Islam?",
+        "a": "Scholars generally discourage glue traps because animals caught on them suffer for extended periods, which violates the principle of Ihsan (excellence/mercy) in killing. Snap traps are preferred."
+      },
+      {
+        "q": "Can rats chew through concrete?",
+        "a": "No — but they can chew through brick, wood, plastic, soft metal, and most materials. Seal with steel wool and concrete mortar."
+      },
+      {
+        "q": "Why does the Hadith specifically mention the rat?",
+        "a": "The rat (fa'rah) was a direct household threat in 7th century Arabia, known for causing fires by gnawing on wicks, contaminating food stores, and biting sleeping people. The Prophet ﷺ explicitly named it."
+      },
+      {
+        "q": "What diseases can I get from rat droppings?",
+        "a": "Hantavirus (dust from droppings), Leptospirosis (urine in water/food), Salmonella (food contamination). Always wear gloves and a mask when cleaning rat-infested areas."
+      },
+      {
+        "q": "Is it permissible to use rat poison?",
+        "a": "First-generation rodenticides (warfarin) are permissible. Scholars caution against methods that cause prolonged suffering; ensure death is reasonably swift."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/rat.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/rat.webp",
+      "color_accent": "#EF4444"
+    },
+    "name_hinglish": "Chuha"
+  },
+  {
+    "id": "termite",
+    "slug": "termite",
+    "name_en": "Termite",
+    "latin_name": "Odontotermes obesus / Coptotermes heimi",
+    "category": "property-destroyer",
+    "threat_level": "high",
+    "threat_score": 80,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "0.4–1.5",
+      "lifespan_years": "1–3 (worker); up to 25 (queen)",
+      "diet": "Cellulose — wood, paper, cardboard, fabric, book bindings",
+      "habitat": [
+        "Underground colonies",
+        "Inside wooden structures",
+        "Mud tubes on walls",
+        "Foundation areas"
+      ],
+      "active_season": [
+        "Year-round",
+        "Swarming: June–August (monsoon)"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Particularly destructive in tropical states: Karnataka, Kerala, Andhra Pradesh, Maharashtra, West Bengal"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "No direct disease transmission",
+        "Structural collapse risk (indirect)",
+        "Mould growth in termite-damaged walls (respiratory risk)"
+      ],
+      "symptoms": [
+        "No bite/sting symptoms",
+        "Property damage symptoms: sagging floors, hollow-sounding wood, mud tubes"
+      ],
+      "fatality_india": "Estimated ₹1 lakh crore in property damage annually across India",
+      "first_aid": [
+        "No medical emergency — inspect property and contact pest control"
+      ],
+      "emergency_number": "Local pest control; NBCC approved pest control list"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī — Destroys property; permissible to kill and eliminate",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "The Aradah (termite) is mentioned in Qur'an 34:14 as the creature that destroyed the staff of Prophet Sulayman ﷺ",
+        "translation_en": "And when We decreed death for him [Sulayman], nothing indicated his death to them except a creature of the earth eating his staff. [Qur'an 34:14]",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to eliminate — it destroys property (a protected interest in Islam: māl)",
+        "shafii": "Permissible; protecting property is an Islamic obligation",
+        "hanbali": "Permissible",
+        "maliki": "Permissible; the Quran itself records the termite's destructive role"
+      },
+      "killing_method_notes": "Professional termite treatment is strongly recommended. Boric acid, heat treatment, or termiticides. Not fire."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Qur'an 27:19 (Du'a of Prophet Sulayman ﷺ)",
+          "transliteration": "Rabbi awzi'ni an ashkura ni'mataka",
+          "translation_en": "My Lord, enable me to be grateful for Your favour which You have bestowed upon me — a reminder to protect the blessings of home and property."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Keep wood dry and elevated from the ground",
+        "Regular inspection of wooden structures in monsoon season",
+        "Address moisture problems promptly — termites need water"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Eliminate moisture: fix all leaks, ensure proper drainage away from foundations",
+        "Keep wood away from soil contact: elevate furniture, use concrete plinths",
+        "Remove dead wood, stumps, and tree roots near the home",
+        "Store firewood away from the house, elevated off the ground"
+      ],
+      "physical_barriers": [
+        "Pre-construction anti-termite soil treatment (chlorpyrifos or fipronil)",
+        "Physical barriers: stainless steel mesh or crushed granite around foundations",
+        "Borate wood treatment for timber before construction",
+        "Regular professional inspection annually"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Liquid termiticide soil treatment (professional)",
+        "Termite bait stations (slow, colony elimination)",
+        "Boric acid injection into infested wood",
+        "Heat treatment for localised infestations",
+        "Microwave or electrocution treatment (specialised)"
+      ],
+      "prohibited_methods": [
+        "Burning termite mounds (fire risk to property and environment)",
+        "Using unregulated chemicals without professional training"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The termite's consumption of Prophet Sulayman's staff is one of the great signs in the Qur'an — a reminder that even the mightiest of kings submit to the smallest of Allah's creation when He wills.",
+      "ecological_note": "In forests, termites are essential decomposers of dead wood, accelerating nutrient cycling. Control is necessary only in human structures."
+    },
+    "climate_future": {
+      "trend": "Warmer, wetter conditions dramatically accelerating termite activity in northern India",
+      "affected_regions": [
+        "States previously less affected (Uttar Pradesh, Bihar, Punjab) seeing increasing termite damage",
+        "Urban construction boom creating vast new wood resources for termite colonisation"
+      ],
+      "projection": "Annual economic losses from termites in India projected to double by 2050 without improved construction standards"
+    },
+    "faq": [
+      {
+        "q": "How do I know if I have termites?",
+        "a": "Look for: mud tubes on walls, hollow-sounding wood, discarded wings near windows, sagging floors or ceilings, and tiny holes in drywall or wood."
+      },
+      {
+        "q": "Can termites damage concrete or metal?",
+        "a": "No — but they penetrate through expansion joints and cracks to reach wood above concrete slabs. Metal structures are safe; any wood element is at risk."
+      },
+      {
+        "q": "What is the termite story in the Qur'an?",
+        "a": "Qur'an 34:14 — When Prophet Sulayman ﷺ died while leaning on his staff, the jinn did not know he had passed until a termite consumed the staff and it broke. A profound sign of Allah's hidden knowledge."
+      },
+      {
+        "q": "Is DIY termite control effective?",
+        "a": "For minor infestations, boric acid and bait stations can be helpful. For established colonies, professional treatment is strongly recommended."
+      },
+      {
+        "q": "How long does professional termite treatment last?",
+        "a": "Soil termiticide barriers last 5–10 years. Bait station systems require annual monitoring. Annual inspections are essential in tropical India."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/termite.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/termite.webp",
+      "color_accent": "#F97316"
+    },
+    "name_hinglish": "Deemak"
+  },
+  {
+    "id": "carpenter-ant",
+    "slug": "carpenter-ant",
+    "name_en": "Carpenter Ant",
+    "latin_name": "Camponotus compressus",
+    "category": "property-destroyer",
+    "threat_level": "medium",
+    "threat_score": 45,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "0.6–1.3",
+      "lifespan_years": "3–7",
+      "diet": "Insects, sweets, proteins — they tunnel wood but do not eat it",
+      "habitat": [
+        "Dead or damp wood in buildings",
+        "Tree stumps near homes",
+        "Wooden roof structures"
+      ],
+      "active_season": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "More prevalent in humid regions and areas with heavy tree cover"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "No disease transmission",
+        "Painful bite if provoked",
+        "Formic acid spray causes skin irritation"
+      ],
+      "symptoms": [
+        "Sharp bite pain",
+        "Local redness and inflammation",
+        "Itching"
+      ],
+      "fatality_india": "Not directly fatal",
+      "first_aid": [
+        "Wash bite with soap and water",
+        "Cold compress for swelling"
+      ],
+      "emergency_number": "104 (Health Helpline)"
+    },
+    "islamic_ruling": {
+      "status": "Harmful carpenter ants damaging property — permissible to eliminate; passive non-harmful ants are protected",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sahih al-Bukhari 3319 — prohibition on burning ant colonies; distinguish from eliminating carpenter ants causing structural damage",
+        "translation_en": "A prophet was stung by an ant and ordered the ant colony to be burned. Allah revealed to him: A single ant stung you and you burned an entire community that glorified Allah. [Sahih al-Bukhari 3319]",
+        "transliteration_arabic": "Anna nabiyyan mina'l-anbiya'i qarasat-hu namlatun fa-amara bi-qaryati'n-namli fa-uhriqat fa-awhallahu ilayhi: An qarasat-ka namlatun ahraqta ummatan mina'l-umami tusabbih."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Ants causing clear structural damage may be eliminated; passive ants must not be killed",
+        "shafii": "Proportional response: eliminate carpenter ants from wooden structures but do not destroy colonies without cause",
+        "hanbali": "Same proportionality principle",
+        "maliki": "Targeted elimination of harmful ants permissible; burning is explicitly forbidden"
+      },
+      "killing_method_notes": "NEVER burn ant colonies — this is explicitly prohibited by Prophetic tradition. Use targeted bait, boric acid, or insecticide."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Naml (27) — recitation reminds us of the Prophet Sulayman's mercy toward the ant colony",
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Keep wood dry to prevent carpenter ant colonisation",
+        "Address moisture issues promptly",
+        "Do not harm harmless ants passing through"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Eliminate all moisture-damaged wood from the structure",
+        "Remove tree stumps and dead wood near the home",
+        "Trim tree branches that contact the roof or walls",
+        "Store firewood elevated and away from the house"
+      ],
+      "physical_barriers": [
+        "Seal all cracks in wooden structures",
+        "Paint or seal all exposed wood",
+        "Use pressure-treated lumber in moisture-prone areas"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Targeted boric acid gel bait (carpenter ants carry it back to colony)",
+        "Direct insecticide injection into galleries",
+        "Remove and replace all moisture-damaged wood",
+        "Professional pest control for established colonies"
+      ],
+      "prohibited_methods": [
+        "Burning ant colonies — STRICTLY FORBIDDEN by explicit Hadith",
+        "Boiling water poured into nesting galleries (prohibited excessive harm)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The story of the prophet who burned an ant colony for a single sting is one of the most powerful Islamic teachings on proportionality in dealing with animals. We must never destroy beyond what is necessary.",
+      "ecological_note": "Ants are foundational to soil health and ecosystem functioning. Only species causing clear structural damage should be targeted."
+    },
+    "climate_future": {
+      "trend": "Moisture damage from increased monsoon rainfall creating more carpenter ant habitat",
+      "affected_regions": [
+        "Northeast India and coastal regions seeing increased carpenter ant damage in wooden structures"
+      ],
+      "projection": "Improved building codes using termite and moisture resistant materials will reduce both termite and carpenter ant damage"
+    },
+    "faq": [
+      {
+        "q": "Is it haram to kill ants?",
+        "a": "Passive, harmless ants should not be killed. Ants causing clear structural damage to property may be eliminated using targeted, non-burning methods."
+      },
+      {
+        "q": "What is the Hadith about burning ant colonies?",
+        "a": "Sahih al-Bukhari 3319 — A prophet burned an ant colony after being stung once; Allah rebuked him for destroying an entire community for a single sting. This is a fundamental Islamic teaching on proportionality."
+      },
+      {
+        "q": "How do I know if I have carpenter ants or termites?",
+        "a": "Carpenter ants leave smooth galleries (do not eat wood) and push out sawdust-like frass. Termites leave mud tubes and consume the wood itself."
+      },
+      {
+        "q": "Can I use insecticide sprays on ants?",
+        "a": "For carpenter ants causing structural damage — yes. For harmless passing ants — it is better to discourage them with physical barriers (chalk lines, cinnamon, diatomite) than to spray."
+      },
+      {
+        "q": "Do carpenter ants bite?",
+        "a": "Yes — they have powerful mandibles and can spray formic acid. The bite is painful but rarely causes serious medical problems in healthy adults."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/carpenter-ant.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/carpenter-ant.webp",
+      "color_accent": "#F59E0B"
+    },
+    "name_hinglish": "Kala Cheenta"
+  },
+  {
+    "id": "pigeon",
+    "slug": "pigeon",
+    "name_en": "Pigeon (Feral / Nuisance)",
+    "latin_name": "Columba livia domestica",
+    "category": "property-destroyer",
+    "threat_level": "medium",
+    "threat_score": 40,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "29–37",
+      "lifespan_years": "3–6 (wild)",
+      "diet": "Grains, seeds, food scraps",
+      "habitat": [
+        "Building ledges",
+        "Roof spaces",
+        "AC unit grills",
+        "Bridge underpasses"
+      ],
+      "active_season": [
+        "Year-round"
+      ],
+      "india_distribution": [
+        "Pan-India — most prevalent in urban areas; dense in Mumbai, Delhi, Kolkata, Hyderabad"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Psittacosis (Chlamydophila psittaci)",
+        "Histoplasmosis (from dried droppings)",
+        "Cryptococcosis",
+        "Salmonella (from droppings on food)",
+        "Ectoparasites: mites, ticks, lice"
+      ],
+      "symptoms": [
+        "Respiratory illness: cough, fever, pneumonia",
+        "Allergic alveolitis: long-term lung inflammation",
+        "Eye irritation from dried droppings"
+      ],
+      "fatality_india": "Histoplasmosis and Cryptococcosis can be fatal in immunocompromised individuals",
+      "first_aid": [
+        "Wear N95 mask when cleaning pigeon droppings",
+        "Wet droppings before sweeping (prevents dust)",
+        "Seek medical care for respiratory symptoms after exposure"
+      ],
+      "emergency_number": "104 (Health Helpline, India)"
+    },
+    "islamic_ruling": {
+      "status": "Not inherently haraam to kill — but relocation and deterrence preferred; Islam values avoiding waste of life",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Pigeons are permissible game birds (halal to hunt and eat). Nuisance management is permissible.",
+        "translation_en": "There shall be no harm and no reciprocating harm — principle justifying nuisance pigeon management when genuine harm exists.",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible; pigeons are halal game birds; nuisance management is justified",
+        "shafii": "Permissible; deterrence and relocation preferred over killing when possible",
+        "hanbali": "Permissible; proportionality applies",
+        "maliki": "Permissible; using pigeons for food (rather than killing and discarding) is more virtuous"
+      },
+      "killing_method_notes": "Deterrence (spikes, netting, gels) is preferable to killing. If killing is necessary, it must be swift (e.g., permitted bird trapping and halal slaughter)."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Tirmidhi 3563",
+          "transliteration": "Allahumma-kfini bi halaalika 'an haraamika wa aghnini bi fadhlika 'amman siwaak",
+          "translation_en": "O Allah, suffice me with Your lawful provisions against what is forbidden, and enrich me by Your grace so that I need none besides You."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Keep window ledges clean and sealed",
+        "Do not encourage pigeon feeding near the home",
+        "Clean droppings promptly and safely"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Do not feed pigeons near your building",
+        "Eliminate food and water sources on rooftops and ledges",
+        "Keep flat roof surfaces clear of debris and standing water"
+      ],
+      "physical_barriers": [
+        "Install stainless steel or plastic anti-pigeon spikes on ledges",
+        "Bird netting over balconies and roof gaps",
+        "Reflective tape or predator decoys (limited effectiveness)",
+        "Audio deterrent devices (ultrasonic)"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Professional bird netting installation",
+        "Trapping and humane relocation (specialist companies)",
+        "Avicidal gel (non-lethal sticky surface deterrent)",
+        "Falcon falconry deterrence (used at airports and large buildings in India)"
+      ],
+      "prohibited_methods": [
+        "Poisoning pigeons (causes slow death; also harms predators that eat the bodies)",
+        "Burning nests with eggs inside",
+        "Shooting with pellet guns in urban areas (unsafe, inhumane)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The pigeon is a creature of Allah. The emphasis in Islamic law is on deterrence and relocation before lethal control. If we must kill, it must be swift, purposeful, and not wasteful.",
+      "ecological_note": "Urban pigeons are descendants of domesticated birds released by humans. They are a human-created problem requiring human solutions. Reducing food availability is the single most effective long-term strategy."
+    },
+    "climate_future": {
+      "trend": "Urban pigeon populations continue to grow with expanding cities and food waste",
+      "affected_regions": [
+        "All major Indian cities face growing pigeon nuisance",
+        "New construction creating more nesting ledges"
+      ],
+      "projection": "Cities investing in integrated pigeon management (fertility control, deterrence, waste management) see significant long-term reduction"
+    },
+    "faq": [
+      {
+        "q": "Is it permissible to eat a pigeon caught as pest control?",
+        "a": "Yes — pigeons are halal to eat. If you must cull them, slaughtering them properly (zabiha) and consuming them is more virtuous than wasting the life."
+      },
+      {
+        "q": "What is the fastest way to deter pigeons?",
+        "a": "Professional bird netting over the affected area is the most effective long-term deterrent. Spikes work on narrow ledges."
+      },
+      {
+        "q": "Are pigeon droppings really dangerous?",
+        "a": "Yes — dried pigeon droppings contain Histoplasma fungus spores and Cryptococcus. Always wear a mask and gloves when cleaning. Wet the area first."
+      },
+      {
+        "q": "Can I use poison pellets for pigeons?",
+        "a": "Poison is strongly discouraged — it causes slow, painful death (prohibited), and secondary poisoning of kites, hawks, and cats that eat the dead birds."
+      },
+      {
+        "q": "Is feeding pigeons at mosques or dargahs permissible?",
+        "a": "Scholars generally permit it as kindness to animals, but if it creates a nuisance or health hazard to the community, the general harm principle (la darar) would suggest reducing it."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/pigeon.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/pigeon.webp",
+      "color_accent": "#F59E0B"
+    },
+    "name_hinglish": "Kabootar"
+  },
+  {
+    "id": "stray-dog",
+    "slug": "stray-dog",
+    "name_en": "Stray / Rabid Dog",
+    "latin_name": "Canis lupus familiaris",
+    "category": "household-intruder",
+    "threat_level": "extreme",
+    "threat_score": 88,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "50–75 (body length)",
+      "lifespan_years": "2–5 (stray)",
+      "diet": "Omnivore — garbage, rodents, other animals",
+      "habitat": [
+        "Urban streets",
+        "Markets",
+        "Waste dumps",
+        "Residential areas at night"
+      ],
+      "active_season": [
+        "Year-round",
+        "More aggressive in hot weather"
+      ],
+      "india_distribution": [
+        "Pan-India — India has ~30 million stray dogs, the world's largest population"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Rabies (100% fatal without post-exposure prophylaxis)",
+        "Leptospirosis",
+        "Capnocytophaga canimorsus (sepsis)",
+        "Deep tissue bite injury",
+        "Tetanus"
+      ],
+      "symptoms": [
+        "Dog bite: deep puncture wounds, tearing injuries",
+        "Rabies: hydrophobia, aerophobia, paralysis, coma, death",
+        "Leptospirosis: fever, jaundice, kidney failure"
+      ],
+      "fatality_india": "~20,000 rabies deaths/year — India accounts for 36% of global rabies deaths; 7.5 million dog bite cases/year",
+      "first_aid": [
+        "Wash bite wound immediately with soap and water for 15 minutes (critical — reduces rabies risk significantly)",
+        "Apply antiseptic (povidone-iodine)",
+        "Go to hospital within hours for post-exposure prophylaxis (PEP)",
+        "PEP is FREE at government hospitals — 5 doses over 28 days"
+      ],
+      "emergency_number": "108 (India Emergency); Anti-Rabies Clinics at all district hospitals"
+    },
+    "islamic_ruling": {
+      "status": "Al-Kalb al-'Aqūr — The biting dog: Explicitly named Fāsiq in Sahih al-Bukhari",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sahih al-Bukhari 1829; Sahih Muslim 1198",
+        "translation_en": "Five animals are fāsiq (harmful) and may be killed even in the Haram: the crow, the kite, the scorpion, the rat, and the biting dog.",
+        "transliteration_arabic": "Khamsun mina'd-dawabbi kulluhunna fasiqun yuqtalna fi'l-harami: al-ghurabu wa'l-hida'atu wa'l-aqrabu wa'l-fa'ratu wa'l-kalbu'l-aqur."
+      },
+      "fiqh_ruling": {
+        "hanafi": "The biting, aggressive, or rabid dog may be killed; a pet or guard dog that does not attack is not targeted",
+        "shafii": "Same distinction — only the mu'dhī (harmful) dog is targeted",
+        "hanbali": "Permissible to kill aggressive dogs in self-defence or community protection",
+        "maliki": "Permissible; the community's safety takes precedence"
+      },
+      "killing_method_notes": "Self-defence killing is permissible when attacked. For community stray dog management, scholars recommend humane culling by authorities or ABC (Animal Birth Control) programmes as preferred approach."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)",
+        "Ayat-ul-Kursi (2:255)"
+      ],
+      "prophetic_practice": [
+        "Do not walk alone at night in areas known for stray dogs",
+        "Carry a stick when in high-risk areas",
+        "Avoid direct eye contact with an aggressive dog — look down and back away slowly",
+        "Do not run from a dog — it triggers the chase reflex"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Eliminate open garbage (primary food source attracting strays)",
+        "Install secure garbage enclosures",
+        "Do not leave food scraps outside",
+        "Report stray dog packs to municipal animal control"
+      ],
+      "physical_barriers": [
+        "Secure compound walls",
+        "Install chain-link or solid gates",
+        "Use motion-sensor deterrent lights in compound areas at night",
+        "Train household members in safe dog encounter behaviour"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Self-defence: any necessary force when directly attacked",
+        "Report aggressive packs to municipal animal control for capture",
+        "Community-level Animal Birth Control (ABC) + rabies vaccination programme (recommended national strategy)",
+        "Professional dog catcher (municipal authority)"
+      ],
+      "prohibited_methods": [
+        "Poisoning stray dogs (slow, cruel death — prohibited; also risks poisoning other animals and humans)",
+        "Burning",
+        "Setting dogs against each other for entertainment"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Dogs are among Allah's creation. The Prophet ﷺ showed mercy to a woman who watered a thirsty dog and was forgiven by Allah. We must never be cruel. Killing is only permissible in genuine self-defence or community safety — not out of disgust.",
+      "ecological_note": "India's stray dog crisis is a human-created problem — the result of uncontrolled breeding, irresponsible ownership, and poor waste management. The solution must be systematic (ABC, vaccination, waste control) not individual culling."
+    },
+    "climate_future": {
+      "trend": "Urban stray populations growing with expanding cities and waste streams",
+      "affected_regions": [
+        "All Indian metropolitan areas",
+        "Peri-urban zones with poor waste management"
+      ],
+      "projection": "Without sustained ABC + vaccination programmes, India's rabies deaths will continue. WHO targets rabies elimination by 2030 — India is far behind schedule."
+    },
+    "faq": [
+      {
+        "q": "What should I do if bitten by a dog?",
+        "a": "1. Wash the wound for 15 minutes with soap and water. 2. Apply iodine. 3. Go to the nearest government hospital within hours. 4. Start the 5-dose rabies PEP vaccine course. Do NOT miss doses."
+      },
+      {
+        "q": "Are all stray dogs rabid?",
+        "a": "No — most are not rabid. But in India, you cannot know for certain. Always treat a bite as a potential rabies exposure and seek PEP."
+      },
+      {
+        "q": "Is it permissible to keep a dog as a pet in Islam?",
+        "a": "Scholars permit keeping dogs for guarding property, livestock protection, and hunting. Keeping as a companion pet inside the home is generally discouraged by the majority of scholars due to purity concerns (najasah)."
+      },
+      {
+        "q": "What does the Kalb al-'Aqur (biting dog) ruling mean?",
+        "a": "It specifically refers to an aggressive, biting dog. A tame, non-aggressive dog is not classified as a Fāsiq creature and should not be harmed."
+      },
+      {
+        "q": "What is the Anti-Rabies Vaccine situation in India?",
+        "a": "Post-exposure prophylaxis (PEP) — the 5-dose vaccine course — is free at all government hospitals in India. The key is starting it within 24–48 hours of exposure. It is 100% effective when given before symptoms appear."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/stray-dog.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/stray-dog.webp",
+      "color_accent": "#EF4444"
+    },
+    "name_hinglish": "Kaatne Wala Kutta"
+  },
+  {
+    "id": "bat",
+    "slug": "bat",
+    "name_en": "Bat",
+    "latin_name": "Pteropus giganteus (Indian Flying Fox) / Rhinolophus spp.",
+    "category": "household-intruder",
+    "threat_level": "high",
+    "threat_score": 68,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "4–40 (various species)",
+      "lifespan_years": "10–30",
+      "diet": "Insects, fruit, nectar",
+      "habitat": [
+        "Roof spaces",
+        "Cave-like wall recesses",
+        "Attics",
+        "Old buildings",
+        "Tree hollows"
+      ],
+      "active_season": [
+        "Year-round",
+        "More active April–October"
+      ],
+      "india_distribution": [
+        "Pan-India; Indian Flying Fox widespread in peninsular India; insectivorous bats in all regions"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Nipah Virus",
+        "Rabies (rare in Indian bats but possible)",
+        "Histoplasmosis (from accumulated droppings)",
+        "Bat bugs (related to bed bugs)"
+      ],
+      "symptoms": [
+        "Nipah: fever, encephalitis, coma, death",
+        "Bat bite: small puncture wound (often painless — check skin after bat contact)",
+        "Respiratory illness from guano inhalation"
+      ],
+      "fatality_india": "Nipah outbreaks: Kerala 2018 (17 deaths), 2023 (2 deaths); case fatality rate 40–75%",
+      "first_aid": [
+        "Any bat contact (bite or scratch, even minor): wash with soap and water and seek rabies PEP immediately",
+        "Do NOT handle bats with bare hands",
+        "Wear N95 mask when cleaning bat roosting areas"
+      ],
+      "emergency_number": "108 (India Emergency); State Health Departments for Nipah monitoring"
+    },
+    "islamic_ruling": {
+      "status": "Mu'dhī when roosting in homes and posing disease risk — permissible to exclude and kill when necessary",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "The Khuffash (bat) is classified as a harmful creature in classical fiqh due to its impurity (filth from guano) and disease risk",
+        "translation_en": "There shall be no harm and no reciprocating harm.",
+        "transliteration_arabic": "La darara wa la dirar."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Permissible to exclude from living spaces; killing permissible if it poses a genuine disease risk",
+        "shafii": "Permissible when causing harm",
+        "hanbali": "Permissible",
+        "maliki": "Permissible when the harm is established"
+      },
+      "killing_method_notes": "Exclusion (one-way bat valves at dusk) is the preferred method — bats are released to fly away. Killing as a last resort must be swift."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Sahih Muslim 2709",
+          "transliteration": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+          "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Seal roof gaps before bats roost",
+        "Avoid handling dead bats",
+        "Wear gloves when inspecting roof spaces"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Seal all roof entry points before the bat roosting season (February–March)",
+        "Install fine mesh over roof vents and gaps",
+        "Remove standing water near the home (reduces insect food source)"
+      ],
+      "physical_barriers": [
+        "One-way exclusion devices during non-roosting hours",
+        "Caulk all gaps larger than 6mm in roof structures",
+        "Bright lighting in potential roosting areas (bats avoid lit spaces)"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Professional bat exclusion (one-way valve at entry points — bats exit but cannot return)",
+        "Exclusion must NOT be done June–August (maternity season — young bats cannot fly)",
+        "Seal all gaps after confirmed exclusion"
+      ],
+      "prohibited_methods": [
+        "Poisoning bats",
+        "Burning roosting sites",
+        "Killing during maternity season (young will die inside the structure)",
+        "Sealing exit points before bats have left (they will die trapped inside)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Bats are among the living communities of Allah. The Nipah virus they carry is a reminder of the delicate balance of creation. When we destroy bat habitats (deforestation), bats come closer to human settlements and spillover events increase.",
+      "ecological_note": "Insectivorous bats consume thousands of mosquitoes per night. A single bat eats up to 1,200 mosquitoes per hour. Their ecological value is immense. Exclusion rather than killing is strongly preferred."
+    },
+    "climate_future": {
+      "trend": "Deforestation forcing bats into urban areas; spillover disease risk increasing",
+      "affected_regions": [
+        "Kerala, Karnataka, and West Bengal are Nipah and bat-borne virus hotspots",
+        "Urban bat colonies expanding into new cities with construction creating new roost sites"
+      ],
+      "projection": "Nipah virus spillover events expected to increase with forest fragmentation; prevention requires both exclusion and forest conservation"
+    },
+    "faq": [
+      {
+        "q": "If a bat has been in my room, do I need a rabies vaccine?",
+        "a": "If you found a bat in a room where you were sleeping, or had any direct contact, seek medical advice immediately for rabies PEP assessment. Bat bites can be so small they are unfelt."
+      },
+      {
+        "q": "What is Nipah virus and should I be worried?",
+        "a": "Nipah is a serious bat-borne virus with 40–75% case fatality rate. It requires close contact with bat bodily fluids or infected humans to spread. Avoid consuming fruit bitten by bats (especially in Kerala season)."
+      },
+      {
+        "q": "Are all bats in India protected by law?",
+        "a": "Most Indian bat species are protected under the Wildlife Protection Act 1972. Killing bats is a legal offence. Exclusion is the legally and Islamically recommended approach."
+      },
+      {
+        "q": "How do I know if bats are in my roof?",
+        "a": "Signs: oily stains at entry points, small brown droppings (like rice grains) in the attic, scratching sounds at dusk and dawn, musty ammonia smell."
+      },
+      {
+        "q": "Can I do bat exclusion myself?",
+        "a": "For small colonies, yes — install one-way flaps at dusk entry points after observing where bats exit. For large colonies or unknown entry points, use a professional. Do not attempt in June–August."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/bat.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/bat.webp",
+      "color_accent": "#F97316"
+    },
+    "name_hinglish": "Chamgadar"
+  },
+  {
+    "id": "gecko",
+    "slug": "gecko",
+    "name_en": "House Gecko / Lizard",
+    "latin_name": "Hemidactylus frenatus / Hemidactylus brookii",
+    "category": "household-intruder",
+    "threat_level": "medium",
+    "threat_score": 35,
+    "is_permissible_to_kill": true,
+    "is_protected": false,
+    "biology": {
+      "size_cm": "8–15",
+      "lifespan_years": "3–8",
+      "diet": "Mosquitoes, cockroaches, moths, ants, other insects",
+      "habitat": [
+        "Walls and ceilings near lights",
+        "Behind picture frames and clocks",
+        "Bathroom areas",
+        "Kitchen ceiling corners"
+      ],
+      "active_season": [
+        "Year-round",
+        "Most active in warm months"
+      ],
+      "india_distribution": [
+        "Pan-India — extremely common in all Indian homes"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "No confirmed direct disease transmission",
+        "Salmonella (from faeces — rare)",
+        "Fear/phobia response in some individuals"
+      ],
+      "symptoms": [
+        "Droppings on walls and surfaces (aesthetic/hygiene concern)",
+        "Rare: Salmonella from handling",
+        "Allergic reaction: rare"
+      ],
+      "fatality_india": "Not considered medically dangerous in modern consensus",
+      "first_aid": [
+        "Wash hands after handling",
+        "Clean droppings promptly"
+      ],
+      "emergency_number": "Not applicable"
+    },
+    "islamic_ruling": {
+      "status": "Al-Wazagha — The Prophet ﷺ encouraged killing it; one of the few creatures where specific reward is mentioned for killing",
+      "permissible_to_kill": true,
+      "hadith_primary": {
+        "source": "Sahih Muslim 2240; Sunan Abu Dawud 5263",
+        "translation_en": "Whoever kills a gecko in the first strike, 100 good deeds are recorded for him; in the second strike, fewer than that; and in the third strike, fewer than that.",
+        "transliteration_arabic": "Man qatala wazaghatan fi awwali darbatun kutibat lahu mi'atu hasanatin wa fi't-thaniyate duna dhalika wa fi't-thali-thate duna dhalika."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Strongly encouraged to kill; Prophetic narration is explicit and in major collections",
+        "shafii": "Encouraged; the Wazaghah blew on the fire of Ibrahim ﷺ according to Hadith — hence the encouragement to kill it",
+        "hanbali": "Encouraged; Hadith in Sahih Muslim is explicit",
+        "maliki": "Permissible and encouraged"
+      },
+      "killing_method_notes": "Swift single strike. The Hadith rewards the first swift strike most — a reminder that even when killing is encouraged, it must be swift and not prolonged."
+    },
+    "spiritual_protection": {
+      "duas": [
+        {
+          "source": "Qur'an 1:1",
+          "transliteration": "Bismillahir-rahmanir-rahim",
+          "translation_en": "Recite Bismillah and proceed swiftly — the reward is in the first strike."
+        }
+      ],
+      "surahs": [
+        "Al-Falaq (113)",
+        "An-Nas (114)"
+      ],
+      "prophetic_practice": [
+        "Kill swiftly in a single strike if you choose to — the reward diminishes with each additional strike",
+        "Keep home clean to reduce the insect prey that attracts geckos"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Reduce insects that attract geckos: seal gaps, use screens, reduce standing water (mosquitoes are their main food)",
+        "Turn off unnecessary outdoor lights at night (light attracts insects which attract geckos)"
+      ],
+      "physical_barriers": [
+        "Seal cracks around window frames",
+        "Apply gecko-repellent strips near entry points",
+        "Use peacock feather bundles near entry points (traditional Indian remedy — anecdotally effective)"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Direct strike with a rolled newspaper or slipper",
+        "Glue boards near walls (check frequently — release outdoors quickly if alive)",
+        "Commercial gecko repellent sprays (natural: phenyl, naphthalene balls)",
+        "Catch-and-release outdoors"
+      ],
+      "prohibited_methods": [
+        "Burning",
+        "Prolonged trapping without checking"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The gecko is unique — it is one of the few creatures where the Prophet ﷺ explicitly linked killing it to reward. The reason given in some narrations is that it blew on the fire used to burn Ibrahim ﷺ. Whether metaphorical or literal, it teaches us that harm to the prophets and their followers has consequences even in the smallest of creation.",
+      "ecological_note": "Geckos provide genuine pest control, especially of mosquitoes and cockroaches. The Prophetic encouragement to kill must be weighed against the practical benefit geckos provide in a home. Some scholars note the encouragement applies more specifically to the context of worship areas."
+    },
+    "climate_future": {
+      "trend": "Stable or increasing urban gecko populations with climate warming and urban heat islands",
+      "affected_regions": [
+        "Pan-India — all urban areas",
+        "New species expanding northward with warming winters"
+      ],
+      "projection": "Gecko control will remain a constant feature of Indian domestic life indefinitely"
+    },
+    "faq": [
+      {
+        "q": "Why does the Prophet ﷺ encourage killing the gecko?",
+        "a": "Hadith narrations state that the wazaghah (gecko) blew on the fire built to burn Prophet Ibrahim ﷺ, thereby assisting in harming a Prophet of Allah. Whether interpreted literally or as a symbolic distinction, the ruling is explicit in Sahih Muslim."
+      },
+      {
+        "q": "Is the house gecko really harmful?",
+        "a": "Medically, the common house gecko is not considered dangerous by modern science. The Islamic ruling on it is based on Prophetic tradition, not modern medical classification."
+      },
+      {
+        "q": "Should I kill geckos if they eat mosquitoes?",
+        "a": "There is a practical dilemma here — geckos provide real pest control. Some scholars have noted the reward mentioned is for a specific type (the fan-footed wazaghah of the Arabian Peninsula). Use your judgement while acknowledging the Prophetic tradition."
+      },
+      {
+        "q": "Is it permissible to keep a gecko as a pet?",
+        "a": "Scholars generally permit keeping non-harmful animals for legitimate purposes. Given the Prophetic encouragement to kill the wazaghah, keeping one as a pet would be viewed critically."
+      },
+      {
+        "q": "What if I hit it twice — does the reward halve?",
+        "a": "According to the Hadith: yes, the reward in the second strike is less than the first, and less still in the third. This teaches us to be precise, swift, and not prolonged in necessary killing."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/gecko.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/gecko.webp",
+      "color_accent": "#F59E0B"
+    },
+    "name_hinglish": "Chhipkali"
+  },
+  {
+    "id": "frog",
+    "slug": "frog",
+    "name_en": "Frog",
+    "latin_name": "Rana tigrina (Indian Bullfrog) / Hoplobatrachus tigerinus",
+    "category": "protected",
+    "threat_level": "protected",
+    "threat_score": 0,
+    "is_permissible_to_kill": false,
+    "is_protected": true,
+    "biology": {
+      "size_cm": "6–17",
+      "lifespan_years": "4–15",
+      "diet": "Insects, mosquito larvae, small invertebrates",
+      "habitat": [
+        "Ponds",
+        "Paddy fields",
+        "Rivers",
+        "Damp gardens",
+        "Drain areas during monsoon"
+      ],
+      "active_season": [
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "india_distribution": [
+        "Pan-India",
+        "Extremely common during monsoon season across all states"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "No harm to humans",
+        "Non-venomous (Indian common frogs)",
+        "Not a disease vector"
+      ],
+      "symptoms": [
+        "N/A"
+      ],
+      "fatality_india": "Frogs cause zero human fatalities",
+      "first_aid": [
+        "N/A — frogs are harmless to humans"
+      ],
+      "emergency_number": "N/A"
+    },
+    "islamic_ruling": {
+      "status": "Al-Difa' — Explicitly FORBIDDEN to kill by authentic Hadith",
+      "permissible_to_kill": false,
+      "hadith_primary": {
+        "source": "Sunan Abu Dawud 5269; Sahih — Imam Ahmad confirms",
+        "translation_en": "The Messenger of Allah ﷺ forbade the killing of frogs.",
+        "transliteration_arabic": "Naha rasulullahi sallallahu 'alayhi wa sallama 'an qatlihi."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Forbidden (haram) to kill; the Hadith is explicit",
+        "shafii": "Forbidden; scholars add that the frog's croaking is dhikr (glorification of Allah)",
+        "hanbali": "Forbidden",
+        "maliki": "Forbidden; additionally forbidden to eat"
+      },
+      "killing_method_notes": "STRICTLY FORBIDDEN to kill. Relocate humanely if found inside the home. Open a door or window and allow it to exit."
+    },
+    "spiritual_protection": {
+      "duas": [],
+      "surahs": [],
+      "prophetic_practice": [
+        "If a frog enters the home during monsoon, gently guide it out",
+        "Respect the frog's natural habitat — do not drain ponds unnecessarily",
+        "The frog is said to glorify Allah with its croaking — a reminder of dhikr"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Seal gaps at ground level to prevent frogs entering during monsoon",
+        "Install mesh at drainage entry points"
+      ],
+      "physical_barriers": [
+        "Threshold sweeps along ground-level doors during peak monsoon"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Gently catch in a container and release outdoors",
+        "Open doors/windows to allow it to exit on its own"
+      ],
+      "prohibited_methods": [
+        "Killing by any method",
+        "Trapping without release",
+        "Applying salt or chemicals to the skin (osmotic shock — causes painful death)"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The frog glorifies Allah with its voice — this is mentioned by some scholars as the reason for the prohibition. Every creature of Allah has its form of worship. We must not silence them without just cause.",
+      "ecological_note": "Frogs are apex predators of mosquito larvae. A single frog pond eliminates millions of mosquito breeding cycles. Their protection is not just Islamic — it is an ecological imperative."
+    },
+    "climate_future": {
+      "trend": "Indian frog populations declining due to habitat loss, pesticide use, and collection for frog legs export",
+      "affected_regions": [
+        "Wetland destruction in Punjab, Haryana, and Rajasthan devastating frog populations",
+        "Rice paddy pesticide use killing frog populations that naturally reduce mosquito breeding"
+      ],
+      "projection": "Loss of frog populations directly correlated with increase in mosquito-borne diseases in agricultural India"
+    },
+    "faq": [
+      {
+        "q": "Why is killing a frog haram?",
+        "a": "Sunan Abu Dawud 5269 contains an explicit Prophetic prohibition on killing frogs. It is a clear Hadith (sahih) and all four schools of fiqh agree on the prohibition."
+      },
+      {
+        "q": "What should I do if a frog enters my home?",
+        "a": "Gently guide it toward an open door using a broom or container. Do not harm it. In Islam, helping a creature to safety is an act of reward."
+      },
+      {
+        "q": "Can I eat frog legs?",
+        "a": "No. The majority of Islamic scholars (Hanafi, Hanbali, Maliki) forbid eating frogs on the basis of the same Hadith prohibiting their killing. Shafi'i scholars have a minority view permitting it if slaughtered; however the dominant ruling is prohibition."
+      },
+      {
+        "q": "Is the frog's croaking dhikr?",
+        "a": "Some classical scholars interpreted the frog's sound as a form of glorification of Allah (tasbih), which is one reason offered for the prohibition on killing them. This is mentioned by Imam al-Nawawi and others."
+      },
+      {
+        "q": "What if a frog is in my kitchen contaminating food?",
+        "a": "Relocate it outside immediately. The fact that it is inconvenient does not make killing permissible. There is no exemption for killing frogs in domestic settings."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/frog.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/frog.webp",
+      "color_accent": "#3B82F6"
+    },
+    "name_hinglish": "Medhak"
+  },
+  {
+    "id": "hoopoe",
+    "slug": "hoopoe",
+    "name_en": "Hoopoe Bird",
+    "latin_name": "Upupa epops",
+    "category": "protected",
+    "threat_level": "protected",
+    "threat_score": 0,
+    "is_permissible_to_kill": false,
+    "is_protected": true,
+    "biology": {
+      "size_cm": "25–32",
+      "lifespan_years": "5–10",
+      "diet": "Insects, earthworms, small lizards, frogs",
+      "habitat": [
+        "Open woodland",
+        "Agricultural land",
+        "Gardens",
+        "Parks"
+      ],
+      "active_season": [
+        "Year-round in south India; migratory in north — October–April"
+      ],
+      "india_distribution": [
+        "Pan-India; migratory populations from Central Asia visit in winter; resident populations in peninsular India"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "No harm to humans"
+      ],
+      "symptoms": [
+        "N/A"
+      ],
+      "fatality_india": "Zero",
+      "first_aid": [
+        "N/A"
+      ],
+      "emergency_number": "N/A"
+    },
+    "islamic_ruling": {
+      "status": "Al-Hudhud — Honoured bird mentioned by name in the Qur'an (27:20); Forbidden to kill",
+      "permissible_to_kill": false,
+      "hadith_primary": {
+        "source": "Sunan Abu Dawud 5267; authentic chain",
+        "translation_en": "The Messenger of Allah ﷺ forbade the killing of four creatures: the ant, the bee, the hoopoe, and the shrike.",
+        "transliteration_arabic": "Naha rasulullahi sallallahu 'alayhi wa sallama 'an qatlihi."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Forbidden to kill",
+        "shafii": "Forbidden; the Hoopoe is named in the Qur'an as a noble creature",
+        "hanbali": "Forbidden",
+        "maliki": "Forbidden"
+      },
+      "killing_method_notes": "STRICTLY FORBIDDEN. If found injured, contact the Forest Department of India for wildlife assistance."
+    },
+    "spiritual_protection": {
+      "duas": [],
+      "surahs": [
+        "An-Naml (27) — contains the story of the Hoopoe (Hudhud) and Prophet Sulayman ﷺ"
+      ],
+      "prophetic_practice": [
+        "Honour the hoopoe if you see one",
+        "Do not disturb its nesting",
+        "If found injured, assist in its recovery if possible"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "The hoopoe is not a pest — no prevention measures needed"
+      ],
+      "physical_barriers": [
+        "N/A"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Gentle relocation if found inside a home — open windows and allow it to exit",
+        "Contact State Forest Department if injured"
+      ],
+      "prohibited_methods": [
+        "Killing by any method",
+        "Capturing for pet trade (illegal under Wildlife Protection Act 1972 in India)",
+        "Destroying nests"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The Hoopoe was the messenger of Prophet Sulayman ﷺ, the one who brought news of the Queen of Sheba (Bilqis) and her people worshipping the sun. It is mentioned by name in Surat Al-Naml — a unique honour no other bird receives in the Qur'an.",
+      "ecological_note": "Hoopoes are insectivores that control soil insect populations. They nest in tree holes and are an important indicator of healthy agricultural landscapes."
+    },
+    "climate_future": {
+      "trend": "Stable populations in India; potential disruption from agricultural intensification",
+      "affected_regions": [
+        "Traditional wintering grounds in Rajasthan and Gujarat well-preserved",
+        "Threat from pesticide use in agricultural areas reducing prey availability"
+      ],
+      "projection": "Long-term stability if agricultural practices reduce pesticide use in key hoopoe wintering areas"
+    },
+    "faq": [
+      {
+        "q": "Where is the Hoopoe mentioned in the Qur'an?",
+        "a": "Surah An-Naml 27:20-28 — Prophet Sulayman ﷺ noticed the Hudhud was absent from his assembly. The Hudhud later arrived with news of the Queen of Sheba and her people worshipping the sun instead of Allah."
+      },
+      {
+        "q": "Why is the Hoopoe protected in Islam?",
+        "a": "The Prophet ﷺ explicitly forbade its killing (Abu Dawud 5267). Its mention in the Qur'an and its historical role as a messenger in the Sulaymanic tradition give it special honour."
+      },
+      {
+        "q": "Is the Hoopoe protected by Indian law?",
+        "a": "Yes — all wild birds in India are protected under the Wildlife Protection Act 1972. Killing, capturing, or trading hoopoes is a criminal offence."
+      },
+      {
+        "q": "What does the Hoopoe look like?",
+        "a": "It is unmistakable: a peach-orange body, black and white striped wings and tail, and a distinctive fan-shaped orange-black crest on its head. About the size of a large starling."
+      },
+      {
+        "q": "What should I do if I find an injured Hoopoe?",
+        "a": "Contact your State Forest Department wildlife rescue line, or a local bird rescue centre. Do not keep it; it is protected wildlife."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/hoopoe.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/hoopoe.webp",
+      "color_accent": "#3B82F6"
+    },
+    "name_hinglish": "Hudhud"
+  },
+  {
+    "id": "bee",
+    "slug": "bee",
+    "name_en": "Honey Bee",
+    "latin_name": "Apis cerana indica (Indian Honey Bee) / Apis dorsata (Giant Rock Bee)",
+    "category": "protected",
+    "threat_level": "protected",
+    "threat_score": 0,
+    "is_permissible_to_kill": false,
+    "is_protected": true,
+    "biology": {
+      "size_cm": "1–2",
+      "lifespan_years": "0.1–0.5 (worker); up to 5 (queen)",
+      "diet": "Nectar, pollen",
+      "habitat": [
+        "Trees",
+        "Wall cavities",
+        "Roof spaces",
+        "Agricultural land"
+      ],
+      "active_season": [
+        "Year-round",
+        "Peak nectar season: February–May"
+      ],
+      "india_distribution": [
+        "Pan-India; Indian honey bee (Apis cerana indica) is the primary domestic species; giant rock bee in Himalayas, Western Ghats, Nilgiris"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Sting-induced anaphylaxis in sensitive individuals",
+        "No disease transmission"
+      ],
+      "symptoms": [
+        "Normal sting: pain, swelling, redness — resolves in hours",
+        "Anaphylaxis (rare): throat swelling, breathing difficulty — medical emergency"
+      ],
+      "fatality_india": "Rare anaphylactic deaths; mass attack (bee swarm) fatalities possible but uncommon",
+      "first_aid": [
+        "Remove stinger by scraping (do NOT squeeze)",
+        "Apply cold compress",
+        "Antihistamine for mild reaction",
+        "Epinephrine (EpiPen) for anaphylaxis + call 108 immediately"
+      ],
+      "emergency_number": "108 (India Emergency)"
+    },
+    "islamic_ruling": {
+      "status": "Al-Nahlah — The bee is honoured in the Qur'an with an entire Surah named after it (Surah An-Nahl); FORBIDDEN to kill",
+      "permissible_to_kill": false,
+      "hadith_primary": {
+        "source": "Sunan Abu Dawud 5267",
+        "translation_en": "The Messenger of Allah ﷺ forbade the killing of four creatures: the ant, the bee, the hoopoe, and the shrike.",
+        "transliteration_arabic": "Naha rasulullahi sallallahu 'alayhi wa sallama 'an qatlihi."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Forbidden to kill; honey is halal and blessed",
+        "shafii": "Forbidden; the bee is honoured in Qur'an 16:68-69",
+        "hanbali": "Forbidden",
+        "maliki": "Forbidden; killing bees unnecessarily is a sin"
+      },
+      "killing_method_notes": "FORBIDDEN to kill. If a hive is in an inconvenient location, contact a local beekeeper for FREE hive relocation — they will be happy to take the colony."
+    },
+    "spiritual_protection": {
+      "duas": [],
+      "surahs": [
+        "An-Nahl (16) — Surah of the Bee: 'And your Lord inspired the bee: Take your dwellings in the mountains, trees, and what they erect. Then eat from all the fruits.' [16:68–69]"
+      ],
+      "prophetic_practice": [
+        "Do not destroy bee hives unnecessarily",
+        "Consume honey — the Prophet ﷺ loved honey and recommended it as a cure",
+        "Contact beekeepers for hive relocation — never kill",
+        "If stung: be calm, remove the stinger by scraping"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Seal wall cavities before spring to prevent swarms from establishing hives",
+        "Contact a local beekeeper if you notice bee scouts inspecting your property"
+      ],
+      "physical_barriers": [
+        "Seal gaps in eaves and roof soffits before February",
+        "Do not disturb bee swarms — a stationary swarm is resting and will move on within 24–48 hours"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Contact a local beekeeper for FREE hive relocation (they take the honey and the colony)",
+        "Wait for a swarm to move on naturally (swarms are temporary — 24–72 hours)",
+        "Bee smoker (non-lethal) to calm bees during relocation"
+      ],
+      "prohibited_methods": [
+        "Spraying bees with insecticide",
+        "Burning the hive",
+        "Destroying honey comb without necessity",
+        "Any method that kills the colony"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "Allah revealed an entire Surah of the Qur'an named after the bee (An-Nahl). The bee is commanded by Allah to produce honey, which is described as a healing for people (Qur'an 16:69). Their creation is a sign (āyah) of Allah's wisdom.",
+      "ecological_note": "Bees pollinate 70% of the world's food crops. The collapse of bee populations is one of the greatest existential threats to human food security. Their protection is not only Islamic — it is a survival imperative for all of humanity."
+    },
+    "climate_future": {
+      "trend": "Indian bee populations declining due to pesticide use, habitat loss, and climate disruption of flowering seasons",
+      "affected_regions": [
+        "Monoculture farming regions in Punjab, Haryana see declining bee populations",
+        "Climate shifts disrupting synchronisation between bee activity and flowering seasons"
+      ],
+      "projection": "Without aggressive bee conservation policies, Indian agricultural output could decline significantly; pollination services are valued at trillions globally"
+    },
+    "faq": [
+      {
+        "q": "What does the Qur'an say about bees?",
+        "a": "An entire Surah is named after the bee (An-Nahl, Chapter 16). Verses 68–69: Allah inspired the bee to build hives in mountains, trees, and structures, then eat of all fruits and produce honey — a healing for people."
+      },
+      {
+        "q": "A swarm of bees has settled near my home — what should I do?",
+        "a": "Do not disturb them — swarms are temporary (24–72 hours) and will move on to find a permanent home. If they stay longer, call a local beekeeper. Never spray or burn."
+      },
+      {
+        "q": "Is it permissible to consume honey from non-Muslim beekeepers?",
+        "a": "Yes. Honey is inherently halal regardless of who keeps the bees, as it is not an animal product requiring slaughter."
+      },
+      {
+        "q": "What if a bee hive is inside the wall of my home?",
+        "a": "Contact a local beekeeper for free relocation. Do not spray insecticide into the wall — the honey will ferment and cause structural damage. Beekeepers will remove the colony and clean the cavity."
+      },
+      {
+        "q": "Is it permissible to kill a bee in self-defence if it is stinging?",
+        "a": "Scholars generally permit defending oneself from an immediate sting, but this does not extend to destroying the colony. Swatting one bee that is actively stinging you is different from killing an entire hive."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/bee.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/bee.webp",
+      "color_accent": "#3B82F6"
+    },
+    "name_hinglish": "Madhumakkhi"
+  },
+  {
+    "id": "ant",
+    "slug": "ant",
+    "name_en": "Ant (Passive / Non-Harmful)",
+    "latin_name": "Camponotus spp. / Monomorium pharaonis (Pharaoh Ant)",
+    "category": "protected",
+    "threat_level": "protected",
+    "threat_score": 0,
+    "is_permissible_to_kill": false,
+    "is_protected": true,
+    "biology": {
+      "size_cm": "0.1–1.5",
+      "lifespan_years": "1–5 (worker); up to 30 (queen)",
+      "diet": "Sugar, seeds, insects, organic matter",
+      "habitat": [
+        "Soil",
+        "Under stones",
+        "Wall crevices",
+        "Kitchen areas (Pharaoh ants)"
+      ],
+      "active_season": [
+        "Year-round",
+        "Most active April–October"
+      ],
+      "india_distribution": [
+        "Pan-India — ubiquitous in all Indian ecosystems and homes"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "No significant disease transmission",
+        "Fire ants (Solenopsis invicta — invasive): painful mass stings",
+        "Pharaoh ants: mechanical pathogen carriers in hospitals"
+      ],
+      "symptoms": [
+        "Minor sting: brief pain, redness",
+        "Fire ant mass attack: raised pustules",
+        "Pharaoh ant contamination in hospital settings: risk of wound infection"
+      ],
+      "fatality_india": "No direct fatalities from common Indian ant species",
+      "first_aid": [
+        "Cold compress for stings",
+        "Antihistamine for allergic reaction",
+        "Medical attention for fire ant mass attacks"
+      ],
+      "emergency_number": "Not applicable for common species"
+    },
+    "islamic_ruling": {
+      "status": "Al-Namlah — Explicitly FORBIDDEN to kill in Hadith; and glorified in the Qur'an (Surah An-Naml)",
+      "permissible_to_kill": false,
+      "hadith_primary": {
+        "source": "Sunan Abu Dawud 5267; Sahih al-Bukhari 3319",
+        "translation_en": "The Messenger of Allah ﷺ forbade the killing of four creatures: the ant, the bee, the hoopoe, and the shrike.",
+        "transliteration_arabic": "Anna nabiyyan mina'l-anbiya'i qarasat-hu namlatun fa-amara bi-qaryati'n-namli fa-uhriqat fa-awhallahu ilayhi: An qarasat-ka namlatun ahraqta ummatan mina'l-umami tusabbih."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Forbidden to kill the common ant; harmful invasive species may be controlled with non-lethal methods",
+        "shafii": "Forbidden; Ants were mentioned honourably in the Qur'an (An-Naml 27:18–19)",
+        "hanbali": "Forbidden; exception for ants causing clear harm (but burning is never permitted)",
+        "maliki": "Forbidden"
+      },
+      "killing_method_notes": "FORBIDDEN to kill the common passive ant. Use physical barriers (chalk, diatomite) and seal food sources. Carpenter ants causing structural damage — see separate entry."
+    },
+    "spiritual_protection": {
+      "duas": [],
+      "surahs": [
+        "An-Naml (27) — The ant spoke: 'O ants, enter your dwellings that you not be crushed by Solomon and his soldiers.' [27:18] — the ant glorified Allah and warned her community, showing wisdom"
+      ],
+      "prophetic_practice": [
+        "Use barriers (chalk, cinnamon, diatomaceous earth) to redirect ants rather than kill them",
+        "Seal food sources tightly",
+        "Clean up food spills immediately",
+        "Do not pour boiling water on ant colonies"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "Keep kitchen surfaces clean and dry",
+        "Store all food in airtight containers",
+        "Fix any water leaks (ants need moisture)",
+        "Seal cracks in walls and floors"
+      ],
+      "physical_barriers": [
+        "Apply a line of chalk or cinnamon at entry points (ants dislike crossing these)",
+        "Diatomaceous earth barrier along baseboards",
+        "Vinegar spray on ant trails (disrupts pheromone trail)",
+        "Boric acid gel bait for Pharaoh ants in hospital/hygiene settings only"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Divert and deter using barriers (chalk, cinnamon, diatomite)",
+        "Seal all food entry points permanently",
+        "Vinegar spray on ant trails to disrupt communication",
+        "For Pharaoh ants in hygiene-critical settings: targeted boric acid gel bait (kills colony via worker-queen transmission)"
+      ],
+      "prohibited_methods": [
+        "Burning ant colonies — EXPLICITLY FORBIDDEN by Prophetic Hadith (Bukhari 3319)",
+        "Boiling water on ant hills",
+        "Any mass killing of passive non-harmful ants"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The ant colony that was almost trampled by Prophet Sulayman ﷺ shouted out and was heard and respected. The ant spoke! Ants glorify Allah, have complex communities, and are given wisdom. They remind us that even the smallest communities have worth before Allah.",
+      "ecological_note": "Ants are among the most ecologically important creatures on Earth: they aerate soil, distribute seeds, break down organic matter, and control other insect populations. A world without ants would collapse agriculturally within years."
+    },
+    "climate_future": {
+      "trend": "Invasive fire ant (Solenopsis invicta) expanding range in Asia; climate warming accelerates spread",
+      "affected_regions": [
+        "Fire ants already present in parts of China and Southeast Asia; expected to reach India within 1–2 decades",
+        "Indian native ants increasingly displaced by invasive species"
+      ],
+      "projection": "Invasive ant species are a growing ecological and agricultural threat; this is distinct from the native ants protected in Islamic tradition"
+    },
+    "faq": [
+      {
+        "q": "Why are ants protected in Islam?",
+        "a": "The Prophet ﷺ explicitly forbade killing ants (Abu Dawud 5267). Additionally, the Qur'an honours ants in Surah An-Naml with a speaking ant showing wisdom and warning her community. And Bukhari 3319 recounts a prophet being rebuked for burning an ant colony."
+      },
+      {
+        "q": "Can I kill ants in my kitchen?",
+        "a": "Passive, harmless ants should be deterred rather than killed. Use chalk lines, cinnamon, or diatomaceous earth. Seal food sources. Only Pharaoh ants in hygiene-critical settings (hospitals) may be controlled with boric acid bait."
+      },
+      {
+        "q": "What is the story of the prophet who burned ants?",
+        "a": "Sahih al-Bukhari 3319: A prophet was stung by one ant and ordered the entire ant colony burned. Allah revealed to him: 'A single ant stung you, and you burned an entire community that glorifies Allah?' — a foundational teaching on proportionality."
+      },
+      {
+        "q": "Are fire ants the same as regular ants in terms of Islamic ruling?",
+        "a": "Fire ants (Solenopsis invicta) are an invasive species causing serious harm — scholars would apply the mu'dhī principle allowing targeted control when they are causing injury. The protection applies primarily to native, non-aggressive ant species."
+      },
+      {
+        "q": "Can I use ant poison?",
+        "a": "For non-harmful ants — no. For harmful invasive ants or Pharaoh ants in hospital settings — targeted boric acid gel bait (not burning, not mass killing) may be permitted by scholars applying the harm principle."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/ant.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/ant.webp",
+      "color_accent": "#3B82F6"
+    },
+    "name_hinglish": "Cheenti"
+  },
+  {
+    "id": "spider-harmless",
+    "slug": "spider-harmless",
+    "name_en": "Common House Spider (Non-Venomous)",
+    "latin_name": "Tegenaria domestica / Pholcus phalangioides (Daddy Long-legs)",
+    "category": "protected",
+    "threat_level": "protected",
+    "threat_score": 0,
+    "is_permissible_to_kill": false,
+    "is_protected": true,
+    "biology": {
+      "size_cm": "0.5–2",
+      "lifespan_years": "1–7",
+      "diet": "Mosquitoes, flies, cockroaches, other insects",
+      "habitat": [
+        "Ceiling corners",
+        "Behind furniture",
+        "Window frames",
+        "Garage and storeroom areas"
+      ],
+      "active_season": [
+        "Year-round"
+      ],
+      "india_distribution": [
+        "Pan-India — the common house spider is found in all Indian homes"
+      ]
+    },
+    "health": {
+      "diseases": [
+        "Non-venomous — no health risk",
+        "No disease transmission"
+      ],
+      "symptoms": [
+        "N/A"
+      ],
+      "fatality_india": "Zero",
+      "first_aid": [
+        "N/A"
+      ],
+      "emergency_number": "N/A"
+    },
+    "islamic_ruling": {
+      "status": "Honoured — The spider spun a web over the cave of Prophet Muhammad ﷺ during the Hijra; strongly discouraged to kill",
+      "permissible_to_kill": false,
+      "hadith_primary": {
+        "source": "The story of the spider's web at the cave of Thawr is referenced in Qur'an 9:40 and sirah literature",
+        "translation_en": "The spider web at the cave of Thawr was part of Allah's protection of His Prophet ﷺ during the Hijra — by Allah's will, the Quraysh turned away, seeing the unbroken web as evidence that no one had entered.",
+        "transliteration_arabic": "Naha rasulullahi sallallahu 'alayhi wa sallama 'an qatlihi."
+      },
+      "fiqh_ruling": {
+        "hanafi": "Strongly discouraged to kill the non-venomous house spider; the cave story creates a special status",
+        "shafii": "Discouraged; some scholars classify it as protected due to its role in the Hijra narrative",
+        "hanbali": "Discouraged; it is a beneficial predator of harmful insects",
+        "maliki": "Discouraged"
+      },
+      "killing_method_notes": "Do not kill common house spiders. They eat mosquitoes, flies, and cockroaches. If a web is unsightly, gently relocate the spider outside rather than kill it."
+    },
+    "spiritual_protection": {
+      "duas": [],
+      "surahs": [
+        "Al-'Ankabut (29) — Surah of the Spider: 'The example of those who take allies other than Allah is like that of the spider who takes a home.' [29:41] — a metaphor of fragility and dependency"
+      ],
+      "prophetic_practice": [
+        "Allow house spiders to remain — they perform pest control",
+        "If a spider is in an unwanted location, catch in a glass and release outdoors",
+        "Recite the story of the Hijra to children as a reminder of Allah's protection through even the smallest of creation"
+      ]
+    },
+    "prevention": {
+      "environmental": [
+        "N/A — house spiders are welcome and beneficial"
+      ],
+      "physical_barriers": [
+        "If you wish to discourage spiders in specific areas: use cedar oil (natural deterrent)",
+        "Remove webs from high-traffic areas and spiders will relocate"
+      ]
+    },
+    "removal": {
+      "permissible_methods": [
+        "Gently catch in a glass and release outdoors",
+        "Remove unsightly webs with a broom — spider will relocate",
+        "Cedar oil spray as natural deterrent in specific areas"
+      ],
+      "prohibited_methods": [
+        "Killing with insecticide",
+        "Crushing",
+        "Burning"
+      ]
+    },
+    "eschatology": {
+      "qiyamah_note": "The spider that spun its web over the cave of Thawr on the night of the Hijra served Allah's Prophet ﷺ in the most critical moment of his life. By Allah's permission, a tiny creature with a fragile home became a shield for the final Messenger. This is the greatest honour any creature could receive.",
+      "ecological_note": "House spiders consume thousands of mosquitoes, flies, and other insects per year. A home with spiders has significantly fewer harmful insects. They are silent, free pest controllers."
+    },
+    "climate_future": {
+      "trend": "Stable; house spider populations self-regulate based on insect prey availability",
+      "affected_regions": [
+        "Pan-India — common house spiders adapt to all environments"
+      ],
+      "projection": "As mosquito and fly populations grow with climate change, spider populations will respond naturally — providing free, natural pest control"
+    },
+    "faq": [
+      {
+        "q": "What is the story of the spider at the cave of Thawr?",
+        "a": "During the Hijra (migration), the Prophet ﷺ and Abu Bakr ؓ hid in the cave of Thawr. A spider spun a web across the entrance overnight. When the Quraysh arrived, they saw the unbroken web and believed no one had entered, and turned away. By Allah's will, the spider's web became the Prophet's protection."
+      },
+      {
+        "q": "Is it permissible to kill a house spider?",
+        "a": "Most scholars strongly discourage killing non-venomous house spiders due to their beneficial nature and the honour associated with them in the Hijra narrative. Relocate rather than kill."
+      },
+      {
+        "q": "Is the Surah named after the spider?",
+        "a": "Yes — Surah Al-'Ankabut (Chapter 29) uses the spider's home as a metaphor for the fragility of false beliefs. The spider appears twice prominently in Islamic tradition."
+      },
+      {
+        "q": "Do house spiders really eat mosquitoes?",
+        "a": "Yes — common house spiders, particularly daddy-long-legs (Pholcus phalangioides), actively hunt and consume mosquitoes, flies, and even other spiders. They are one of the most effective natural mosquito predators in homes."
+      },
+      {
+        "q": "What if I am afraid of spiders (arachnophobia)?",
+        "a": "Arachnophobia is understood; however, Islam teaches us to manage our fears rather than harm creatures unnecessarily. Gently capture and release outdoors, or ask someone else to do it. Never kill due to fear alone."
+      }
+    ],
+    "assets": {
+      "icon_svg": "/assets/images/mozi-icons/spider-harmless.svg",
+      "illustration_webp": "/assets/images/mozi-illustrations/spider-harmless.webp",
+      "color_accent": "#3B82F6"
+    },
+    "name_hinglish": "Ghar Ki Makri"
+  }
+]

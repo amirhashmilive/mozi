@@ -1,0 +1,209 @@
+{
+  "references": [
+    {
+      "id": "bukhari-1829",
+      "source": "Sahih al-Bukhari",
+      "book": "Kitab al-Hajj",
+      "number": "1829",
+      "translation_en": "Five animals are fāsiq (harmful) and may be killed even in the Haram: the crow, the kite, the scorpion, the rat, and the biting dog.",
+      "applies_to": [
+        "scorpion",
+        "rat",
+        "stray-dog"
+      ],
+      "ruling": "permissible",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Khamsun mina'd-dawabbi kulluhunna fasiqun yuqtalna fi'l-harami: al-ghurabu wa'l-hida'atu wa'l-aqrabu wa'l-fa'ratu wa'l-kalbu'l-aqur."
+    },
+    {
+      "id": "muslim-1198",
+      "source": "Sahih Muslim",
+      "book": "Kitab al-Hajj",
+      "number": "1198",
+      "translation_en": "Five are fāsiq and should be killed in the sacred and non-sacred: the snake, the piebald crow, the rat, the biting dog, and the kite.",
+      "applies_to": [
+        "snake",
+        "rat",
+        "stray-dog"
+      ],
+      "ruling": "permissible",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Khamsun fawasiqu yuqtalna fi'l-hilli wa'l-harami: al-hayyatu wa'l-ghurabu'l-abqa'u wa'l-fa'ratu wa'l-kalbu'l-aquru wa'l-hudayya."
+    },
+    {
+      "id": "bukhari-3297",
+      "source": "Sahih al-Bukhari",
+      "book": "Kitab Bad al-Khalq",
+      "number": "3297",
+      "translation_en": "Kill the snakes; and kill the two-striped snake and the short-tailed snake, for they cause blindness and miscarriage.",
+      "applies_to": [
+        "snake"
+      ],
+      "ruling": "permissible",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Iqtulu al-hayyati waqtulu dha't-tufyatayni wa'l-abtara fa-innahuma yatmisani al-basara wa-yusqitani al-habal."
+    },
+    {
+      "id": "bukhari-3320",
+      "source": "Sahih al-Bukhari",
+      "book": "Kitab Bad al-Khalq",
+      "number": "3320",
+      "translation_en": "If a fly falls into the drink of any one of you, let him dip it fully and then remove it, for one of its wings carries disease and the other carries the cure.",
+      "applies_to": [
+        "housefly"
+      ],
+      "ruling": "special-ruling",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Idha waqa'a ad-dhubabu fi ina'i ahadikum fal-yaghmis-hu kul-lahu thumma li-yatrahihu fa-inna fi ahadi janahayhi da'an wa fi'l-akhari shifa'an."
+    },
+    {
+      "id": "bukhari-3319",
+      "source": "Sahih al-Bukhari",
+      "book": "Kitab Bad al-Khalq",
+      "number": "3319",
+      "translation_en": "A prophet was stung by an ant and ordered the ant colony to be burned. Allah revealed to him: A single ant stung you and you burned an entire community that glorified Allah.",
+      "applies_to": [
+        "ant",
+        "carpenter-ant"
+      ],
+      "ruling": "prohibited-burning",
+      "madhab_consensus": "all four madhabs — burning forbidden",
+      "transliteration_arabic": "Anna nabiyyan mina'l-anbiya'i qarasat-hu namlatun fa-amara bi-qaryati'n-namli fa-uhriqat fa-awhallahu ilayhi: An qarasat-ka namlatun ahraqta ummatan mina'l-umami tusabbih."
+    },
+    {
+      "id": "muslim-2240",
+      "source": "Sahih Muslim",
+      "book": "Kitab al-Salam",
+      "number": "2240",
+      "translation_en": "Whoever kills a gecko in the first strike, 100 good deeds are recorded for him; in the second strike, fewer than that; and in the third strike, fewer than that.",
+      "applies_to": [
+        "gecko"
+      ],
+      "ruling": "encouraged",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Man qatala wazaghatan fi awwali darbatun kutibat lahu mi'atu hasanatin wa fi't-thaniyate duna dhalika wa fi't-thali-thate duna dhalika."
+    },
+    {
+      "id": "abudawud-5267",
+      "source": "Sunan Abu Dawud",
+      "book": "Kitab al-Adab",
+      "number": "5267",
+      "translation_en": "The Messenger of Allah ﷺ forbade the killing of four creatures: the ant, the bee, the hoopoe, and the shrike.",
+      "applies_to": [
+        "ant",
+        "bee",
+        "hoopoe"
+      ],
+      "ruling": "forbidden",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Naha rasulullahi sallallahu 'alayhi wa sallama 'an qatli arba'in mina'd-dawabbi: al-namlatu wa'l-nahlatu wa'l-hudhudu wa'l-surad."
+    },
+    {
+      "id": "abudawud-5269",
+      "source": "Sunan Abu Dawud",
+      "book": "Kitab al-Adab",
+      "number": "5269",
+      "translation_en": "The Messenger of Allah ﷺ forbade the killing of frogs.",
+      "applies_to": [
+        "frog"
+      ],
+      "ruling": "forbidden",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Naha rasulullahi sallallahu 'alayhi wa sallama 'an qatli al-difda'i."
+    },
+    {
+      "id": "muslim-2709",
+      "source": "Sahih Muslim",
+      "book": "Kitab al-Dhikr",
+      "number": "2709",
+      "translation_en": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+      "applies_to": [
+        "all"
+      ],
+      "ruling": "protection-dua",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "A'udhu bi kalimatillahit-tammati min sharri ma khalaq."
+    },
+    {
+      "id": "abudawud-5088",
+      "source": "Sunan Abu Dawud",
+      "book": "Kitab al-Adab",
+      "number": "5088",
+      "translation_en": "In the name of Allah with whose name nothing in the earth or heaven can cause harm, and He is the All-Hearing, All-Knowing.",
+      "applies_to": [
+        "all"
+      ],
+      "ruling": "protection-dua",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Bismillahi-lladhi la yadurru ma'asmihi shay'un fil-ardi wa la fis-sama'i wa huwas-sami'ul-'alim."
+    },
+    {
+      "id": "bukhari-3316",
+      "source": "Sahih al-Bukhari",
+      "book": "Kitab Bad al-Khalq",
+      "number": "3316",
+      "translation_en": "Close your doors and mention the name of Allah, for Shaytan does not open a closed door. Tie your water skins and mention the name of Allah. Cover your vessels and mention the name of Allah.",
+      "applies_to": [
+        "rat",
+        "mosquito",
+        "scorpion",
+        "snake"
+      ],
+      "ruling": "prophetic-practice",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Aghliqu'l-abwaba wa-dhkuru'sma-llahi fa-inna'sh-shaytana la yaftahu baban mughlaqan wa-awku qirabakum wa-dhkuru'sma-llahi wa-khammiru aniyatakum wa-dhkuru'sma-llahi."
+    },
+    {
+      "id": "quran-6-38",
+      "source": "Qur'an",
+      "book": "Surah Al-An'am",
+      "number": "6:38",
+      "translation_en": "There is not a creature (that moves) on earth, nor a bird that flies with its two wings, but (they are) communities like you.",
+      "applies_to": [
+        "all"
+      ],
+      "ruling": "ecological-principle",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Wa ma min dabbatin fil-ardi wa la ta'irin yatiru bi-janahayhi illa umamun amthalukum."
+    },
+    {
+      "id": "quran-16-68",
+      "source": "Qur'an",
+      "book": "Surah An-Nahl",
+      "number": "16:68-69",
+      "translation_en": "And your Lord inspired the bee, [saying], 'Take for yourself among the mountains, houses, and among the trees and [in] that which they construct. Then eat from all the fruits and follow the ways of your Lord laid down [for you].' There emerges from their bellies a drink, varying in colors, in which there is healing for people.",
+      "applies_to": [
+        "bee"
+      ],
+      "ruling": "quranic-honour",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Wa awha Rabbuka ila al-nahli ani'ttakhidhi mina'l-jibali buyutan wa mina'sh-shajari wa mimma ya'rishun."
+    },
+    {
+      "id": "quran-34-14",
+      "source": "Qur'an",
+      "book": "Surah Saba",
+      "number": "34:14",
+      "translation_en": "And when We decreed death for him [Sulayman], nothing indicated his death to them except a creature of the earth eating his staff.",
+      "applies_to": [
+        "termite"
+      ],
+      "ruling": "quranic-reference",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Fa-lamma qadayna 'alayhi al-mawta ma dallahum 'ala mawtihi illa dabbatu al-ardi ta'kulu minsa'atahu."
+    },
+    {
+      "id": "quran-27-18",
+      "source": "Qur'an",
+      "book": "Surah An-Naml",
+      "number": "27:18",
+      "translation_en": "Until, when they came upon the valley of the ants, an ant said, 'O ants, enter your dwellings that you not be crushed by Solomon and his soldiers while they perceive not.'",
+      "applies_to": [
+        "ant"
+      ],
+      "ruling": "quranic-honour",
+      "madhab_consensus": "all four madhabs",
+      "transliteration_arabic": "Hatta idha ataw 'ala wadi al-namli qalat namlatun ya ayyuha al-namlu'dhkhulu masakinakum la yahtiman-nakum Sulaymanu wa junuduhu wa hum la yash'urun."
+    }
+  ]
+}

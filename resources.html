@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <title>Resources & Hadiths — MOZI</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MOZI — Islamic Biosecurity and Environmental Ethics Platform. Learn authentic Hadith rulings and scientific prevention for household pests.">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/animations.css">
+  <link rel="stylesheet" href="/assets/css/mode-toggle.css">
+  <link rel="stylesheet" href="/assets/css/print.css" media="print">
+  
+  <!-- Core Data & Control Scripts -->
+  <script src="/assets/js/mozi-data.js"></script>
+  <script src="/assets/js/dark-mode.js"></script>
+  <script src="/assets/js/mode-switch.js"></script>
+  <script src="/assets/js/share.js"></script>
+  <script src="/assets/js/main.js"></script>
+
+  
+</head>
+<body class="integrated-mode">
+  <div class="progress-bar" id="progress-bar"></div>
+  
+  <nav class="nav">
+    <a href="/index.html" class="nav__logo">MOZI</a>
+    <ul class="nav__links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/mozi-list.html">Creatures</a></li>
+      <li><a href="/categories.html">Categories</a></li>
+      <li><a href="/about/doctrine.html">Doctrine</a></li>
+      <li><a href="/about/ethics.html">Ethics</a></li>
+      <li><a href="/audit.html">Home Audit</a></li>
+      <li><a href="/resources.html">Resources</a></li>
+      <li><a href="/contact.html">Emergency</a></li>
+    </ul>
+    <div class="nav__actions">
+      <!-- Mode Toggle Pill -->
+      <div class="mode-toggle-pill">
+        <button class="mode-toggle-pill__btn" data-mode="integrated" title="Show Doctrine + Science">Integrated</button>
+        <button class="mode-toggle-pill__btn" data-mode="doctrine" title="Doctrine Only">Doctrine</button>
+        <button class="mode-toggle-pill__btn" data-mode="scientific" title="Science Only">Science</button>
+      </div>
+      <button class="btn btn--icon" id="theme-toggle-btn" aria-label="Toggle Dark Mode">
+        <!-- Icon injected by JS -->
+      </button>
+      <button class="nav__hamburger" id="nav-hamburger-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  
+  <!-- Mobile Navigation Overlay -->
+  <div class="nav__mobile" id="nav-mobile-menu">
+    <a href="/index.html">Home</a>
+    <a href="/mozi-list.html">Creatures</a>
+    <a href="/categories.html">Categories</a>
+    <a href="/about/doctrine.html">Doctrine</a>
+    <a href="/about/ethics.html">Ethics</a>
+    <a href="/audit.html">Home Audit</a>
+    <a href="/resources.html">Resources</a>
+    <a href="/contact.html">Emergency</a>
+  </div>
+
+  
+  
+  <div class="container margin-top-20">
+    <div class="flex-col gap-4 text-center margin-bottom-12">
+      <h1 class="text-primary">Resources & Verified Hadiths</h1>
+      <p class="text-secondary max-width-md margin-x-auto">
+        Browse our verified database of Hadith citations on Al-Mu'dhiyat and fawasiqu, or download premium guides.
+      </p>
+    </div>
+
+    <!-- Guides Section -->
+    <div class="grid-3 card-grid margin-bottom-12">
+      <div class="card card--glass flex-col gap-4 text-center flex-center">
+        <h3 class="text-primary">Complete Biosecurity Guide</h3>
+        <p class="text-secondary text-sm">300-page comprehensive guide detailing rulings and IPM exclusion templates.</p>
+        <span class="badge badge--category text-mono margin-top-2">Premium PDF</span>
+        <button class="btn btn--primary margin-top-4" onclick="alert('Coming soon!')">Download Guide (Free Version)</button>
+      </div>
+
+      <div class="card card--glass flex-col gap-4 text-center flex-center">
+        <h3 class="text-primary">Emergency Anti-Venom Log</h3>
+        <p class="text-secondary text-sm">Directory of anti-venom distribution centers across 28 Indian states.</p>
+        <span class="badge badge--safe text-mono margin-top-2">Free PDF</span>
+        <button class="btn btn--outline margin-top-4" onclick="alert('Coming soon!')">Download Directory</button>
+      </div>
+    </div>
+
+    <!-- Fiqh Log Table -->
+    <div class="card card--glass flex-col gap-4 overflow-x-auto">
+      <h2 class="text-primary margin-bottom-4">Hadith Chain Index</h2>
+      <table style="width:100%; border-collapse: collapse; text-align: left; font-size:0.9rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid var(--border-bright);">
+            <th style="padding: 12px;">ID</th>
+            <th style="padding: 12px;">Source</th>
+            <th style="padding: 12px;">Transliterated text</th>
+            <th style="padding: 12px;">Translation</th>
+            <th style="padding: 12px;">Ruling</th>
+          </tr>
+        </thead>
+        <tbody id="hadith-table-body">
+          <!-- Injected by script -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('moziDataLoaded', () => {
+      renderHadiths();
+    });
+
+    function renderHadiths() {
+      const tbody = document.getElementById('hadith-table-body');
+      if (!tbody || !window.MOZI_DATA.hadiths) return;
+
+      const citations = window.MOZI_DATA.hadiths.citations;
+      tbody.innerHTML = '';
+
+      citations.forEach(cit => {
+        const tr = document.createElement('tr');
+        tr.style.borderBottom = '1px solid var(--border)';
+        tr.innerHTML = `
+          <td style="padding: 12px;" class="text-mono">${cit.id}</td>
+          <td style="padding: 12px;" class="font-weight-600">${cit.collection} ${cit.number}</td>
+          <td style="padding: 12px;" class="text-transliteration">${cit.transliteration}</td>
+          <td style="padding: 12px;" class="text-secondary">${cit.translation_en}</td>
+          <td style="padding: 12px;"><span class="badge badge--safe">${cit.ruling_type}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+  </script>
+
+  
+  
+  <footer class="border-top padding-y-12 margin-top-20 text-center text-muted text-mono text-xs" style="background:var(--bg-secondary);">
+    <div class="container flex-between gap-6 flex-wrap">
+      <span>&copy; 2026 MOZI — Jurisprudential-Scientific Biosecurity Platform.</span>
+      <div class="flex gap-4">
+        <a href="/legal/disclaimer.html" style="color:inherit; text-decoration:none;">Disclaimer</a>
+        <a href="/legal/privacy.html" style="color:inherit; text-decoration:none;">Privacy Policy</a>
+        <a href="/legal/terms.html" style="color:inherit; text-decoration:none;">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

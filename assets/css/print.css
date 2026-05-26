@@ -1,0 +1,98 @@
+/* =====================================================
+   MOZI — Print Stylesheet
+   ===================================================== */
+
+@media print {
+  /* Reset backgrounds, shadows and colors for ink efficiency */
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+  }
+
+  body {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Hide digital interaction layers */
+  .nav,
+  .dot-nav,
+  .progress-bar,
+  .btn,
+  .hero__scroll-cue,
+  .hero__bg,
+  .ad-placeholder,
+  .newsletter-signup,
+  .mode-toggle-pill {
+    display: none !important;
+  }
+
+  /* Allow normal scrolling in print layout */
+  .scroll-container,
+  .slide {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    scroll-snap-align: none !important;
+    page-break-inside: avoid;
+  }
+
+  .slide {
+    padding: 2cm 0 !important;
+    display: block !important;
+  }
+
+  /* Typography enhancements for reading */
+  h1, h2, h3, h4 {
+    color: #000 !important;
+    page-break-after: avoid;
+  }
+
+  h1 { font-size: 24pt; margin-bottom: 0.5cm; }
+  h2 { font-size: 18pt; margin-top: 1cm; margin-bottom: 0.3cm; }
+  h3 { font-size: 14pt; margin-top: 0.5cm; margin-bottom: 0.2cm; }
+
+  p, li, blockquote {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Structured panels styled for print */
+  .card,
+  .hadith-panel,
+  .dua-card {
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    padding: 15px !important;
+    margin-bottom: 15px !important;
+    page-break-inside: avoid;
+  }
+
+  .text-transliteration {
+    font-style: italic !important;
+    color: #333 !important;
+  }
+
+  /* Print specific lists */
+  ol, ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* Table grids converted to simple lists or clean tables */
+  .grid-2, .grid-3, .grid-4 {
+    display: block !important;
+  }
+
+  .grid-2 > *, .grid-3 > *, .grid-4 > * {
+    margin-bottom: 15px;
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "monthly_alerts": {
+    "january": {
+      "month": "January",
+      "active_pests": ["rat", "bed-bug", "cockroach"],
+      "alert": "Winter months — rats actively move indoors for warmth. Check roof spaces and wall gaps. Bed bugs remain active year-round indoors.",
+      "risk_level": "medium",
+      "tip": "Seal gaps around pipes and doors before the cool season ends. Check stored winter clothing for bed bugs."
+    },
+    "february": {
+      "month": "February",
+      "active_pests": ["rat", "termite", "cockroach", "bee"],
+      "alert": "Termite swarming begins in the south. Bee scout activity increases as spring approaches. Continue rat monitoring.",
+      "risk_level": "medium",
+      "tip": "Inspect wooden structures for termite mud tubes. Contact a beekeeper if you see scout bees investigating wall cavities."
+    },
+    "march": {
+      "month": "March",
+      "active_pests": ["scorpion", "wasp", "mosquito", "snake", "termite"],
+      "alert": "Scorpion season begins in Rajasthan and Gujarat. Wasp queens emerge to build new nests. First mosquito breeding cycles start.",
+      "risk_level": "high",
+      "tip": "Shake shoes before wearing. Clear rockpiles and woodpiles around the home. Drain any standing water."
+    },
+    "april": {
+      "month": "April",
+      "active_pests": ["scorpion", "wasp", "mosquito", "snake", "centipede", "tick"],
+      "alert": "Scorpion and snake activity surges with heat. Wasp nests rapidly expanding. Mosquito population accelerating.",
+      "risk_level": "high",
+      "tip": "Check under stones and in shoes daily in high-risk states. Install door sweeps. Empty water containers twice weekly."
+    },
+    "may": {
+      "month": "May",
+      "active_pests": ["scorpion", "wasp", "mosquito", "snake", "centipede", "flea"],
+      "alert": "Peak heat drives scorpions, snakes, and centipedes indoors. Dengue vector mosquitoes (Aedes) become active.",
+      "risk_level": "extreme",
+      "tip": "Use UV blacklights at night to detect scorpions. Seal all ground-level gaps. Apply DEET before going outdoors."
+    },
+    "june": {
+      "month": "June",
+      "active_pests": ["mosquito", "flea", "tick", "stray-dog", "termite", "frog", "bat"],
+      "alert": "Monsoon onset: mosquito populations explode. Termites swarm. Frogs appear near homes (do not harm). Bat activity peaks.",
+      "risk_level": "extreme",
+      "tip": "CRITICAL: Empty ALL water containers every 3 days. Frogs found near/in home are protected — guide them outside gently."
+    },
+    "july": {
+      "month": "July",
+      "active_pests": ["mosquito", "housefly", "cockroach", "rat", "flea", "frog"],
+      "alert": "Peak monsoon: highest disease transmission period. Dengue, malaria, leptospirosis risk at maximum. Cockroach population surges.",
+      "risk_level": "extreme",
+      "tip": "Wear full-sleeved clothing outdoors. Use mosquito nets. Never walk barefoot in flooded areas (leptospirosis from rat urine)."
+    },
+    "august": {
+      "month": "August",
+      "active_pests": ["mosquito", "housefly", "cockroach", "rat", "bed-bug"],
+      "alert": "Continued monsoon pest pressure. Housefly populations at annual maximum due to wet organic matter. Bed bugs unaffected by monsoon.",
+      "risk_level": "extreme",
+      "tip": "Keep garbage in sealed bins. Cover all food. Check window screens for integrity. Empty AC water trays daily."
+    },
+    "september": {
+      "month": "September",
+      "active_pests": ["mosquito", "cockroach", "scorpion", "snake", "tick", "wasp"],
+      "alert": "Post-monsoon: high standing water after rains creates extended mosquito breeding. Scorpions and snakes still active.",
+      "risk_level": "high",
+      "tip": "Check for new standing water after rain events. Continue dengue prevention vigilance. Inspect compound walls for scorpions."
+    },
+    "october": {
+      "month": "October",
+      "active_pests": ["mosquito", "rat", "cockroach", "bed-bug", "termite"],
+      "alert": "Cool season begins: mosquito activity reducing but dengue still transmitting. Rats begin moving indoors for winter. Termites complete swarming.",
+      "risk_level": "high",
+      "tip": "Seal gaps for winter rat-proofing now. Continue mosquito prevention through October. Inspect for termite damage after monsoon."
+    },
+    "november": {
+      "month": "November",
+      "active_pests": ["rat", "cockroach", "bed-bug"],
+      "alert": "Winter transition: mosquito activity declining significantly. Rats, cockroaches, and bed bugs remain active year-round indoors.",
+      "risk_level": "medium",
+      "tip": "Rat-proof the home before winter: check all gaps, store food in sealed containers, install snap traps as monitoring tools."
+    },
+    "december": {
+      "month": "December",
+      "active_pests": ["rat", "bed-bug", "cockroach"],
+      "alert": "Winter indoor pest season: rats, cockroaches, and bed bugs are the primary concerns. Scorpions and snakes dormant in most of India.",
+      "risk_level": "medium",
+      "tip": "Check stored clothing and bedding for bed bugs. Maintain kitchen hygiene to deter cockroaches. Monitor rat traps."
+    }
+  },
+  "regional_alerts": {
+    "rajasthan": {
+      "high_risk_season": "March–October",
+      "primary_pests": ["scorpion", "snake", "mosquito"],
+      "note": "India's highest scorpion density. Indian Red Scorpion (Hottentotta tamulus) present. Anti-venom available at major government hospitals."
+    },
+    "kerala": {
+      "high_risk_season": "June–September",
+      "primary_pests": ["mosquito", "bat", "snake"],
+      "note": "Nipah virus hotspot (bat-borne). Highest snake diversity in India. Peak monsoon disease transmission."
+    },
+    "maharashtra": {
+      "high_risk_season": "April–October",
+      "primary_pests": ["scorpion", "mosquito", "rat", "cockroach"],
+      "note": "Major scorpion zone (Konkan belt). Urban Mumbai: high rat and cockroach pressure. Dengue outbreaks annual."
+    },
+    "west_bengal": {
+      "high_risk_season": "June–October",
+      "primary_pests": ["mosquito", "rat", "tick"],
+      "note": "Japanese encephalitis zone in rural areas. High Leptospirosis risk during floods. Urban Kolkata: stray dog and rat pressure."
+    },
+    "karnataka": {
+      "high_risk_season": "May–November",
+      "primary_pests": ["tick", "mosquito", "termite", "snake"],
+      "note": "Kyasanur Forest Disease (tick-borne) in Malnad region. High termite pressure in wooden structures. Spectacled Cobra common."
+    },
+    "gujarat": {
+      "high_risk_season": "March–September",
+      "primary_pests": ["scorpion", "mosquito", "snake"],
+      "note": "CCHF (tick-borne) documented in livestock farmers. High scorpion density in rocky zones. Malaria in tribal districts."
+    }
+  }
+}

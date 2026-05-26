@@ -1,0 +1,185 @@
+{
+  "states": {
+    "rajasthan": {
+      "state_name": "Rajasthan",
+      "svg_region_id": "rajasthan",
+      "primary_pests": [
+        "scorpion",
+        "snake",
+        "mosquito"
+      ],
+      "high_risk_months": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "disease_alerts": [
+        "CCHF (Crimean-Congo Haemorrhagic Fever)",
+        "Malaria",
+        "Dengue"
+      ],
+      "anti_venom_centres": [
+        "Sawai Man Singh (SMS) Hospital, Jaipur",
+        "Sardar Patel Medical College, Bikaner",
+        "Jodhpur Government Medical College, Jodhpur"
+      ],
+      "notes": "India's highest scorpion sting density. Extreme summer temperatures push scorpions and snakes into households."
+    },
+    "gujarat": {
+      "state_name": "Gujarat",
+      "svg_region_id": "gujarat",
+      "primary_pests": [
+        "scorpion",
+        "snake",
+        "mosquito",
+        "tick"
+      ],
+      "high_risk_months": [
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "disease_alerts": [
+        "CCHF outbreaks in livestock zones",
+        "Dengue",
+        "Malaria"
+      ],
+      "anti_venom_centres": [
+        "Civil Hospital, Ahmedabad",
+        "Surat Municipal Institute of Medical Education and Research (SMIMER), Surat",
+        "PDU Government Medical College, Rajkot"
+      ],
+      "notes": "CCHF tick vectors (Hyalomma) endemic in dairy farming districts. High snakebite incidence in agricultural areas."
+    },
+    "maharashtra": {
+      "state_name": "Maharashtra",
+      "svg_region_id": "maharashtra",
+      "primary_pests": [
+        "scorpion",
+        "snake",
+        "mosquito",
+        "rat",
+        "cockroach"
+      ],
+      "high_risk_months": [
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October"
+      ],
+      "disease_alerts": [
+        "Leptospirosis (Mumbai flood risk)",
+        "Dengue",
+        "Malaria"
+      ],
+      "anti_venom_centres": [
+        "KEM Hospital, Mumbai",
+        "Sassoon General Hospital, Pune",
+        "Government Medical College, Nagpur"
+      ],
+      "notes": "Konkan belt is notorious for the Indian Red Scorpion. Monsoon flooding in Mumbai leads to annual Leptospirosis alerts from rat urine contamination."
+    },
+    "kerala": {
+      "state_name": "Kerala",
+      "svg_region_id": "kerala",
+      "primary_pests": [
+        "mosquito",
+        "bat",
+        "snake",
+        "stray-dog"
+      ],
+      "high_risk_months": [
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November"
+      ],
+      "disease_alerts": [
+        "Nipah Virus (bat-borne)",
+        "Dengue",
+        "Chikungunya",
+        "Rabies"
+      ],
+      "anti_venom_centres": [
+        "Government Medical College, Kozhikode",
+        "Government Medical College, Thiruvananthapuram",
+        "Government Medical College, Ernakulam"
+      ],
+      "notes": "Monsoon disease hotspot. Nipah virus outbreaks linked to fruit bat contacts. Extremely high snake diversity and dog bite cases."
+    },
+    "karnataka": {
+      "state_name": "Karnataka",
+      "svg_region_id": "karnataka",
+      "primary_pests": [
+        "tick",
+        "mosquito",
+        "termite",
+        "snake"
+      ],
+      "high_risk_months": [
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November"
+      ],
+      "disease_alerts": [
+        "Kyasanur Forest Disease (KFD / Monkey Fever)",
+        "Dengue",
+        "Chikungunya"
+      ],
+      "anti_venom_centres": [
+        "Victoria Hospital, Bangalore",
+        "KIMS, Hubli",
+        "Shimoga Institute of Medical Sciences, Shimoga"
+      ],
+      "notes": "KFD is endemic to the Western Ghats (Malnad region), transmitted by Haemaphysalis ticks. Heavy termite infestation in older wooden homes."
+    },
+    "delhi": {
+      "state_name": "Delhi & NCR",
+      "svg_region_id": "delhi",
+      "primary_pests": [
+        "mosquito",
+        "rat",
+        "stray-dog",
+        "pigeon",
+        "cockroach"
+      ],
+      "high_risk_months": [
+        "July",
+        "August",
+        "September",
+        "October",
+        "November"
+      ],
+      "disease_alerts": [
+        "Dengue epidemics",
+        "Chikungunya",
+        "Typhoid",
+        "Rabies"
+      ],
+      "anti_venom_centres": [
+        "Ram Manohar Lohia (RML) Hospital, New Delhi",
+        "Safdarjung Hospital, New Delhi",
+        "AIIMS, New Delhi"
+      ],
+      "notes": "Severe post-monsoon dengue and chikungunya transmission. Large stray dog population. Urban apartments face massive pigeon and rat pressure."
+    }
+  }
+}
