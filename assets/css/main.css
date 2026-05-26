@@ -1637,3 +1637,75 @@ body.protected-species {
 .mozi-card p {
     font-size: 0.85rem !important;
 }
+
+
+/* FOOTER AND LAYOUT FIXES */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body > *:not(footer):not(nav):not(.nav__mobile):not(script):not(style) {
+    flex: 1;
+}
+
+footer {
+    position: relative !important;
+    margin-top: auto !important;
+    bottom: auto !important;
+}
+
+/* SLIDE SEPARATION */
+.slide, section {
+    min-height: 100vh;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* CARDS OVERFLOW & GAPS */
+#creature-grid, .grid, .cards-container, .mozi-grid {
+    gap: 1.5rem !important;
+    overflow-y: auto !important;
+    max-height: calc(100vh - 250px) !important;
+}
+
+.search-container {
+    margin-bottom: 2rem !important;
+}
+
+
+/* ISSUE 1 & 2: FOOTER AND SLIDE LAYOUT FIXES */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Ensure main content pushes footer down */
+body > *:not(footer):not(nav):not(.nav__mobile):not(script):not(style) {
+    flex: 1;
+}
+
+footer {
+    position: static !important; /* Not absolute/fixed */
+    margin-top: auto !important;
+}
+
+/* SLIDE SEPARATION */
+.slide, section, .page-wrapper {
+    min-height: 100vh;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* CARDS OVERFLOW & GAPS */
+#creature-grid, .grid, .cards-container, .mozi-grid {
+    gap: 1.5rem !important;
+    overflow-y: auto !important;
+    max-height: calc(100vh - 250px) !important;
+}
+
+.search-container {
+    margin-bottom: 2rem !important;
+}

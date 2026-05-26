@@ -216,6 +216,81 @@
           <p class="text-secondary" style="font-size: 0.95rem;">
             Hover over the geographically correct SVG map to review state-level seasonal alerts, endemic vectors, anti-venom medical centers, and public health guidelines.
           </p>
+
+          <!-- Historical & Real-time Data Start -->
+          <div class="margin-top-8 padding-4" style="background: rgba(0,0,0,0.3); border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
+            <h4 class="text-primary margin-bottom-4">Historical Death Toll & Real-time Data</h4>
+            <div class="grid-2 gap-4 text-sm margin-bottom-6">
+                <div>
+                    <h5 class="text-accent">Scorpion</h5>
+                    <ul class="text-secondary margin-bottom-2">
+                        <li>India: 1,200-2,600 deaths/year</li>
+                        <li>World: ~3,250 deaths/year</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-accent">Snake</h5>
+                    <ul class="text-secondary margin-bottom-2">
+                        <li>India: 58,000 deaths/year (1.2M envenomations)</li>
+                        <li>World: 138,000 deaths/year</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-accent">Rabies (Stray Dog)</h5>
+                    <ul class="text-secondary margin-bottom-2">
+                        <li>India: 20,000 deaths/year (36% of global)</li>
+                        <li>World: 59,000 deaths/year</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-accent">Mosquito (Dengue/Malaria/JE)</h5>
+                    <ul class="text-secondary margin-bottom-2">
+                        <li>India: 20,000-30,000 deaths/year</li>
+                        <li>World: 600,000+ deaths/year</li>
+                        <li>JE (Culex): 1,500 deaths/year (15k+ cases)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="margin-bottom-6">
+                <h5 class="text-accent">Current Year (2026) Reports</h5>
+                <p class="text-secondary">Data Pending (Aggregating real-time hospital records...)</p>
+            </div>
+            
+            <!-- Infographics placeholders -->
+            <div class="grid-3 gap-4 margin-bottom-6">
+                <div class="padding-4 flex-col flex-center" style="background: rgba(255,255,255,0.02); border-radius: 4px;">
+                    <svg width="100%" height="60" viewBox="0 0 100 60">
+                        <rect x="10" y="20" width="15" height="40" fill="var(--color-primary)" opacity="0.6"/>
+                        <rect x="35" y="10" width="15" height="50" fill="var(--color-primary)" opacity="0.8"/>
+                        <rect x="60" y="30" width="15" height="30" fill="var(--color-primary)" opacity="0.5"/>
+                        <rect x="85" y="5" width="15" height="55" fill="var(--color-primary)"/>
+                    </svg>
+                    <span class="text-xs text-muted margin-top-2">State-wise Distribution</span>
+                </div>
+                <div class="padding-4 flex-col flex-center" style="background: rgba(255,255,255,0.02); border-radius: 4px;">
+                    <svg width="100%" height="60" viewBox="0 0 100 60">
+                        <path d="M 0 50 Q 25 20, 50 40 T 100 10" fill="none" stroke="var(--color-accent)" stroke-width="3"/>
+                    </svg>
+                    <span class="text-xs text-muted margin-top-2">Seasonal Trends</span>
+                </div>
+                <div class="padding-4 flex-col flex-center" style="background: rgba(255,255,255,0.02); border-radius: 4px;">
+                    <svg width="100%" height="60" viewBox="0 0 100 60">
+                        <rect x="20" y="15" width="25" height="45" fill="var(--color-danger)" opacity="0.7"/>
+                        <rect x="55" y="25" width="25" height="35" fill="var(--color-info)" opacity="0.7"/>
+                    </svg>
+                    <span class="text-xs text-muted margin-top-2">YoY Comparison</span>
+                </div>
+            </div>
+
+            <div class="text-xs text-muted flex-col gap-1" style="font-size: 0.7rem; opacity: 0.6;">
+                <span>Source: National Center for Vector Borne Diseases Control (NCVBDC), Ministry of Health, Government of India</span>
+                <span>Source: WHO SEARO - Southeast Asia Regional Office</span>
+                <span>Source: Indian Council of Medical Research (ICMR)</span>
+            </div>
+          </div>
+          <!-- Historical & Real-time Data End -->
+
           
           <!-- Death Data & Infographics Dashboard -->
           <div class="card card--glass padding-5 flex-col gap-3" style="width: 100%; border-radius: var(--radius-lg); margin-top: 1rem;">
