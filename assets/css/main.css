@@ -464,7 +464,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
-  padding: var(--space-6);
+  padding: var(--space-4);
   transition: all var(--transition-slow);
   position: relative;
   overflow-x: hidden; overflow-y: auto;
@@ -506,14 +506,14 @@ p  { color: var(--text-secondary); line-height: 1.75; }
 }
 
 .mozi-card__icon {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: var(--radius-lg);
   background: var(--bg-tertiary);
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   transition: transform var(--transition-spring);
   position: relative;
 }
@@ -522,7 +522,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   transform: scale(1.1) rotate(-5deg);
 }
 
-.mozi-card__name { font-size: 1.1rem; font-weight: 700; }
+.mozi-card__name { font-size: 0.95rem; font-weight: 700; }
 .mozi-card__latin { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); font-style: italic; }
 .mozi-card__desc { font-size: 0.85rem; color: var(--text-secondary); }
 
@@ -741,7 +741,7 @@ p  { color: var(--text-secondary); line-height: 1.75; }
 
 .stat-card {
   text-align: center;
-  padding: var(--space-6);
+  padding: var(--space-4);
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
@@ -1533,4 +1533,72 @@ body.protected-species {
   --accent-safe: var(--accent-info);
   --glow-safe: var(--glow-info);
   background: radial-gradient(circle at top, rgba(59, 130, 246, 0.08), transparent 70%), var(--bg-primary);
+}
+
+
+/* ─────────────────────────────────────────────────────
+   LIQUID GLASS FOOTER & UTILITIES
+───────────────────────────────────────────────────── */
+@font-face {
+    font-family: "Helvetica Regular";
+    src: url("https://db.onlinewebfonts.com/t/a64ff11d2c24584c767f6257e880dc65.eot");
+    src: url("https://db.onlinewebfonts.com/t/a64ff11d2c24584c767f6257e880dc65.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a64ff11d2c24584c767f6257e880dc65.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a64ff11d2c24584c767f6257e880dc65.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a64ff11d2c24584c767f6257e880dc65.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a64ff11d2c24584c767f6257e880dc65.svg#Helvetica Regular")format("svg");
+}
+
+.liquid-glass {
+  background: rgba(255, 255, 255, 0.01);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: none;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  font-family: "Helvetica Regular", var(--font-sans);
+}
+.liquid-glass::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.4px;
+  background: linear-gradient(180deg,
+    rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.15) 20%,
+    rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%,
+    rgba(255,255,255,0.15) 80%, rgba(255,255,255,0.45) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.rounded-3xl { border-radius: var(--radius-2xl); }
+.p-6 { padding: var(--space-6); }
+.text-white-70 { color: rgba(255,255,255,0.7); }
+.tracking-wider { letter-spacing: 0.05em; }
+.tracking-widest { letter-spacing: 0.1em; }
+.hover-text-primary:hover { color: var(--text-primary) !important; }
+.text-decoration-none { text-decoration: none; }
+.color-inherit { color: inherit; }
+.transition-colors { transition: color 0.2s ease; }
+.opacity-50 { opacity: 0.5; }
+.opacity-70 { opacity: 0.7; }
+.m-0 { margin: 0; }
+.pt-6 { padding-top: var(--space-6); }
+
+/* Fix container overlaps with nav */
+.container.margin-top-20 {
+    margin-top: 7rem !important; /* increased to push content below nav */
+}
+.container.margin-top-12 {
+    margin-top: 6rem !important;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
 }
