@@ -127,6 +127,10 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Flex column so footer always sticks to bottom */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* ─────────────────────────────────────────────────────
@@ -212,8 +216,10 @@ p  { color: var(--text-secondary); line-height: 1.75; }
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow-x: hidden; overflow-y: auto;
+  overflow: hidden;
   padding: var(--space-24) var(--space-6) var(--space-16);
+  /* Subtle bottom separator between slides */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 /* Dot Navigation */
@@ -1603,109 +1609,310 @@ body.protected-species {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Overrides for mozi-list.html */
-.search-container {
-    margin-bottom: 2rem !important;
-}
 
-/* Adjust grid container to allow scrolling and max-height */
-#creature-grid {
-    max-height: calc(100vh - 250px);
-    overflow-y: auto;
-    padding-bottom: 2rem;
-}
+/* ═══════════════════════════════════════════════════════════════
+   MOZI — AUDIT FIX OVERHAUL v2
+   Addresses all issues from docs/audit-report.md
+   ═══════════════════════════════════════════════════════════════ */
 
-/* Make cards smaller */
-.mozi-card {
-    padding: 1rem !important;
-    margin: 0.75rem !important;
-}
-
-.mozi-card .icon-container svg, 
-.mozi-card .icon-container img, 
-.mozi-card [data-lucide] {
-    width: 32px !important;
-    height: 32px !important;
-}
-
-/* Make font smaller inside card */
-.mozi-card h3 {
-    font-size: 1.1rem !important;
-    margin-bottom: 0.25rem !important;
-}
-
-.mozi-card p {
-    font-size: 0.85rem !important;
-}
-
-
-/* FOOTER AND LAYOUT FIXES */
+/* ─── BODY LAYOUT — Flexbox column for sticky footer ────────── */
 body {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Main scroll-container takes all available space */
+.scroll-container {
+  flex: 1;
+}
+
+/* For pages WITHOUT scroll-container (non-homepage) */
+body > .container,
+body > div.container {
+  flex: 1;
+}
+
+/* ─── FOOTER — Proper sticky at bottom ──────────────────────── */
+.site-footer {
+  background: #07070E;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 4rem 0 2rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-brand {}
+
+.footer-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo-text {
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg, var(--accent-safe), var(--accent-info));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer-tagline {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+  max-width: 280px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.footer-social-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer-social-btn:hover {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: rgba(16, 185, 129, 0.3);
+  color: var(--accent-safe);
+  transform: translateY(-2px);
+}
+
+.footer-col {}
+
+.footer-col-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.footer-links a {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer-links a:hover {
+  color: var(--accent-safe);
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.footer-copy {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+
+.footer-copy a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-copy a:hover {
+  color: var(--accent-safe);
+}
+
+.footer-credit {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+  margin: 0;
+  opacity: 0.6;
+}
+
+/* ─── SLIDE LAYOUT — Proper separation ──────────────────────── */
+.slide {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: var(--space-24) var(--space-6) var(--space-16);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* Subtle slide index indicator strip */
+.slide::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.4), transparent);
+  pointer-events: none;
+}
+
+/* ─── SEARCH RESULTS SPACING ─────────────────────────────────── */
+#search-results {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ─── CONTAINER NAV PADDING FIXES ───────────────────────────── */
+.container.margin-top-20 {
+  margin-top: 7rem !important;
+}
+.container.margin-top-12 {
+  margin-top: 6rem !important;
+}
+
+/* ─── CARD GRID ON LIST PAGES ───────────────────────────────── */
+.card-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* ─── RESPONSIVE — Tablet ───────────────────────────────────── */
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ─── RESPONSIVE — Mobile (<= 768px) ────────────────────────── */
+@media (max-width: 768px) {
+  /* Disable scroll-snap on mobile — allow free scroll */
+  .scroll-container {
+    height: auto;
+    overflow-y: visible;
+    scroll-snap-type: none;
+  }
+
+  .slide {
+    min-height: auto;
+    scroll-snap-align: none;
+    padding: 6rem var(--space-4) 3rem;
+  }
+
+  .slide::after {
+    display: none;
+  }
+
+  /* Grid collapses */
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Nav links hidden, hamburger shows */
+  .nav__links { display: none; }
+  .nav__hamburger { display: flex; }
+  .mode-toggle-pill { display: none; }
+
+  /* Hero adjustments */
+  .hero__content { padding: 0 var(--space-4); }
+  .hero__cta { flex-direction: column; align-items: center; }
+
+  /* Footer mobile */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .footer-bottom {
     flex-direction: column;
-    min-height: 100vh;
+    text-align: center;
+  }
+
+  /* Cards mobile */
+  .mozi-card {
+    padding: var(--space-4);
+  }
 }
 
-body > *:not(footer):not(nav):not(.nav__mobile):not(script):not(style) {
-    flex: 1;
+/* ─── RESPONSIVE — Small mobile (<= 480px) ──────────────────── */
+@media (max-width: 480px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 1.75rem; }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: var(--space-3) var(--space-5);
+  }
+
+  .nav {
+    padding: var(--space-3) var(--space-4);
+  }
 }
 
-footer {
-    position: relative !important;
-    margin-top: auto !important;
-    bottom: auto !important;
+/* ─── ANIMATION UTILITIES ────────────────────────────────────── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-/* SLIDE SEPARATION */
-.slide, section {
-    min-height: 100vh;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-/* CARDS OVERFLOW & GAPS */
-#creature-grid, .grid, .cards-container, .mozi-grid {
-    gap: 1.5rem !important;
-    overflow-y: auto !important;
-    max-height: calc(100vh - 250px) !important;
-}
-
-.search-container {
-    margin-bottom: 2rem !important;
-}
-
-
-/* ISSUE 1 & 2: FOOTER AND SLIDE LAYOUT FIXES */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-/* Ensure main content pushes footer down */
-body > *:not(footer):not(nav):not(.nav__mobile):not(script):not(style) {
-    flex: 1;
-}
-
-footer {
-    position: static !important; /* Not absolute/fixed */
-    margin-top: auto !important;
-}
-
-/* SLIDE SEPARATION */
-.slide, section, .page-wrapper {
-    min-height: 100vh;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-
-/* CARDS OVERFLOW & GAPS */
-#creature-grid, .grid, .cards-container, .mozi-grid {
-    gap: 1.5rem !important;
-    overflow-y: auto !important;
-    max-height: calc(100vh - 250px) !important;
-}
-
-.search-container {
-    margin-bottom: 2rem !important;
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s var(--transition-slow) both;
 }
