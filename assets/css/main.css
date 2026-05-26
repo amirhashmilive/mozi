@@ -1602,3 +1602,38 @@ body.protected-species {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Overrides for mozi-list.html */
+.search-container {
+    margin-bottom: 2rem !important;
+}
+
+/* Adjust grid container to allow scrolling and max-height */
+#creature-grid {
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+    padding-bottom: 2rem;
+}
+
+/* Make cards smaller */
+.mozi-card {
+    padding: 1rem !important;
+    margin: 0.75rem !important;
+}
+
+.mozi-card .icon-container svg, 
+.mozi-card .icon-container img, 
+.mozi-card [data-lucide] {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+/* Make font smaller inside card */
+.mozi-card h3 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.25rem !important;
+}
+
+.mozi-card p {
+    font-size: 0.85rem !important;
+}

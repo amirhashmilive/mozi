@@ -121,7 +121,7 @@ const MOZI_SEARCH = {
 
     items.forEach(item => {
       const card = document.createElement('a');
-      card.href = `/pages/mozi/mozi-detail.html?id=${item.id}`;
+      card.href = `/mozi/pages/mozi/mozi-detail.html?id=${item.id}`;
       card.className = `card card--glow-${item.is_protected ? 'info' : 'danger'} mozi-card`;
 
       let badgeHtml = '';
