@@ -1,132 +1,142 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" dir="ltr">
 <head>
-  <title>Household Vulnerability Audit — MOZI</title>
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MOZI — Islamic Biosecurity and Environmental Ethics Platform. Learn authentic Hadith rulings and scientific prevention for household pests.">
-  <link rel="stylesheet" href="/mozi/assets/css/main.css">
-  <link rel="stylesheet" href="/mozi/assets/css/animations.css">
-  <link rel="stylesheet" href="/mozi/assets/css/mode-toggle.css">
-  <link rel="stylesheet" href="/mozi/assets/css/premium.css">
-  <link rel="stylesheet" href="/mozi/assets/css/print.css" media="print">
-  
-  <!-- Core Data & Control Scripts -->
-  <script src="/mozi/assets/js/mozi-data.js"></script>
-  <script src="/mozi/assets/js/dark-mode.js"></script>
-  <script src="/mozi/assets/js/mode-switch.js"></script>
-  <script src="/mozi/assets/js/share.js"></script>
-  <script src="/mozi/assets/js/main.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-                        <script src="/mozi/assets/js/pdf-download.js"></script>
-                        <script src="/mozi/assets/js/household-audit.js"></script>
+  <meta name="description" content="MOZI Home Audit — Assess your household vulnerability to pest-related risks.">
+  <meta name="theme-color" content="#0A0A0F">
+  <title>Home Audit | MOZI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body class="integrated-mode">
-  <div class="progress-bar" id="progress-bar"></div>
-  
-  <nav class="nav">
-    <a href="/mozi/index.html" class="nav__logo">MOZI</a>
-    <ul class="nav__links">
-      <li><a href="/mozi/index.html">Home</a></li>
+<body>
+  <nav class="nav" id="mainNav">
+    <a href="/mozi/" class="nav-logo"><div class="nav-logo-icon">M</div><span>MOZI</span></a>
+    <ul class="nav-links">
+      <li><a href="/mozi/">Home</a></li>
       <li><a href="/mozi/mozi-list.html">Creatures</a></li>
       <li><a href="/mozi/categories.html">Categories</a></li>
-      <li><a href="/mozi/about/doctrine.html">Doctrine</a></li>
-      <li><a href="/mozi/about/ethics.html">Ethics</a></li>
-      <li><a href="/mozi/audit.html">Home Audit</a></li>
+      <li><a href="/mozi/#doctrine">Doctrine</a></li>
+      <li><a href="/mozi/#ethics">Ethics</a></li>
+      <li><a href="/mozi/audit.html" class="active">Home Audit</a></li>
       <li><a href="/mozi/resources.html">Resources</a></li>
-      <li><a href="/mozi/contact.html">Emergency</a></li>
+      <li><a href="/mozi/#emergency">Emergency</a></li>
     </ul>
-    <div class="nav__actions">
-      <!-- Mode Toggle Pill -->
-      <div class="mode-toggle-pill">
-        <button class="mode-toggle-pill__btn" data-mode="integrated" title="Show Doctrine + Science">Integrated</button>
-        <button class="mode-toggle-pill__btn" data-mode="doctrine" title="Doctrine Only">Doctrine</button>
-        <button class="mode-toggle-pill__btn" data-mode="scientific" title="Science Only">Science</button>
-      </div>
-      <button class="btn btn--icon" id="theme-toggle-btn" aria-label="Toggle Dark Mode">
-        <!-- Icon injected by JS -->
-      </button>
-      <button class="nav__hamburger" id="nav-hamburger-btn" aria-label="Toggle Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
   </nav>
-  
-  <!-- Mobile Navigation Overlay -->
-  <div class="nav__mobile" id="nav-mobile-menu">
-    <a href="/mozi/index.html">Home</a>
-    <a href="/mozi/mozi-list.html">Creatures</a>
-    <a href="/mozi/categories.html">Categories</a>
-    <a href="/mozi/about/doctrine.html">Doctrine</a>
-    <a href="/mozi/about/ethics.html">Ethics</a>
-    <a href="/mozi/audit.html">Home Audit</a>
-    <a href="/mozi/resources.html">Resources</a>
-    <a href="/mozi/contact.html">Emergency</a>
+  <div class="nav-mobile" id="navMobile">
+    <a href="/mozi/">Home</a><a href="/mozi/mozi-list.html">Creatures</a><a href="/mozi/categories.html">Categories</a>
+    <a href="/mozi/#doctrine">Doctrine</a><a href="/mozi/#ethics">Ethics</a><a href="/mozi/audit.html">Home Audit</a>
+    <a href="/mozi/resources.html">Resources</a><a href="/mozi/#emergency">Emergency</a>
   </div>
 
-  
-  
-  <div class="container margin-top-20 flex-col flex-center">
-    <div class="width-full max-width-md" id="audit-container">
-      <!-- Injected by household-audit.js -->
+  <main style="padding-top: 100px; min-height: 100vh;">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header fade-in">
+        <span class="section-label">Vulnerability Assessment</span>
+        <h1 class="text-display section-title">Household Pest Audit</h1>
+        <p class="text-subtitle section-desc">Answer 10 questions to assess your home's vulnerability to pest-related risks and get personalized recommendations.</p>
+      </div>
+
+      <div id="auditForm" class="fade-in">
+        <div id="auditQuestions"></div>
+        <div style="text-align: center; margin-top: 32px;">
+          <button class="btn btn-primary" onclick="calculateAudit()">Get My Risk Score</button>
+        </div>
+      </div>
+
+      <div id="auditResult" style="display: none;" class="fade-in">
+        <div class="card" style="text-align: center; padding: 48px;">
+          <h2 class="text-title" style="margin-bottom: 16px;">Your Risk Score</h2>
+          <div id="scoreDisplay" style="font-size: 4rem; font-weight: 800; margin-bottom: 16px;"></div>
+          <p id="scoreLevel" style="font-size: 1.25rem; margin-bottom: 24px;"></p>
+          <div id="scoreRecommendations" style="text-align: left;"></div>
+          <div style="margin-top: 32px;">
+            <button class="btn btn-secondary" onclick="resetAudit()">Retake Audit</button>
+            <a href="/mozi/mozi-list.html" class="btn btn-primary" style="margin-left: 12px;">Browse Creatures</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </main>
 
-  
-  
-    <footer class="site-footer" role="contentinfo">
-    <div class="footer-inner container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div class="footer-logo-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="currentColor" style="color:var(--accent-safe);"><path d="M 4.688 136 C 68.373 136 120 187.627 120 251.312 C 120 252.883 119.967 254.445 119.905 256 L 0 256 L 0 136.096 C 1.555 136.034 3.117 136 4.688 136 Z M 251.312 136 C 252.883 136 254.445 136.034 256 136.096 L 256 256 L 136.095 256 C 136.032 254.438 136.001 252.875 136 251.312 C 136 187.627 187.627 136 251.312 136 Z M 119.905 0 C 119.967 1.555 120 3.117 120 4.688 C 120 68.373 68.373 120 4.687 120 C 3.117 120 1.555 119.967 0 119.905 L 0 0 Z M 256 119.905 C 254.445 119.967 252.883 120 251.312 120 C 187.627 120 136 68.373 136 4.687 C 136 3.117 136.033 1.555 136.095 0 L 256 0 Z"/></svg>
-            <span class="footer-logo-text">MOZI</span>
-          </div>
-          <p class="footer-tagline">Doctrinal biosecurity and Islamic environmental ethics — curated for free.</p>
-          <div class="footer-socials">
-            <a href="#" aria-label="Facebook" class="footer-social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-            <a href="#" aria-label="Twitter / X" class="footer-social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
-            <a href="#" aria-label="Instagram" class="footer-social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-          </div>
-        </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">Discover</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/mozi-list.html">Creature Directory</a></li>
-            <li><a href="/mozi/categories.html">Risk Categories</a></li>
-            <li><a href="/mozi/audit.html">Home Audit Tool</a></li>
-            <li><a href="/mozi/resources.html">Resource Vault</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">The Mission</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/about/index.html">Origin Story</a></li>
-            <li><a href="/mozi/about/doctrine.html">Fiqh Doctrine</a></li>
-            <li><a href="/mozi/about/ethics.html">Environmental Ethics</a></li>
-            <li><a href="/mozi/blog.html">Newsroom Hub</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">Concierge</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/contact.html">Get in Touch</a></li>
-            <li><a href="/mozi/legal/privacy.html">Privacy Policy</a></li>
-            <li><a href="/mozi/legal/terms.html">User Agreement</a></li>
-            <li><a href="/mozi/contact.html">Report a Concern</a></li>
-          </ul>
-        </div>
+  <footer class="footer" style="margin-top: 80px;">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">Curated by <strong>Amir Hashmi</strong></div>
+        <ul class="footer-links">
+          <li><a href="/mozi/legal/privacy.html">Privacy Policy</a></li>
+          <li><a href="/mozi/legal/terms.html">Terms of Use</a></li>
+          <li><a href="/mozi/contact.html">Contact</a></li>
+        </ul>
       </div>
-      <div class="footer-bottom">
-        <p class="footer-copy">&copy; 2026 MOZI. All Rights Reserved. &nbsp;|&nbsp; <a href="/mozi/legal/privacy.html">Privacy Policy</a></p>
-        <p class="footer-credit">Curated by Amir Hashmi</p>
-      </div>
+      <div class="footer-copyright">&copy; 2026 MOZI &mdash; Harmful Creatures in Homes: Prevention, Removal, and Ethical Control. All rights reserved.</div>
     </div>
   </footer>
 
+  <script src="assets/js/main.js"></script>
+  <script>
+    var questions = [
+      { q: "Do you live in a tropical or subtropical region of India?", w: 2 },
+      { q: "Is your home located near agricultural fields, forests, or water bodies?", w: 2 },
+      { q: "Do you have unsealed cracks or gaps in walls, doors, or windows?", w: 3 },
+      { q: "Is there stagnant water near your home (flower pots, coolers, drains)?", w: 3 },
+      { q: "Do you store food in open or loosely covered containers?", w: 2 },
+      { q: "Have you seen signs of pests in the last 3 months (droppings, webs, damage)?", w: 3 },
+      { q: "Do you have pets that go outdoors?", w: 1 },
+      { q: "Is your home in a flood-prone area?", w: 2 },
+      { q: "Do you lack mesh screens on windows and doors?", w: 2 },
+      { q: "Is garbage disposal irregular (not daily)?", w: 2 }
+    ];
+
+    var qContainer = document.getElementById('auditQuestions');
+    questions.forEach(function(item, i) {
+      qContainer.innerHTML += '<div class="card" style="margin-bottom: 16px; padding: 20px;">' +
+        '<p style="margin-bottom: 12px; font-weight: 500;">' + (i+1) + '. ' + item.q + '</p>' +
+        '<div style="display: flex; gap: 12px;">' +
+        '<label style="cursor:pointer; display:flex; align-items:center; gap:6px;"><input type="radio" name="q' + i + '" value="yes"> Yes</label>' +
+        '<label style="cursor:pointer; display:flex; align-items:center; gap:6px;"><input type="radio" name="q' + i + '" value="no"> No</label>' +
+        '</div></div>';
+    });
+
+    function calculateAudit() {
+      var score = 0;
+      var maxScore = 0;
+      questions.forEach(function(item, i) {
+        maxScore += item.w;
+        var selected = document.querySelector('input[name="q' + i + '"]:checked');
+        if (selected && selected.value === 'yes') score += item.w;
+      });
+
+      var pct = Math.round((score / maxScore) * 100);
+      var level, color, recs;
+
+      if (pct >= 70) {
+        level = 'HIGH RISK'; color = 'var(--threat-extreme)';
+        recs = '<ul class="method-list"><li><span class="method-icon">&#9888;</span>Immediate action needed: seal entry points, eliminate stagnant water</li><li><span class="method-icon">&#9888;</span>Consider professional pest inspection</li><li><span class="method-icon">&#9888;</span>Install mesh screens on all openings</li><li><span class="method-icon">&#9888;</span>Review creature profiles for your region</li></ul>';
+      } else if (pct >= 40) {
+        level = 'MODERATE RISK'; color = 'var(--threat-high)';
+        recs = '<ul class="method-list"><li><span class="method-icon">&#9888;</span>Address identified vulnerabilities</li><li><span class="method-icon">&#9888;</span>Improve food storage and waste disposal</li><li><span class="method-icon">&#9888;</span>Regular home maintenance to seal gaps</li></ul>';
+      } else {
+        level = 'LOW RISK'; color = 'var(--threat-low)';
+        recs = '<ul class="method-list"><li><span class="method-icon">&#10004;</span>Your home has good pest resistance</li><li><span class="method-icon">&#10004;</span>Continue regular maintenance</li><li><span class="method-icon">&#10004;</span>Stay informed about seasonal risks</li></ul>';
+      }
+
+      document.getElementById('scoreDisplay').textContent = pct + '%';
+      document.getElementById('scoreDisplay').style.color = color;
+      document.getElementById('scoreLevel').innerHTML = '<span style="color:' + color + ';">' + level + '</span>';
+      document.getElementById('scoreRecommendations').innerHTML = '<h4 style="margin-bottom:16px;">Recommendations</h4>' + recs;
+      document.getElementById('auditForm').style.display = 'none';
+      document.getElementById('auditResult').style.display = 'block';
+    }
+
+    function resetAudit() {
+      document.querySelectorAll('input[type="radio"]').forEach(function(r) { r.checked = false; });
+      document.getElementById('auditForm').style.display = 'block';
+      document.getElementById('auditResult').style.display = 'none';
+    }
+  </script>
 </body>
 </html>

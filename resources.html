@@ -1,196 +1,111 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" dir="ltr">
 <head>
-  <title>Resources & Hadiths — MOZI</title>
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MOZI — Islamic Biosecurity and Environmental Ethics Platform. Learn authentic Hadith rulings and scientific prevention for household pests.">
-  <link rel="stylesheet" href="/mozi/assets/css/main.css">
-  <link rel="stylesheet" href="/mozi/assets/css/animations.css">
-  <link rel="stylesheet" href="/mozi/assets/css/mode-toggle.css">
-  <link rel="stylesheet" href="/mozi/assets/css/premium.css">
-  <link rel="stylesheet" href="/mozi/assets/css/print.css" media="print">
-  
-  <!-- Core Data & Control Scripts -->
-  <script src="/mozi/assets/js/mozi-data.js"></script>
-  <script src="/mozi/assets/js/dark-mode.js"></script>
-  <script src="/mozi/assets/js/mode-switch.js"></script>
-  <script src="/mozi/assets/js/share.js"></script>
-  <script src="/mozi/assets/js/main.js"></script>
-
-  
+  <meta name="description" content="MOZI Resources — Academic references, Hadith collections, epidemiological data sources, and emergency contacts.">
+  <meta name="theme-color" content="#0A0A0F">
+  <title>Resources | MOZI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body class="integrated-mode">
-  <div class="progress-bar" id="progress-bar"></div>
-  
-  <nav class="nav">
-    <a href="/mozi/index.html" class="nav__logo">MOZI</a>
-    <ul class="nav__links">
-      <li><a href="/mozi/index.html">Home</a></li>
+<body>
+  <nav class="nav" id="mainNav">
+    <a href="/mozi/" class="nav-logo"><div class="nav-logo-icon">M</div><span>MOZI</span></a>
+    <ul class="nav-links">
+      <li><a href="/mozi/">Home</a></li>
       <li><a href="/mozi/mozi-list.html">Creatures</a></li>
       <li><a href="/mozi/categories.html">Categories</a></li>
-      <li><a href="/mozi/about/doctrine.html">Doctrine</a></li>
-      <li><a href="/mozi/about/ethics.html">Ethics</a></li>
+      <li><a href="/mozi/#doctrine">Doctrine</a></li>
+      <li><a href="/mozi/#ethics">Ethics</a></li>
       <li><a href="/mozi/audit.html">Home Audit</a></li>
-      <li><a href="/mozi/resources.html">Resources</a></li>
-      <li><a href="/mozi/contact.html">Emergency</a></li>
+      <li><a href="/mozi/resources.html" class="active">Resources</a></li>
+      <li><a href="/mozi/#emergency">Emergency</a></li>
     </ul>
-    <div class="nav__actions">
-      <!-- Mode Toggle Pill -->
-      <div class="mode-toggle-pill">
-        <button class="mode-toggle-pill__btn" data-mode="integrated" title="Show Doctrine + Science">Integrated</button>
-        <button class="mode-toggle-pill__btn" data-mode="doctrine" title="Doctrine Only">Doctrine</button>
-        <button class="mode-toggle-pill__btn" data-mode="scientific" title="Science Only">Science</button>
-      </div>
-      <button class="btn btn--icon" id="theme-toggle-btn" aria-label="Toggle Dark Mode">
-        <!-- Icon injected by JS -->
-      </button>
-      <button class="nav__hamburger" id="nav-hamburger-btn" aria-label="Toggle Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
   </nav>
-  
-  <!-- Mobile Navigation Overlay -->
-  <div class="nav__mobile" id="nav-mobile-menu">
-    <a href="/mozi/index.html">Home</a>
-    <a href="/mozi/mozi-list.html">Creatures</a>
-    <a href="/mozi/categories.html">Categories</a>
-    <a href="/mozi/about/doctrine.html">Doctrine</a>
-    <a href="/mozi/about/ethics.html">Ethics</a>
-    <a href="/mozi/audit.html">Home Audit</a>
-    <a href="/mozi/resources.html">Resources</a>
-    <a href="/mozi/contact.html">Emergency</a>
+  <div class="nav-mobile" id="navMobile">
+    <a href="/mozi/">Home</a><a href="/mozi/mozi-list.html">Creatures</a><a href="/mozi/categories.html">Categories</a>
+    <a href="/mozi/#doctrine">Doctrine</a><a href="/mozi/#ethics">Ethics</a><a href="/mozi/audit.html">Home Audit</a>
+    <a href="/mozi/resources.html">Resources</a><a href="/mozi/#emergency">Emergency</a>
   </div>
 
-  
-  
-  <div class="container margin-top-20">
-    <div class="flex-col gap-4 text-center margin-bottom-12">
-      <h1 class="text-primary">Resources & Verified Hadiths</h1>
-      <p class="text-secondary max-width-md margin-x-auto">
-        Browse our verified database of Hadith citations on Al-Mu'dhiyat and fawasiqu, or download premium guides.
-      </p>
-    </div>
-
-    <!-- Guides Section -->
-    <div class="grid-3 card-grid margin-bottom-12">
-      <div class="card card--glass flex-col gap-4 text-center flex-center">
-        <h3 class="text-primary">Complete Biosecurity Guide</h3>
-        <p class="text-secondary text-sm">300-page comprehensive guide detailing rulings and IPM exclusion templates.</p>
-        <span class="badge badge--category text-mono margin-top-2">Premium PDF</span>
-        <button class="btn btn--primary margin-top-4" onclick="alert('Coming soon!')">Download Guide (Free Version)</button>
+  <main style="padding-top: 100px; min-height: 100vh;">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Reference Library</span>
+        <h1 class="text-display section-title">Resources</h1>
+        <p class="text-subtitle section-desc">Academic references, Islamic sources, and public health data informing the MOZI platform.</p>
       </div>
 
-      <div class="card card--glass flex-col gap-4 text-center flex-center">
-        <h3 class="text-primary">Emergency Anti-Venom Log</h3>
-        <p class="text-secondary text-sm">Directory of anti-venom distribution centers across 28 Indian states.</p>
-        <span class="badge badge--safe text-mono margin-top-2">Free PDF</span>
-        <button class="btn btn--outline margin-top-4" onclick="alert('Coming soon!')">Download Directory</button>
-      </div>
-    </div>
-
-    <!-- Fiqh Log Table -->
-    <div class="card card--glass flex-col gap-4 overflow-x-auto">
-      <h2 class="text-primary margin-bottom-4">Hadith Chain Index</h2>
-      <table style="width:100%; border-collapse: collapse; text-align: left; font-size:0.9rem;">
-        <thead>
-          <tr style="border-bottom: 2px solid var(--border-bright);">
-            <th style="padding: 12px;">ID</th>
-            <th style="padding: 12px;">Source</th>
-            <th style="padding: 12px;">Transliterated text</th>
-            <th style="padding: 12px;">Translation</th>
-            <th style="padding: 12px;">Ruling</th>
-          </tr>
-        </thead>
-        <tbody id="hadith-table-body">
-          <!-- Injected by script -->
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-  <script>
-    document.addEventListener('moziDataLoaded', () => {
-      renderHadiths();
-    });
-
-    function renderHadiths() {
-      const tbody = document.getElementById('hadith-table-body');
-      if (!tbody || !window.MOZI_DATA.hadiths) return;
-
-      const citations = window.MOZI_DATA.hadiths.citations;
-      tbody.innerHTML = '';
-
-      citations.forEach(cit => {
-        const tr = document.createElement('tr');
-        tr.style.borderBottom = '1px solid var(--border)';
-        tr.innerHTML = `
-          <td style="padding: 12px;" class="text-mono">${cit.id}</td>
-          <td style="padding: 12px;" class="font-weight-600">${cit.collection} ${cit.number}</td>
-          <td style="padding: 12px;" class="text-transliteration">${cit.transliteration}</td>
-          <td style="padding: 12px;" class="text-secondary">${cit.translation_en}</td>
-          <td style="padding: 12px;"><span class="badge badge--safe">${cit.ruling_type}</span></td>
-        `;
-        tbody.appendChild(tr);
-      });
-    }
-  </script>
-
-  
-  
-    <footer class="site-footer" role="contentinfo">
-    <div class="footer-inner container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div class="footer-logo-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="currentColor" style="color:var(--accent-safe);"><path d="M 4.688 136 C 68.373 136 120 187.627 120 251.312 C 120 252.883 119.967 254.445 119.905 256 L 0 256 L 0 136.096 C 1.555 136.034 3.117 136 4.688 136 Z M 251.312 136 C 252.883 136 254.445 136.034 256 136.096 L 256 256 L 136.095 256 C 136.032 254.438 136.001 252.875 136 251.312 C 136 187.627 187.627 136 251.312 136 Z M 119.905 0 C 119.967 1.555 120 3.117 120 4.688 C 120 68.373 68.373 120 4.687 120 C 3.117 120 1.555 119.967 0 119.905 L 0 0 Z M 256 119.905 C 254.445 119.967 252.883 120 251.312 120 C 187.627 120 136 68.373 136 4.687 C 136 3.117 136.033 1.555 136.095 0 L 256 0 Z"/></svg>
-            <span class="footer-logo-text">MOZI</span>
-          </div>
-          <p class="footer-tagline">Doctrinal biosecurity and Islamic environmental ethics — curated for free.</p>
-          <div class="footer-socials">
-            <a href="#" aria-label="Facebook" class="footer-social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-            <a href="#" aria-label="Twitter / X" class="footer-social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
-            <a href="#" aria-label="Instagram" class="footer-social-btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-          </div>
-        </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">Discover</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/mozi-list.html">Creature Directory</a></li>
-            <li><a href="/mozi/categories.html">Risk Categories</a></li>
-            <li><a href="/mozi/audit.html">Home Audit Tool</a></li>
-            <li><a href="/mozi/resources.html">Resource Vault</a></li>
+      <div class="grid grid-2" style="gap: 32px;">
+        <div class="card fade-in">
+          <h3 style="color: var(--accent); margin-bottom: 16px;">&#128216; Islamic Sources</h3>
+          <ul class="method-list">
+            <li><span class="method-icon">&#128218;</span>Sahih al-Bukhari (Hadith Collections)</li>
+            <li><span class="method-icon">&#128218;</span>Sahih Muslim (Hadith Collections)</li>
+            <li><span class="method-icon">&#128218;</span>Sunan Abu Dawud</li>
+            <li><span class="method-icon">&#128218;</span>Sunan An-Nasa'i</li>
+            <li><span class="method-icon">&#128218;</span>Sunan Ibn Majah</li>
+            <li><span class="method-icon">&#128218;</span>Al-Mughni by Ibn Qudamah (Hanbali Fiqh)</li>
+            <li><span class="method-icon">&#128218;</span>Al-Majmu' by An-Nawawi (Shafi'i Fiqh)</li>
+            <li><span class="method-icon">&#128218;</span>Badai' al-Sanai' by al-Kasani (Hanafi Fiqh)</li>
           </ul>
         </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">The Mission</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/about/index.html">Origin Story</a></li>
-            <li><a href="/mozi/about/doctrine.html">Fiqh Doctrine</a></li>
-            <li><a href="/mozi/about/ethics.html">Environmental Ethics</a></li>
-            <li><a href="/mozi/blog.html">Newsroom Hub</a></li>
+
+        <div class="card fade-in">
+          <h3 style="color: var(--accent); margin-bottom: 16px;">&#128300; Scientific &amp; Public Health</h3>
+          <ul class="method-list">
+            <li><span class="method-icon">&#127973;</span><a href="https://www.who.int/southeastasia" target="_blank" rel="noopener">WHO South-East Asia Regional Office (SEARO)</a></li>
+            <li><span class="method-icon">&#127973;</span><a href="https://ncvbdc.mohfw.gov.in/" target="_blank" rel="noopener">National Centre for Vector Borne Diseases Control (NCVBDC)</a></li>
+            <li><span class="method-icon">&#127973;</span><a href="https://www.icmr.gov.in/" target="_blank" rel="noopener">Indian Council of Medical Research (ICMR)</a></li>
+            <li><span class="method-icon">&#127973;</span><a href="https://ncdc.gov.in/" target="_blank" rel="noopener">National Centre for Disease Control (NCDC)</a></li>
+            <li><span class="method-icon">&#127973;</span>The Lancet — Snakebite Envenoming Studies</li>
+            <li><span class="method-icon">&#127973;</span>Million Death Study (India)</li>
+            <li><span class="method-icon">&#127973;</span>ICMR-National Institute of Virology, Pune</li>
           </ul>
         </div>
-        <div class="footer-col">
-          <h4 class="footer-col-title">Concierge</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/contact.html">Get in Touch</a></li>
-            <li><a href="/mozi/legal/privacy.html">Privacy Policy</a></li>
-            <li><a href="/mozi/legal/terms.html">User Agreement</a></li>
-            <li><a href="/mozi/contact.html">Report a Concern</a></li>
+
+        <div class="card fade-in">
+          <h3 style="color: var(--accent); margin-bottom: 16px;">&#128222; Emergency Contacts (India)</h3>
+          <ul class="method-list">
+            <li><span class="method-icon">&#128403;</span><strong>Emergency:</strong> 112 (National) / 108 (Ambulance)</li>
+            <li><span class="method-icon">&#128403;</span><strong>Poison Helpline:</strong> 1800-11-6117 (AIIMS)</li>
+            <li><span class="method-icon">&#128403;</span><strong>NCDC Helpline:</strong> 011-23077901</li>
+            <li><span class="method-icon">&#128403;</span><strong>Wildlife SOS:</strong> 1800-599-4442</li>
+            <li><span class="method-icon">&#128403;</span><strong>Snake Rescue:</strong> Contact local forest department</li>
+          </ul>
+        </div>
+
+        <div class="card fade-in">
+          <h3 style="color: var(--accent); margin-bottom: 16px;">&#127760; Additional Resources</h3>
+          <ul class="method-list">
+            <li><span class="method-icon">&#128279;</span><a href="https://www.iucnredlist.org/" target="_blank" rel="noopener">IUCN Red List of Threatened Species</a></li>
+            <li><span class="method-icon">&#128279;</span><a href="https://www.fao.org/" target="_blank" rel="noopener">Food and Agriculture Organization (FAO)</a></li>
+            <li><span class="method-icon">&#128279;</span>Wildlife Institute of India</li>
+            <li><span class="method-icon">&#128279;</span>Bombay Natural History Society</li>
+            <li><span class="method-icon">&#128279;</span>Forest Research Institute, Dehradun</li>
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p class="footer-copy">&copy; 2026 MOZI. All Rights Reserved. &nbsp;|&nbsp; <a href="/mozi/legal/privacy.html">Privacy Policy</a></p>
-        <p class="footer-credit">Curated by Amir Hashmi</p>
+    </div>
+  </main>
+
+  <footer class="footer" style="margin-top: 80px;">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">Curated by <strong>Amir Hashmi</strong></div>
+        <ul class="footer-links">
+          <li><a href="/mozi/legal/privacy.html">Privacy Policy</a></li>
+          <li><a href="/mozi/legal/terms.html">Terms of Use</a></li>
+          <li><a href="/mozi/contact.html">Contact</a></li>
+        </ul>
       </div>
+      <div class="footer-copyright">&copy; 2026 MOZI &mdash; Harmful Creatures in Homes: Prevention, Removal, and Ethical Control. All rights reserved.</div>
     </div>
   </footer>
-
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
