@@ -1,494 +1,364 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" dir="ltr">
 <head>
-  <title>Home — Doctrinal-Scientific Biosecurity — MOZI</title>
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MOZI — Islamic Biosecurity and Environmental Ethics Platform. Learn authentic Hadith rulings and scientific prevention for household pests.">
-  <link rel="stylesheet" href="/mozi/assets/css/main.css">
-  <link rel="stylesheet" href="/mozi/assets/css/animations.css">
-  <link rel="stylesheet" href="/mozi/assets/css/mode-toggle.css">
-  <link rel="stylesheet" href="/mozi/assets/css/premium.css">
-  <link rel="stylesheet" href="/mozi/assets/css/print.css" media="print">
-  
-  <!-- Core Data & Control Scripts -->
-  <script src="/mozi/assets/js/mozi-data.js"></script>
-  <script src="/mozi/assets/js/dark-mode.js"></script>
-  <script src="/mozi/assets/js/mode-switch.js"></script>
-  <script src="/mozi/assets/js/share.js"></script>
-  <script src="/mozi/assets/js/main.js"></script>
+  <meta name="description" content="MOZI — Harmful Creatures in Homes: Prevention, Removal, and Ethical Control. An Apple-style premium platform integrating Islamic doctrine with modern science.">
+  <meta name="theme-color" content="#0A0A0F">
+  <title>MOZI | Harmful Creatures in Homes: Prevention, Removal, and Ethical Control</title>
 
-  <script src="/mozi/assets/js/scroll-snap.js"></script>
-                        <script src="/mozi/assets/js/india-risk-map.js"></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body class="integrated-mode">
-  <div class="progress-bar" id="progress-bar"></div>
-  
-  <nav class="nav">
-    <a href="/mozi/index.html" class="nav__logo">MOZI</a>
-    <ul class="nav__links">
-      <li><a href="/mozi/index.html">Home</a></li>
+<body>
+
+  <!-- ======== NAVIGATION ======== -->
+  <nav class="nav" id="mainNav">
+    <a href="/mozi/" class="nav-logo">
+      <div class="nav-logo-icon">M</div>
+      <span>MOZI</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/mozi/" class="active">Home</a></li>
       <li><a href="/mozi/mozi-list.html">Creatures</a></li>
       <li><a href="/mozi/categories.html">Categories</a></li>
-      <li><a href="/mozi/about/doctrine.html">Doctrine</a></li>
-      <li><a href="/mozi/about/ethics.html">Ethics</a></li>
+      <li><a href="/mozi/#doctrine">Doctrine</a></li>
+      <li><a href="/mozi/#ethics">Ethics</a></li>
       <li><a href="/mozi/audit.html">Home Audit</a></li>
       <li><a href="/mozi/resources.html">Resources</a></li>
-      <li><a href="/mozi/contact.html">Emergency</a></li>
+      <li><a href="/mozi/#emergency">Emergency</a></li>
     </ul>
-    <div class="nav__actions">
-      <!-- Mode Toggle Pill -->
-      <div class="mode-toggle-pill">
-        <button class="mode-toggle-pill__btn" data-mode="integrated" title="Show Doctrine + Science">Integrated</button>
-        <button class="mode-toggle-pill__btn" data-mode="doctrine" title="Doctrine Only">Doctrine</button>
-        <button class="mode-toggle-pill__btn" data-mode="scientific" title="Science Only">Science</button>
-      </div>
-      <button class="btn btn--icon" id="theme-toggle-btn" aria-label="Toggle Dark Mode">
-        <!-- Icon injected by JS -->
-      </button>
-      <button class="nav__hamburger" id="nav-hamburger-btn" aria-label="Toggle Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
-  
-  <!-- Mobile Navigation Overlay -->
-  <div class="nav__mobile" id="nav-mobile-menu">
-    <a href="/mozi/index.html">Home</a>
+
+  <!-- Mobile Nav -->
+  <div class="nav-mobile" id="navMobile">
+    <a href="/mozi/">Home</a>
     <a href="/mozi/mozi-list.html">Creatures</a>
     <a href="/mozi/categories.html">Categories</a>
-    <a href="/mozi/about/doctrine.html">Doctrine</a>
-    <a href="/mozi/about/ethics.html">Ethics</a>
+    <a href="/mozi/#doctrine">Doctrine</a>
+    <a href="/mozi/#ethics">Ethics</a>
     <a href="/mozi/audit.html">Home Audit</a>
     <a href="/mozi/resources.html">Resources</a>
-    <a href="/mozi/contact.html">Emergency</a>
+    <a href="/mozi/#emergency">Emergency</a>
   </div>
 
-  
-  
-  <div class="scroll-container">
-    <!-- Dot Navigation -->
-    <div class="dot-nav" id="dot-nav">
-    
-</div>
-
-    <!-- Slide 1: Hero -->
-    <section class="slide hero">
-      <div class="hero__bg"></div>
-      <div class="hero__scan-line"></div>
-      <div class="hero__creature-float">🦂</div>
-      <div class="hero__creature-float">🐍</div>
-      
-      <div class="hero__content">
-        <!-- Seasonal Alert Banner -->
-        <div id="seasonal-alert-banner"></div>
-
-        <span class="hero__eyebrow">Islamic Environmental Biosecurity</span>
-        <h1 class="hero__title">MOZI</h1>
-        <p class="hero__subtitle">
-          Harmful Creatures in Homes: Prevention, Removal & Doctrinal Classification based on Islamic Jurisprudence & Entomological Sciences.
-        </p>
-        <div class="hero__cta">
-          <a href="/mozi/mozi-list.html" class="btn btn--primary">Explore Creatures</a>
-          <a href="/mozi/about/doctrine.html" class="btn btn--outline">The Fiqh Doctrine</a>
-        </div>
-      </div>
-      <div class="hero__scroll-cue">
-        <span>Scroll Down</span>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down"><line x1="12" x2="12" y1="5" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
-      </div>
-    </section>
-
-    <!-- Slide 2: The Doctrinal Foundation | Al-Mu'dhiyāt & Fawāsiq -->
-    <section class="slide">
-      <div class="container flex-col gap-6 max-width-md margin-x-auto text-center flex-center reveal active">
-        <span class="text-mono text-accent uppercase">The Doctrinal Foundation</span>
-        <h2 class="text-primary" style="font-size: 2.2rem; margin-bottom: 0.5rem;">Al-Mu'dhiyāt & Fawāsiq</h2>
-        <p class="text-secondary" style="font-size: 1.1rem; line-height: 1.8; max-width: 800px; margin: 0 auto;">
-          In Islamic jurisprudence, creatures that pose actual harm (*dharar*) to human life, health, property, or food security are classified under *Al-Mu'dhiyāt*. The Prophet ﷺ explicitly permitted the removal of five (or six) harmful transgressive creatures, known as *Fawāsiq*, even within sacred states.
-        </p>
-        <div class="card card--glass padding-6 margin-top-4 doctrine-content text-left max-width-md" style="margin: 0 auto; width: 100%;">
-          <h4 class="text-primary font-weight-600">The Prophetic Command:</h4>
-          <p class="text-transliteration margin-y-2" style="font-style: italic; color: var(--text-secondary);">
-            "Khamsun mina'd-dawabbi kulluhunna fasiqun yuqtalna fi'l-harami..."
-          </p>
-          <p class="text-secondary text-sm" style="line-height:1.6;">
-            "Five animals are harmful (fāsiq) and may be killed even in the Haram: the crow, the kite, the scorpion, the rat, and the biting dog." (Sahih al-Bukhari 1829)
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Slide 3: The Scientific Integration | Integrated Pest Management -->
-    <section class="slide">
-      <div class="container flex-col gap-6 max-width-md margin-x-auto text-center flex-center reveal active">
-        <span class="text-mono text-accent uppercase">The Scientific Integration</span>
-        <h2 class="text-primary" style="font-size: 2.2rem; margin-bottom: 0.5rem;">The Scientific Integration | Integrated Pest Management</h2>
-        <p class="text-secondary" style="font-size: 1.15rem; line-height: 1.8; max-width: 800px; margin: 0 auto;">
-          Modern epidemiology and entomology validate these rulings. The creatures identified in scripture are primary vectors of lethal zoonotic pathogens (Rabies, Leptospirosis, Plague) or possess dangerous venom. Our platform merges these traditions, advocating for structural exclusion, sanitation, and humane targeted elimination instead of indiscriminate mass extermination.
-        </p>
-      </div>
-    </section>
-
-    <!-- Slide 4: Categories Index -->
-    <section class="slide">
-      <div class="container flex-col gap-6 text-center">
-        <h2 class="text-primary">Creature Classifications</h2>
-        <p class="text-secondary max-width-md margin-x-auto">
-          Explore the 5 categories of creatures cataloged by legal status and risk index.
-        </p>
-        <div class="grid-3 card-grid margin-top-8 text-left" id="categories-showcase">
-          <a href="/mozi/pages/categories/venomous.html" class="card card--glass card--glow-danger flex-col gap-3" style="text-decoration:none; color:inherit;">
-            <h3 class="text-primary">Venomous Hazards</h3>
-            <p class="text-secondary text-sm">Scorpions, snakes, and stings. Rulings of self-defense and medical response guidelines.</p>
-            <span class="badge badge--extreme margin-top-4 align-self-start">Extreme Risk</span>
-          </a>
-          <a href="/mozi/pages/categories/disease-vectors.html" class="card card--glass card--glow-danger flex-col gap-3" style="text-decoration:none; color:inherit;">
-            <h3 class="text-primary">Disease Vectors</h3>
-            <p class="text-secondary text-sm">Mosquitoes, flies, and ticks. Vectors for Dengue, Malaria, and Kyasanur Forest Disease.</p>
-            <span class="badge badge--high margin-top-4 align-self-start">High Risk</span>
-          </a>
-          <a href="/mozi/pages/categories/protected-species.html" class="card card--glass card--glow-info flex-col gap-3" style="text-decoration:none; color:inherit;">
-            <h3 class="text-primary">Protected Species</h3>
-            <p class="text-secondary text-sm">Ants, bees, hoopoe, and frogs. Rulings strictly prohibiting killing without extreme necessity.</p>
-            <span class="badge badge--protected margin-top-4 align-self-start">Do Not Kill</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Slide 5: Interactive Risk Intelligence Map -->
-    <section class="slide">
-      <div class="container grid-2" style="max-width: 1360px;">
-        <div class="flex-col gap-4 justify-center">
-          <span class="text-mono text-accent uppercase">India Heatmap</span>
-          <h2 class="text-primary" style="font-size: 2rem; margin-bottom: 0;">Regional Risk Monitor</h2>
-          <p class="text-secondary" style="font-size: 0.95rem;">
-            Hover over the geographically correct SVG map to review state-level seasonal alerts, endemic vectors, anti-venom medical centers, and public health guidelines.
-          </p>
-
-          <!-- Historical & Real-time Data Start -->
-          <div class="margin-top-8 padding-4" style="background: rgba(0,0,0,0.3); border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
-            <h4 class="text-primary margin-bottom-4">Historical Death Toll & Real-time Data</h4>
-            <div class="grid-2 gap-4 text-sm margin-bottom-6">
-                <div>
-                    <h5 class="text-accent">Scorpion</h5>
-                    <ul class="text-secondary margin-bottom-2">
-                        <li>India: 1,200-2,600 deaths/year</li>
-                        <li>World: ~3,250 deaths/year</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5 class="text-accent">Snake</h5>
-                    <ul class="text-secondary margin-bottom-2">
-                        <li>India: 58,000 deaths/year (1.2M envenomations)</li>
-                        <li>World: 138,000 deaths/year</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5 class="text-accent">Rabies (Stray Dog)</h5>
-                    <ul class="text-secondary margin-bottom-2">
-                        <li>India: 20,000 deaths/year (36% of global)</li>
-                        <li>World: 59,000 deaths/year</li>
-                    </ul>
-                </div>
-                <div>
-                    <h5 class="text-accent">Mosquito (Dengue/Malaria/JE)</h5>
-                    <ul class="text-secondary margin-bottom-2">
-                        <li>India: 20,000-30,000 deaths/year</li>
-                        <li>World: 600,000+ deaths/year</li>
-                        <li>JE (Culex): 1,500 deaths/year (15k+ cases)</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="margin-bottom-6">
-                <h5 class="text-accent">Current Year (2026) Reports</h5>
-                <p class="text-secondary">Data Pending (Aggregating real-time hospital records...)</p>
-            </div>
-            
-            <!-- Infographics placeholders -->
-            <div class="grid-3 gap-4 margin-bottom-6">
-                <div class="padding-4 flex-col flex-center" style="background: rgba(255,255,255,0.02); border-radius: 4px;">
-                    <svg width="100%" height="60" viewBox="0 0 100 60">
-                        <rect x="10" y="20" width="15" height="40" fill="var(--color-primary)" opacity="0.6"/>
-                        <rect x="35" y="10" width="15" height="50" fill="var(--color-primary)" opacity="0.8"/>
-                        <rect x="60" y="30" width="15" height="30" fill="var(--color-primary)" opacity="0.5"/>
-                        <rect x="85" y="5" width="15" height="55" fill="var(--color-primary)"/>
-                    </svg>
-                    <span class="text-xs text-muted margin-top-2">State-wise Distribution</span>
-                </div>
-                <div class="padding-4 flex-col flex-center" style="background: rgba(255,255,255,0.02); border-radius: 4px;">
-                    <svg width="100%" height="60" viewBox="0 0 100 60">
-                        <path d="M 0 50 Q 25 20, 50 40 T 100 10" fill="none" stroke="var(--color-accent)" stroke-width="3"/>
-                    </svg>
-                    <span class="text-xs text-muted margin-top-2">Seasonal Trends</span>
-                </div>
-                <div class="padding-4 flex-col flex-center" style="background: rgba(255,255,255,0.02); border-radius: 4px;">
-                    <svg width="100%" height="60" viewBox="0 0 100 60">
-                        <rect x="20" y="15" width="25" height="45" fill="var(--color-danger)" opacity="0.7"/>
-                        <rect x="55" y="25" width="25" height="35" fill="var(--color-info)" opacity="0.7"/>
-                    </svg>
-                    <span class="text-xs text-muted margin-top-2">YoY Comparison</span>
-                </div>
-            </div>
-
-            <div class="text-xs text-muted flex-col gap-1" style="font-size: 0.7rem; opacity: 0.6;">
-                <span>Source: National Center for Vector Borne Diseases Control (NCVBDC), Ministry of Health, Government of India</span>
-                <span>Source: WHO SEARO - Southeast Asia Regional Office</span>
-                <span>Source: Indian Council of Medical Research (ICMR)</span>
-            </div>
-          </div>
-          <!-- Historical & Real-time Data End -->
-
-          
-          <!-- Death Data & Infographics Dashboard -->
-          <div class="card card--glass padding-5 flex-col gap-3" style="width: 100%; border-radius: var(--radius-lg); margin-top: 1rem;">
-             <div class="flex-between">
-                <h3 class="text-primary font-weight-700" style="font-size: 1rem; margin:0;">📊 Zoonotic & Venom Mortality Index (India)</h3>
-                <div class="flex gap-2">
-                   <button class="btn btn--outline btn--xs" onclick="toggleDeathStats('historical')" id="btn-historical" style="padding: 2px 8px; font-size: 10px; cursor:pointer;">Historical Log</button>
-                   <button class="btn btn--outline btn--xs" onclick="toggleDeathStats('realtime')" id="btn-realtime" style="padding: 2px 8px; font-size: 10px; cursor:pointer;">Real-Time Est.</button>
-                </div>
-             </div>
-             
-             <!-- Historical Stats Pane -->
-             <div id="pane-historical" class="flex-col gap-3">
-                <p class="text-xs text-secondary" style="font-size: 11px; margin:0;">Aggregate annual deaths in India from key biological vectors (Source: WHO & NHP):</p>
-                <div class="grid-3 gap-3" style="grid-template-columns: repeat(3, 1fr);">
-                   <div class="bg-tertiary padding-3 text-center rounded-md" style="border-top: 3px solid var(--accent-danger); border-radius:8px; padding: 10px;">
-                      <span class="text-xs text-muted block uppercase text-mono" style="font-size: 9px; display:block;">Snakebites</span>
-                      <strong class="text-primary text-md block margin-top-1" style="font-size:1.15rem; display:block;">~58,000</strong>
-                      <span class="text-mono block" style="font-size:8px; color:var(--accent-danger); display:block;">Annual Deaths</span>
-                   </div>
-                   <div class="bg-tertiary padding-3 text-center rounded-md" style="border-top: 3px solid var(--accent-warning); border-radius:8px; padding: 10px;">
-                      <span class="text-xs text-muted block uppercase text-mono" style="font-size: 9px; display:block;">Rabies (Dogs)</span>
-                      <strong class="text-primary text-md block margin-top-1" style="font-size:1.15rem; display:block;">~20,000</strong>
-                      <span class="text-mono block" style="font-size:8px; color:var(--accent-warning); display:block;">Annual Deaths</span>
-                   </div>
-                   <div class="bg-tertiary padding-3 text-center rounded-md" style="border-top: 3px solid var(--accent-high); border-radius:8px; padding: 10px;">
-                      <span class="text-xs text-muted block uppercase text-mono" style="font-size: 9px; display:block;">Mosquitoes</span>
-                      <strong class="text-primary text-md block margin-top-1" style="font-size:1.15rem; display:block;">~12,500</strong>
-                      <span class="text-mono block" style="font-size:8px; color:var(--accent-high); display:block;">Malaria & Dengue</span>
-                   </div>
-                </div>
-             </div>
-
-             <!-- Realtime Stats Pane (Hidden by default) -->
-             <div id="pane-realtime" class="hidden flex-col gap-3">
-                <p class="text-xs text-secondary" style="font-size: 11px; margin:0;">Calculated real-time estimated biological threat counters for current year (2026):</p>
-                <div class="grid-3 gap-3" style="grid-template-columns: repeat(3, 1fr);">
-                   <div class="bg-tertiary padding-3 text-center rounded-md" style="border-top: 3px solid var(--accent-danger); border-radius:8px; padding: 10px;">
-                      <span class="text-xs text-muted block uppercase text-mono" style="font-size: 9px; display:block;">Snakebites (YTD)</span>
-                      <strong class="text-primary text-md block margin-top-1" id="counter-snakes" style="font-size:1.15rem; display:block;">23,842</strong>
-                      <span class="text-mono block" style="font-size:8px; color:var(--accent-danger); display:block;">Est. Hospitalizations</span>
-                   </div>
-                   <div class="bg-tertiary padding-3 text-center rounded-md" style="border-top: 3px solid var(--accent-warning); border-radius:8px; padding: 10px;">
-                      <span class="text-xs text-muted block uppercase text-mono" style="font-size: 9px; display:block;">Rabies Exposures</span>
-                      <strong class="text-primary text-md block margin-top-1" id="counter-rabies" style="font-size:1.15rem; display:block;">982,410</strong>
-                      <span class="text-mono block" style="font-size:8px; color:var(--accent-warning); display:block;">Post-Exposure Prophy.</span>
-                   </div>
-                   <div class="bg-tertiary padding-3 text-center rounded-md" style="border-top: 3px solid var(--accent-high); border-radius:8px; padding: 10px;">
-                      <span class="text-xs text-muted block uppercase text-mono" style="font-size: 9px; display:block;">Dengue Vectors</span>
-                      <strong class="text-primary text-md block margin-top-1" id="counter-dengue" style="font-size:1.15rem; display:block;">148,930</strong>
-                      <span class="text-mono block" style="font-size:8px; color:var(--accent-high); display:block;">Active Lab Cases</span>
-                   </div>
-                </div>
-             </div>
-          </div>
-
-          <!-- Active State Alerts Dashboard -->
-          <div class="grid-2 gap-4" style="grid-template-columns: 1.2fr 0.8fr; margin-top: 1rem; width: 100%;">
-             <div class="card card--glass padding-4 flex-col gap-2" style="border-radius: var(--radius-md);">
-                <h4 class="text-primary font-weight-600" style="font-size: 0.9rem; margin:0;">🚨 Active State Alerts</h4>
-                <div class="text-xs text-secondary flex-col gap-1" style="font-size: 11px; line-height: 1.4;">
-                   <div>• <strong class="text-primary">Rajasthan:</strong> Peak Scorpion & Snakebite season alert</div>
-                   <div>• <strong class="text-primary">Kerala:</strong> Fruit Bat monitors (Nipah virus active alert zones)</div>
-                   <div>• <strong class="text-primary">Maharashtra:</strong> Monsoon flooding Leptospirosis containment</div>
-                   <div>• <strong class="text-primary">Gujarat:</strong> Dairy region Hyalomma Tick & CCHF transmission alert</div>
-                   <div>• <strong class="text-primary">Karnataka:</strong> Monkey Fever (KFD) forest zone active screening</div>
-                   <div>• <strong class="text-primary">Delhi/NCR:</strong> Municipal post-monsoon Dengue/Chikungunya outbreak</div>
-                </div>
-             </div>
-             <div class="card card--glass padding-4 flex-col gap-2" style="border-radius: var(--radius-md);">
-                <h4 class="text-primary font-weight-600" style="font-size: 0.9rem; margin:0;">📊 Stats Summary</h4>
-                <div class="text-xs text-secondary flex-col gap-1" style="font-size: 11px; line-height: 1.4;">
-                   <div>• <strong class="text-primary">RJ stings:</strong> 4,200/yr reports</div>
-                   <div>• <strong class="text-primary">MH Rabies:</strong> 120/yr tracked</div>
-                   <div>• <strong class="text-primary">KL Nipah:</strong> 4 zones isolated</div>
-                   <div>• <strong class="text-primary">KA KFD:</strong> 25 forest beats alert</div>
-                </div>
-             </div>
-          </div>
-        </div>
-        
-        <div class="flex-center flex-col gap-4">
-          <div id="india-map-container" style="width:100%; max-width:440px; height:500px; display: flex; align-items: center; justify-content: center;">
-            <object type="image/svg+xml" data="/mozi/assets/images/maps/india-states.svg" style="width:100%; height:100%;"></object>
-          </div>
-        </div>
-      </div>
-
-      <script>
-         function toggleDeathStats(mode) {
-            const histPane = document.getElementById('pane-historical');
-            const realPane = document.getElementById('pane-realtime');
-            const btnHist = document.getElementById('btn-historical');
-            const btnReal = document.getElementById('btn-realtime');
-            if (!histPane || !realPane || !btnHist || !btnReal) return;
-            if (mode === 'historical') {
-               histPane.style.display = 'flex';
-               realPane.style.display = 'none';
-               btnHist.style.background = 'var(--accent-safe)';
-               btnHist.style.color = '#fff';
-               btnReal.style.background = 'transparent';
-               btnReal.style.color = 'inherit';
-            } else {
-               histPane.style.display = 'none';
-               realPane.style.display = 'flex';
-               btnReal.style.background = 'var(--accent-safe)';
-               btnReal.style.color = '#fff';
-               btnHist.style.background = 'transparent';
-               btnHist.style.color = 'inherit';
-            }
-         }
-         
-         document.addEventListener('DOMContentLoaded', () => {
-            toggleDeathStats('historical');
-            // Ticker simulation for realtime deaths
-            setInterval(() => {
-               const snakes = document.getElementById('counter-snakes');
-               const rabies = document.getElementById('counter-rabies');
-               const dengue = document.getElementById('counter-dengue');
-               if (snakes) {
-                  const val = parseInt(snakes.textContent.replace(/,/g, '')) + (Math.random() > 0.8 ? 1 : 0);
-                  snakes.textContent = val.toLocaleString();
-               }
-               if (rabies) {
-                  const val = parseInt(rabies.textContent.replace(/,/g, '')) + (Math.random() > 0.6 ? 1 : 0);
-                  rabies.textContent = val.toLocaleString();
-               }
-               if (dengue) {
-                  const val = parseInt(dengue.textContent.replace(/,/g, '')) + (Math.random() > 0.5 ? 1 : 0);
-                  dengue.textContent = val.toLocaleString();
-               }
-            }, 3000);
-         });
-      </script>
-    </section>
-
-    <!-- Slide 6: Diagnostic Home Audit -->
-    <section class="slide">
-      <div class="container grid-2">
-        <div class="flex-center">
-          <div class="circular-score flex-center flex-col" style="width: 200px; height: 200px; border-radius:50%; border: 8px solid var(--accent-safe); box-shadow: var(--glow-safe);">
-            <span class="text-primary font-weight-900" style="font-size: 3.5rem;">Audit</span>
-            <span class="text-muted text-mono text-xs uppercase" style="font-size: 10px;">Checklist</span>
-          </div>
-        </div>
-        <div class="flex-col gap-4 justify-center">
-          <span class="text-mono text-accent uppercase">Diagnostic Survey</span>
-          <h2 class="text-primary">Household Vulnerability Audit</h2>
-          <p class="text-secondary">
-            Is your home secure against vector intrusions and nesting hazards? Take our 20-question structured safety audit to generate a vulnerability index score and download a personalized PDF exclusion plan.
-          </p>
-          <a href="/mozi/audit.html" class="btn btn--primary align-self-start">Start Free Home Audit</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Slide 6: Resources and Consultation -->
-    <section class="slide">
-      <div class="container flex-col gap-8 text-center flex-center">
-        <h2 class="text-primary">Consultation & Resources</h2>
-        <p class="text-secondary max-width-md margin-x-auto">
-          Download premium safety PDFs, view verified authentic Hadith logs, or consult our scholars and pest control professionals.
-        </p>
-        <div class="flex gap-4 margin-top-4 flex-wrap justify-center">
-          <a href="/mozi/resources.html" class="btn btn--outline">Verified Hadith Logs</a>
-          <a href="/mozi/contact.html" class="btn btn--primary">Request Scholarly Consultation</a>
-        </div>
-      </div>
-    </section>
+  <!-- Slide Navigation Dots -->
+  <div class="slide-nav" id="slideNav">
+    <button class="slide-nav-dot active" data-slide="0" aria-label="Slide 1"></button>
+    <button class="slide-nav-dot" data-slide="1" aria-label="Slide 2"></button>
+    <button class="slide-nav-dot" data-slide="2" aria-label="Slide 3"></button>
+    <button class="slide-nav-dot" data-slide="3" aria-label="Slide 4"></button>
+    <button class="slide-nav-dot" data-slide="4" aria-label="Slide 5"></button>
+    <button class="slide-nav-dot" data-slide="5" aria-label="Slide 6"></button>
   </div>
 
-  
-  
-  
+  <!-- ======== SCROLL CONTAINER ======== -->
+  <main class="scroll-container" id="scrollContainer">
 
+    <!-- ===== SLIDE 1: 3D HERO ===== -->
+    <section class="scroll-slide hero" id="slide-0">
+      <div class="hero-bg"></div>
 
-  <!-- ═══════════════════════════════════════════════════════
-       SITE FOOTER — Outside scroll-snap container
-       ═══════════════════════════════════════════════════════ -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="footer-inner container">
-      <div class="footer-grid">
-        <!-- Brand -->
-        <div class="footer-brand">
-          <div class="footer-logo-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256" fill="currentColor" style="color:var(--accent-safe);">
-              <path d="M 4.688 136 C 68.373 136 120 187.627 120 251.312 C 120 252.883 119.967 254.445 119.905 256 L 0 256 L 0 136.096 C 1.555 136.034 3.117 136 4.688 136 Z M 251.312 136 C 252.883 136 254.445 136.034 256 136.096 L 256 256 L 136.095 256 C 136.032 254.438 136.001 252.875 136 251.312 C 136 187.627 187.627 136 251.312 136 Z M 119.905 0 C 119.967 1.555 120 3.117 120 4.688 C 120 68.373 68.373 120 4.687 120 C 3.117 120 1.555 119.967 0 119.905 L 0 0 Z M 256 119.905 C 254.445 119.967 252.883 120 251.312 120 C 187.627 120 136 68.373 136 4.687 C 136 3.117 136.033 1.555 136.095 0 L 256 0 Z"/>
-            </svg>
-            <span class="footer-logo-text">MOZI</span>
-          </div>
-          <p class="footer-tagline">Doctrinal biosecurity and Islamic environmental ethics — curated for free.</p>
-          <div class="footer-socials">
-            <a href="#" aria-label="Facebook" class="footer-social-btn">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-            </a>
-            <a href="#" aria-label="Twitter / X" class="footer-social-btn">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
-            </a>
-            <a href="#" aria-label="Instagram" class="footer-social-btn">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-            </a>
-          </div>
+      <!-- Particles -->
+      <div class="hero-particles" id="heroParticles"></div>
+
+      <div class="hero-content">
+        <div class="hero-label fade-in">
+          <span>&#9670;</span> Islamic Biosecurity &amp; Environmental Intelligence
         </div>
-
-        <!-- Discover -->
-        <div class="footer-col">
-          <h4 class="footer-col-title">Discover</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/mozi-list.html">Creature Directory</a></li>
-            <li><a href="/mozi/categories.html">Risk Categories</a></li>
-            <li><a href="/mozi/audit.html">Home Audit Tool</a></li>
-            <li><a href="/mozi/resources.html">Resource Vault</a></li>
-          </ul>
-        </div>
-
-        <!-- Mission -->
-        <div class="footer-col">
-          <h4 class="footer-col-title">The Mission</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/about/index.html">Origin Story</a></li>
-            <li><a href="/mozi/about/doctrine.html">Fiqh Doctrine</a></li>
-            <li><a href="/mozi/about/ethics.html">Environmental Ethics</a></li>
-            <li><a href="/mozi/blog.html">Newsroom Hub</a></li>
-          </ul>
-        </div>
-
-        <!-- Concierge -->
-        <div class="footer-col">
-          <h4 class="footer-col-title">Concierge</h4>
-          <ul class="footer-links">
-            <li><a href="/mozi/contact.html">Get in Touch</a></li>
-            <li><a href="/mozi/legal/privacy.html">Privacy Policy</a></li>
-            <li><a href="/mozi/legal/terms.html">User Agreement</a></li>
-            <li><a href="/mozi/contact.html">Report a Concern</a></li>
-          </ul>
+        <h1 class="text-hero hero-title fade-in">MOZI</h1>
+        <p class="hero-tagline fade-in">
+          <span id="typewriterText"></span><span class="typewriter"></span>
+        </p>
+        <div class="hero-cta fade-in">
+          <a href="/mozi/mozi-list.html" class="btn btn-primary">Explore Creatures</a>
+          <a href="#slide-1" class="btn btn-secondary" onclick="scrollToSlide(1)">Learn Doctrine</a>
         </div>
       </div>
 
-      <!-- Bottom bar -->
-      <div class="footer-bottom">
-        <p class="footer-copy">&copy; 2026 MOZI. All Rights Reserved. &nbsp;|&nbsp; <a href="/mozi/legal/privacy.html">Privacy Policy</a></p>
-        <p class="footer-credit">Curated by Amir Hashmi</p>
+      <div class="scroll-indicator">
+        <div class="scroll-indicator-dot"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ===== SLIDE 2: DOCTRINAL FOUNDATION ===== -->
+    <section class="scroll-slide" id="slide-1">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">The Doctrinal Foundation</span>
+          <h2 class="text-display section-title" id="doctrine">Al-Mu'dhiyat &amp; Fawasiq</h2>
+          <p class="text-subtitle section-desc">The 5 creatures named in Sahih al-Bukhari and Sahih Muslim that may be killed even in the sacred precincts of the Haram.</p>
+        </div>
+
+        <div class="hadith-block fade-in" style="margin-bottom: 48px;">
+          <p class="hadith-arabic">خَمْسٌ مِنَ الدَّوَابِّ كُلُّهُنَّ فَاسِقٌ يُقْتَلْنَ فِي الْحَرَمِ: الْغُرَابُ وَالْحِدَأَةُ وَالْعَقْرَبُ وَالْفَأْرَةُ وَالْكَلْبُ الْعَقُورُ</p>
+          <p class="hadith-translation">"Five are the vicious and harmful creatures which may be killed even in the state of Ihram: the crow, the kite, the scorpion, the mouse, and the rabid dog."</p>
+          <p class="hadith-source">Sahih Muslim 1198 &bull; Sahih al-Bukhari 1828</p>
+        </div>
+
+        <div class="grid grid-5-fawasiq" style="display:grid; grid-template-columns: repeat(5, 1fr); gap: 20px;">
+          <div class="card card-creature fade-in stagger-1" onclick="location.href='/mozi/mozi-detail.html?id=rat'">
+            <div class="creature-icon">&#128000;</div>
+            <div class="creature-name">Rat</div>
+            <div class="creature-latin">Al-Fa'rah</div>
+            <span class="badge badge-extreme">Fawasiq</span>
+          </div>
+          <div class="card card-creature fade-in stagger-2" onclick="location.href='/mozi/mozi-detail.html?id=scorpion'">
+            <div class="creature-icon">&#129410;</div>
+            <div class="creature-name">Scorpion</div>
+            <div class="creature-latin">Al-'Aqrab</div>
+            <span class="badge badge-extreme">Fawasiq</span>
+          </div>
+          <div class="card card-creature fade-in stagger-3" onclick="location.href='#'">
+            <div class="creature-icon">&#128038;</div>
+            <div class="creature-name">Crow</div>
+            <div class="creature-latin">Al-Ghurab</div>
+            <span class="badge badge-extreme">Fawasiq</span>
+          </div>
+          <div class="card card-creature fade-in stagger-4" onclick="location.href='#'">
+            <div class="creature-icon">&#129413;</div>
+            <div class="creature-name">Kite</div>
+            <div class="creature-latin">Al-Hida'ah</div>
+            <span class="badge badge-extreme">Fawasiq</span>
+          </div>
+          <div class="card card-creature fade-in stagger-5" onclick="location.href='/mozi/mozi-detail.html?id=stray-dog'">
+            <div class="creature-icon">&#128021;</div>
+            <div class="creature-name">Rabid Dog</div>
+            <div class="creature-latin">Al-Kalb al-'Aqur</div>
+            <span class="badge badge-extreme">Fawasiq</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SLIDE 3: SCIENTIFIC INTEGRATION ===== -->
+    <section class="scroll-slide" id="slide-2">
+      <div class="container">
+        <div class="two-col">
+          <div class="fade-in-left">
+            <span class="section-label">The Scientific Integration</span>
+            <h2 class="text-display" style="margin: 16px 0 24px;" id="ethics">Integrated Pest Management</h2>
+            <p class="text-body" style="margin-bottom: 24px;">Modern epidemiology and entomology validate these rulings. The creatures identified in scripture are primary vectors of lethal zoonotic pathogens (Rabies, Leptospirosis, Plague) or possess dangerous venom.</p>
+            <p class="text-body" style="margin-bottom: 32px;">Our platform merges these traditions, advocating for structural exclusion, sanitation, and humane targeted elimination instead of indiscriminate mass extermination.</p>
+            <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+              <div class="info-item" style="flex:1; min-width: 140px;">
+                <div class="info-label">Creatures Catalogued</div>
+                <div class="info-value" style="font-size: 2rem; font-weight: 700; color: var(--accent);">23</div>
+              </div>
+              <div class="info-item" style="flex:1; min-width: 140px;">
+                <div class="info-label">Categories</div>
+                <div class="info-value" style="font-size: 2rem; font-weight: 700; color: var(--accent);">5</div>
+              </div>
+              <div class="info-item" style="flex:1; min-width: 140px;">
+                <div class="info-label">Madhabs Compared</div>
+                <div class="info-value" style="font-size: 2rem; font-weight: 700; color: var(--accent);">4</div>
+              </div>
+            </div>
+          </div>
+          <div class="fade-in-right">
+            <div class="card" style="padding: 0; overflow: hidden;">
+              <div style="padding: 32px;">
+                <h4 style="margin-bottom: 20px; color: var(--accent);">Three-Way Integration</h4>
+                <div style="display: flex; flex-direction: column; gap: 16px;">
+                  <div style="display: flex; align-items: center; gap: 16px; padding: 16px; background: var(--accent-dim); border-radius: var(--radius-sm);">
+                    <span style="font-size: 1.5rem;">&#128216;</span>
+                    <div>
+                      <div style="font-weight: 600; margin-bottom: 2px;">Islamic Doctrine</div>
+                      <div style="font-size: 0.8125rem; color: var(--text-secondary);">Qur'an, Hadith, 4 Madhab rulings</div>
+                    </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 16px; padding: 16px; background: rgba(59, 130, 246, 0.1); border-radius: var(--radius-sm);">
+                    <span style="font-size: 1.5rem;">&#128300;</span>
+                    <div>
+                      <div style="font-weight: 600; margin-bottom: 2px;">Modern Science</div>
+                      <div style="font-size: 0.8125rem; color: var(--text-secondary);">Epidemiology, Entomology, Toxicology</div>
+                    </div>
+                  </div>
+                  <div style="display: flex; align-items: center; gap: 16px; padding: 16px; background: rgba(234, 179, 8, 0.1); border-radius: var(--radius-sm);">
+                    <span style="font-size: 1.5rem;">&#128736;</span>
+                    <div>
+                      <div style="font-weight: 600; margin-bottom: 2px;">Practical Prevention</div>
+                      <div style="font-size: 0.8125rem; color: var(--text-secondary);">IPM, Structural exclusion, Ethical control</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SLIDE 4: INDIA RISK HEATMAP ===== -->
+    <section class="scroll-slide" id="slide-3">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Regional Intelligence</span>
+          <h2 class="text-display section-title">Regional Risk Monitor</h2>
+        </div>
+
+        <div class="map-section-layout">
+          <div class="fade-in-left">
+            <!-- India SVG Map -->
+            <div class="india-map-container" id="indiaMap"></div>
+
+            <!-- Map Legend -->
+            <div style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
+              <div style="display: flex; align-items: center; gap: 6px;">
+                <div style="width: 12px; height: 12px; background: rgba(239,68,68,0.5); border-radius: 2px;"></div>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">High Risk</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px;">
+                <div style="width: 12px; height: 12px; background: rgba(249,115,22,0.5); border-radius: 2px;"></div>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Medium Risk</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 6px;">
+                <div style="width: 12px; height: 12px; background: rgba(234,179,8,0.5); border-radius: 2px;"></div>
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Low Risk</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="fade-in-right">
+            <!-- Active Alerts -->
+            <div class="alerts-panel" style="margin-bottom: 24px;">
+              <h4 style="margin-bottom: 16px; font-size: 0.9375rem;">Active State Alerts</h4>
+              <div class="alert-item">
+                <div class="alert-dot red"></div>
+                <div class="alert-text"><strong>Rajasthan:</strong> Peak Scorpion &amp; Snakebite season (March-October)</div>
+              </div>
+              <div class="alert-item">
+                <div class="alert-dot red"></div>
+                <div class="alert-text"><strong>Kerala:</strong> Fruit Bat monitors (Nipah alert zones)</div>
+              </div>
+              <div class="alert-item">
+                <div class="alert-dot orange"></div>
+                <div class="alert-text"><strong>Maharashtra:</strong> Monsoon Leptospirosis containment (June-September)</div>
+              </div>
+              <div class="alert-item">
+                <div class="alert-dot orange"></div>
+                <div class="alert-text"><strong>Uttar Pradesh:</strong> Japanese Encephalitis (Culex mosquito) active</div>
+              </div>
+              <div class="alert-item">
+                <div class="alert-dot orange"></div>
+                <div class="alert-text"><strong>West Bengal:</strong> Rabies surveillance (stray dog density high)</div>
+              </div>
+              <div class="alert-item">
+                <div class="alert-dot yellow"></div>
+                <div class="alert-text"><strong>Tamil Nadu:</strong> Dengue outbreak monitoring</div>
+              </div>
+            </div>
+
+            <!-- Death Statistics -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-value">58,000</div>
+                <div class="stat-label">Snake Deaths/Year</div>
+                <div class="stat-sub">India | World: 138,000</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">20,000</div>
+                <div class="stat-label">Rabies Deaths/Year</div>
+                <div class="stat-sub">India | World: 59,000</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">2,600</div>
+                <div class="stat-label">Scorpion Deaths/Year</div>
+                <div class="stat-sub">India | World: ~3,250</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">30,000</div>
+                <div class="stat-label">Mosquito Deaths/Year</div>
+                <div class="stat-sub">India | World: 600,000+</div>
+              </div>
+            </div>
+
+            <div class="source-links" style="margin-top: 12px;">
+              Sources: <a href="https://ncvbdc.mohfw.gov.in/" target="_blank" rel="noopener">NCVBDC</a>,
+              <a href="https://www.who.int/southeastasia" target="_blank" rel="noopener">WHO SEARO</a>,
+              <a href="https://www.icmr.gov.in/" target="_blank" rel="noopener">ICMR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SLIDE 5: FEATURED CREATURES ===== -->
+    <section class="scroll-slide" id="slide-4">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-label">Featured Profiles</span>
+          <h2 class="text-display section-title">Featured Creatures</h2>
+          <p class="text-subtitle section-desc">Explore detailed profiles combining Islamic jurisprudence, scientific data, and practical prevention methods.</p>
+        </div>
+
+        <div class="grid grid-3" id="featuredGrid">
+          <!-- Populated by JS -->
+        </div>
+
+        <div style="text-align: center; margin-top: 48px;" class="fade-in">
+          <a href="/mozi/mozi-list.html" class="btn btn-primary">View All 23 Creatures</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SLIDE 6: CTA & NEWSLETTER ===== -->
+    <section class="scroll-slide" id="slide-5">
+      <div class="container" style="text-align: center;">
+        <div class="fade-in">
+          <span class="section-label">Get Involved</span>
+          <h2 class="text-display" style="margin: 16px 0 24px;" id="emergency">Stay Protected. Stay Informed.</h2>
+          <p class="text-subtitle" style="max-width: 600px; margin: 0 auto 48px;">Download the complete MOZI guide, consult an expert, or subscribe for seasonal pest alerts and updates.</p>
+        </div>
+
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-bottom: 64px;" class="fade-in">
+          <a href="#" class="btn btn-primary">Download Complete MOZI Guide</a>
+          <a href="/mozi/contact.html" class="btn btn-secondary">Consult an Expert</a>
+        </div>
+
+        <div class="fade-in" style="max-width: 500px; margin: 0 auto;">
+          <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Newsletter</h3>
+          <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 24px;">Get seasonal pest alerts, new creature profiles, and expert guidance.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed!'; this.querySelector('button').disabled=true;">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">Curated by <strong>Amir Hashmi</strong></div>
+        <ul class="footer-links">
+          <li><a href="/mozi/legal/privacy.html">Privacy Policy</a></li>
+          <li><a href="/mozi/legal/terms.html">Terms of Use</a></li>
+          <li><a href="/mozi/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2026 MOZI &mdash; Harmful Creatures in Homes: Prevention, Removal, and Ethical Control. All rights reserved.
       </div>
     </div>
   </footer>
 
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

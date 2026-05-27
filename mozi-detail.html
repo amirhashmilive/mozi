@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MOZI Creature Detail — Comprehensive profile with Islamic jurisprudence, scientific data, health risks, and prevention methods.">
+  <meta name="theme-color" content="#0A0A0F">
+  <title>Loading... | MOZI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <a href="/mozi/" class="nav-logo">
+      <div class="nav-logo-icon">M</div>
+      <span>MOZI</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/mozi/">Home</a></li>
+      <li><a href="/mozi/mozi-list.html">Creatures</a></li>
+      <li><a href="/mozi/categories.html">Categories</a></li>
+      <li><a href="/mozi/#doctrine">Doctrine</a></li>
+      <li><a href="/mozi/#ethics">Ethics</a></li>
+      <li><a href="/mozi/audit.html">Home Audit</a></li>
+      <li><a href="/mozi/resources.html">Resources</a></li>
+      <li><a href="/mozi/#emergency">Emergency</a></li>
+    </ul>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav-mobile" id="navMobile">
+    <a href="/mozi/">Home</a>
+    <a href="/mozi/mozi-list.html">Creatures</a>
+    <a href="/mozi/categories.html">Categories</a>
+    <a href="/mozi/#doctrine">Doctrine</a>
+    <a href="/mozi/#ethics">Ethics</a>
+    <a href="/mozi/audit.html">Home Audit</a>
+    <a href="/mozi/resources.html">Resources</a>
+    <a href="/mozi/#emergency">Emergency</a>
+  </div>
+
+  <!-- Slide Navigation -->
+  <div class="slide-nav" id="slideNav"></div>
+
+  <!-- Main Content -->
+  <main class="scroll-container" id="scrollContainer">
+
+    <!-- SLIDE 1: HERO -->
+    <section class="detail-slide" id="detail-0">
+      <div class="container detail-content" style="text-align: center;">
+        <div class="fade-in">
+          <a href="/mozi/mozi-list.html" class="btn btn-ghost" style="margin-bottom: 24px;">&larr; Back to Directory</a>
+        </div>
+        <div class="detail-hero fade-in">
+          <div id="heroIcon" style="font-size: 5rem; margin-bottom: 16px;"></div>
+          <div id="heroBadge" style="margin-bottom: 16px;"></div>
+          <h1 class="creature-name-large" id="heroName">Loading...</h1>
+          <p class="creature-latin-large" id="heroLatin"></p>
+          <p class="text-subtitle" id="heroDesc" style="max-width: 700px; margin: 0 auto;"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: BIOLOGICAL PROFILE -->
+    <section class="detail-slide" id="detail-1">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Biological Profile</span>
+          <h2 class="text-title section-title">Species Overview</h2>
+        </div>
+        <div class="info-grid fade-in" id="bioGrid"></div>
+        <div class="two-col" style="margin-top: 40px;">
+          <div class="fade-in-left">
+            <h3 style="margin-bottom: 16px;">India Distribution</h3>
+            <p class="text-body" id="bioDistribution"></p>
+          </div>
+          <div class="fade-in-right">
+            <h3 style="margin-bottom: 16px;">High Risk States</h3>
+            <div id="bioHighRisk" style="display: flex; flex-wrap: wrap; gap: 8px;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: HEALTH RISKS + DEATH DATA -->
+    <section class="detail-slide" id="detail-2">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Epidemiological Data</span>
+          <h2 class="text-title section-title">Health Risks &amp; Death Data</h2>
+        </div>
+        <div class="two-col">
+          <div class="fade-in-left">
+            <div class="stats-grid" style="margin-bottom: 24px;">
+              <div class="stat-card">
+                <div class="stat-value" id="statIndia">—</div>
+                <div class="stat-label">India Deaths/Year</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value" id="statWorld">—</div>
+                <div class="stat-label">World Deaths/Year</div>
+              </div>
+            </div>
+            <div class="info-item" style="margin-bottom: 16px;">
+              <div class="info-label">Incidence Rate</div>
+              <div class="info-value" id="statIncidence">—</div>
+            </div>
+            <div class="source-links" id="statSources"></div>
+          </div>
+          <div class="fade-in-right">
+            <h3 style="margin-bottom: 16px;">Health Risks</h3>
+            <ul class="method-list" id="healthRisksList"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4: QUR'AN & HADITH RULING -->
+    <section class="detail-slide" id="detail-3">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Islamic Jurisprudence</span>
+          <h2 class="text-title section-title">Qur'an &amp; Hadith Ruling</h2>
+        </div>
+        <div class="hadith-block fade-in" style="margin-bottom: 48px;">
+          <p class="hadith-arabic" id="hadithArabic"></p>
+          <p class="hadith-translation" id="hadithTranslation"></p>
+          <p class="hadith-source" id="hadithSource"></p>
+        </div>
+        <div style="text-align: center; margin-bottom: 32px;" class="fade-in">
+          <p class="text-body" id="quranRef"></p>
+        </div>
+        <h3 style="text-align: center; margin-bottom: 24px;" class="fade-in">Four Madhab Comparison</h3>
+        <div class="madhab-grid fade-in" id="madhabGrid"></div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5: SPIRITUAL PROTECTION -->
+    <section class="detail-slide" id="detail-4">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Spiritual Shield</span>
+          <h2 class="text-title section-title">Spiritual Protection</h2>
+        </div>
+        <div class="two-col">
+          <div class="fade-in-left">
+            <div class="hadith-block">
+              <p class="hadith-arabic" id="duaArabic" style="font-size: 1.5rem;"></p>
+              <p class="hadith-translation" id="duaTranslation" style="font-size: 1rem;"></p>
+              <p class="hadith-source" id="duaSource"></p>
+            </div>
+          </div>
+          <div class="fade-in-right">
+            <div class="info-item" style="margin-bottom: 16px;">
+              <div class="info-label">Recommended Surah</div>
+              <div class="info-value" id="spiritSurah"></div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Prophetic Practice</div>
+              <div class="info-value" id="spiritPractice" style="line-height: 1.7;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6: PREVENTION METHODS -->
+    <section class="detail-slide" id="detail-5">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Practical Guide</span>
+          <h2 class="text-title section-title">Prevention Methods</h2>
+        </div>
+        <div class="fade-in" style="max-width: 700px; margin: 0 auto;">
+          <ul class="method-list" id="preventionList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7: ETHICAL REMOVAL -->
+    <section class="detail-slide" id="detail-6">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Ethical Framework</span>
+          <h2 class="text-title section-title">Ethical Removal</h2>
+          <p class="text-subtitle section-desc">Permissible methods vs. prohibited methods. No fire. No torture.</p>
+        </div>
+        <div class="fade-in" style="max-width: 700px; margin: 0 auto;">
+          <ul class="method-list" id="removalList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8: QIYAMAH & ECOLOGY -->
+    <section class="detail-slide" id="detail-7">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Ecological Perspective</span>
+          <h2 class="text-title section-title">Qiyamah &amp; Ecology</h2>
+        </div>
+        <div class="two-col">
+          <div class="fade-in-left">
+            <div class="hadith-block">
+              <p class="hadith-arabic" style="font-size: 1.25rem;">وَمَا مِن دَابَّةٍ فِي الْأَرْضِ وَلَا طَائِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّا أُمَمٌ أَمْثَالُكُم</p>
+              <p class="hadith-translation">"There is no creature on earth, nor a bird that flies with its wings, but they are communities like you."</p>
+              <p class="hadith-source">Surah Al-An'am 6:38</p>
+            </div>
+          </div>
+          <div class="fade-in-right">
+            <p class="text-body" style="margin-bottom: 24px;">Every creature exists within a divinely ordained ecological balance. The Qur'an emphasizes that all living beings form communities (umam) with purpose and place in creation.</p>
+            <p class="text-body" style="margin-bottom: 24px;">The story of Prophet Sulaiman (&#1593;&#1604;&#1610;&#1607; &#1575;&#1604;&#1587;&#1604;&#1575;&#1605;) and the ant colony teaches us that even the smallest creatures have awareness, communication, and rights.</p>
+            <p class="text-body">Islam mandates a balance: eliminate genuine threats to human safety, but never engage in indiscriminate killing, torture, or ecological destruction.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9: CLIMATE FUTURE -->
+    <section class="detail-slide" id="detail-8">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Future Projections</span>
+          <h2 class="text-title section-title">Climate Future</h2>
+          <p class="text-subtitle section-desc">India-specific climate projections and impact on this species.</p>
+        </div>
+        <div class="fade-in" style="max-width: 700px; margin: 0 auto;">
+          <div class="card" style="padding: 40px;">
+            <p class="text-body" id="climateFuture" style="font-size: 1.0625rem; line-height: 1.9;"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10: FAQ & EMERGENCY -->
+    <section class="detail-slide" id="detail-9">
+      <div class="container detail-content">
+        <div class="section-header fade-in">
+          <span class="section-label">Quick Reference</span>
+          <h2 class="text-title section-title">FAQ &amp; Emergency</h2>
+        </div>
+
+        <div class="two-col" style="align-items: start;">
+          <div class="fade-in-left">
+            <div class="faq-list" id="faqList"></div>
+          </div>
+          <div class="fade-in-right">
+            <div class="emergency-block" id="emergencyBlock">
+              <h4>&#9888; Emergency Contacts</h4>
+            </div>
+            <div style="margin-top: 24px; text-align: center;">
+              <a href="#" class="btn btn-primary" onclick="window.print(); return false;">Download PDF</a>
+              <a href="/mozi/mozi-list.html" class="btn btn-secondary" style="margin-top: 12px;">Browse More Creatures</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">Curated by <strong>Amir Hashmi</strong></div>
+        <ul class="footer-links">
+          <li><a href="/mozi/legal/privacy.html">Privacy Policy</a></li>
+          <li><a href="/mozi/legal/terms.html">Terms of Use</a></li>
+          <li><a href="/mozi/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2026 MOZI &mdash; Harmful Creatures in Homes: Prevention, Removal, and Ethical Control. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
